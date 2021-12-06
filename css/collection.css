@@ -1,0 +1,27 @@
+
+.souvenir-grid{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.img-container{
+    display:flex;
+    width:15vw;
+    height:15vw;
+    margin:8px;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.img-fill{
+    object-fit: contain;
+    max-width: 100%;    
+}
+
+p{
+    width: 100%;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
