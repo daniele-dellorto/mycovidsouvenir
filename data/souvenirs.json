@@ -22963,7 +22963,7 @@
    "Query": "t-shirt impfpass",
    "Category": "T-shirts",
    "Confidence": 0.998280525,
-   "Semantic": "",
+   "Semantic": "no green pass",
    "Visual": "QR code, middle finger",
    "Image": "https://m.media-amazon.com/images/I/61N572pNgiL._AC_UL320_.jpg"
  },
@@ -22976,7 +22976,7 @@
    "Category": "T-shirts",
    "Confidence": 0.998282313,
    "Semantic": "Anti vax",
-   "Visual": "US flag/ colors,",
+   "Visual": "US flag/ colors",
    "Image": "https://m.media-amazon.com/images/I/71QjTXjwT3S._AC_UL320_.jpg"
  },
  {
@@ -23024,7 +23024,7 @@
    "Category": "T-shirts",
    "Confidence": 0.998306274,
    "Semantic": "im vaccinated",
-   "Visual": "syringe, booster, people, animals, ",
+   "Visual": "syringe, booster, people, animals",
    "Image": "https://m.media-amazon.com/images/I/71KtGeFgK4L._AC_UL320_.jpg"
  },
  {
@@ -23035,7 +23035,7 @@
    "Query": "t-shirt impf",
    "Category": "T-shirts",
    "Confidence": 0.998307347,
-   "Semantic": "Keep calm, ",
+   "Semantic": "Keep calm",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61swvjDX+ES._AC_UL320_.jpg"
  },
@@ -23047,7 +23047,7 @@
    "Query": "kein vax",
    "Category": "T-shirts",
    "Confidence": 0.998310924,
-   "Semantic": "No fear no vax, ",
+   "Semantic": "No fear no vax",
    "Visual": "Prohibition",
    "Image": "https://m.media-amazon.com/images/I/61bEIq-XRYL._AC_UL320_.jpg"
  },
@@ -23060,7 +23060,7 @@
    "Category": "T-shirts",
    "Confidence": 0.9983114,
    "Semantic": "no green pass",
-   "Visual": "QR code, middle finger,",
+   "Visual": "QR code, middle finger",
    "Image": "https://m.media-amazon.com/images/I/613NMgZ4kNL._AC_UL320_.jpg"
  },
  {
@@ -23084,7 +23084,7 @@
    "Category": "T-shirts",
    "Confidence": 0.998328745,
    "Semantic": "no green pass",
-   "Visual": "QR code, middle finger,",
+   "Visual": "QR code, middle finger",
    "Image": "https://m.media-amazon.com/images/I/61puIbedvZL._AC_UL320_.jpg"
  },
  {
@@ -23096,7 +23096,7 @@
    "Category": "T-shirts",
    "Confidence": 0.998335898,
    "Semantic": "anti vax",
-   "Visual": "tick, plague symbol, ",
+   "Visual": "tick, plague symbol",
    "Image": "https://m.media-amazon.com/images/I/8147PcueVNL._AC_UL320_.jpg"
  },
  {
@@ -23120,7 +23120,7 @@
    "Category": "T-shirts",
    "Confidence": 0.998354614,
    "Semantic": "no green pass",
-   "Visual": "QR code, middle finger,",
+   "Visual": "QR code, middle finger",
    "Image": "https://m.media-amazon.com/images/I/71Xp4xMJDuL._AC_UL320_.jpg"
  },
  {
@@ -23132,7 +23132,7 @@
    "Category": "T-shirts",
    "Confidence": 0.998355091,
    "Semantic": "im vaccinated",
-   "Visual": "syringe, ",
+   "Visual": "syringe",
    "Image": "https://m.media-amazon.com/images/I/619+3q9hjzL._AC_UL320_.jpg"
  },
  {
@@ -23144,7 +23144,7 @@
    "Category": "T-shirts",
    "Confidence": 0.998367608,
    "Semantic": "anti vax",
-   "Visual": "prohibition, ",
+   "Visual": "prohibition",
    "Image": "https://m.media-amazon.com/images/I/61hfjImiuAL._AC_UL320_.jpg"
  },
  {
@@ -23204,7 +23204,7 @@
    "Category": "T-shirts",
    "Confidence": 0.998411775,
    "Semantic": "no green pass",
-   "Visual": "QR code, middle finger,",
+   "Visual": "QR code, middle finger",
    "Image": "https://m.media-amazon.com/images/I/71+CSU94XML._AC_UL320_.jpg"
  },
  {
@@ -23216,7 +23216,7 @@
    "Category": "T-shirts",
    "Confidence": 0.998413563,
    "Semantic": "im vaccinated",
-   "Visual": "syringe,",
+   "Visual": "syringe",
    "Image": "https://m.media-amazon.com/images/I/61Yt1HZ1rWS._AC_UL320_.jpg"
  },
  {
@@ -23227,8 +23227,8 @@
    "Query": "tシャツ ワクチン",
    "Category": "T-shirts",
    "Confidence": 0.998416305,
-   "Semantic": "im vaccinated, science, ",
-   "Visual": "syringe,",
+   "Semantic": "im vaccinated, science",
+   "Visual": "syringe",
    "Image": "https://m.media-amazon.com/images/I/61ZoepBkn5S._AC_UL320_.jpg"
  },
  {
@@ -23239,8 +23239,8 @@
    "Query": "maglietta no vax",
    "Category": "T-shirts",
    "Confidence": 0.998420835,
-   "Semantic": "my body my choice, ",
-   "Visual": "syringe, prohibition, ",
+   "Semantic": "my body my choice",
+   "Visual": "syringe, prohibition",
    "Image": "https://m.media-amazon.com/images/I/71DxmZD444L._AC_UL320_.jpg"
  },
  {
@@ -23252,7 +23252,7 @@
    "Category": "T-shirts",
    "Confidence": 0.998431742,
    "Semantic": "complotism",
-   "Visual": "sheep, mask, syringe, ",
+   "Visual": "sheep, mask, syringe",
    "Image": "https://m.media-amazon.com/images/I/71-J-MBlBPL._AC_UL320_.jpg"
  },
  {
@@ -23275,8 +23275,8 @@
    "Query": "t-shirt anti vax",
    "Category": "T-shirts",
    "Confidence": 0.998446643,
-   "Semantic": "freedom, no green pass, ",
-   "Visual": "us flag, ",
+   "Semantic": "freedom, no green pass",
+   "Visual": "us flag",
    "Image": "https://m.media-amazon.com/images/I/71j4OyNrUCL._AC_UL320_.jpg"
  },
  {
@@ -23311,7 +23311,7 @@
    "Query": "maglietta vaccino",
    "Category": "T-shirts",
    "Confidence": 0.99846673,
-   "Semantic": "community, ",
+   "Semantic": "community",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/711eNoWGSGL._AC_UL320_.jpg"
  },
@@ -23323,8 +23323,8 @@
    "Query": "maglietta vaccino",
    "Category": "T-shirts",
    "Confidence": 0.998467028,
-   "Semantic": "Hug and kiss, ",
-   "Visual": "syringe, ",
+   "Semantic": "Hug and kiss",
+   "Visual": "syringe",
    "Image": "https://m.media-amazon.com/images/I/61d2dC3t5BL._AC_UL320_.jpg"
  },
  {
@@ -23335,8 +23335,8 @@
    "Query": "maglietta green pass",
    "Category": "T-shirts",
    "Confidence": 0.998474419,
-   "Semantic": "my body my choice, no green pass, ",
-   "Visual": "prohibition, syringe, ",
+   "Semantic": "my body my choice, no green pass",
+   "Visual": "prohibition, syringe",
    "Image": "https://m.media-amazon.com/images/I/61dFDlLE8BL._AC_UL320_.jpg"
  },
  {
@@ -23347,8 +23347,8 @@
    "Query": "t-shirt vaccin",
    "Category": "T-shirts",
    "Confidence": 0.998480499,
-   "Semantic": "keep calm, ",
-   "Visual": "syringe, ",
+   "Semantic": "keep calm",
+   "Visual": "syringe",
    "Image": "https://m.media-amazon.com/images/I/51XLpg6AUPL._AC_UL320_.jpg"
  },
  {
@@ -23360,7 +23360,7 @@
    "Category": "T-shirts",
    "Confidence": 0.998481095,
    "Semantic": "",
-   "Visual": "people, ",
+   "Visual": "people",
    "Image": "https://m.media-amazon.com/images/I/81pGkgnY3QL._AC_UL320_.jpg"
  },
  {
@@ -23371,7 +23371,7 @@
    "Query": "maglietta vaccino",
    "Category": "T-shirts",
    "Confidence": 0.998481333,
-   "Semantic": "Vaccine cause adults, ",
+   "Semantic": "Vaccine cause adults",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61LysfLB6QL._AC_UL320_.jpg"
  },
@@ -23383,8 +23383,8 @@
    "Query": "t-shirt anti vax",
    "Category": "T-shirts",
    "Confidence": 0.998481452,
-   "Semantic": "no fear no vax, ",
-   "Visual": "us flag, ",
+   "Semantic": "no fear no vax",
+   "Visual": "us flag",
    "Image": "https://m.media-amazon.com/images/I/61108hPj1iS._AC_UL320_.jpg"
  },
  {
@@ -23395,7 +23395,7 @@
    "Query": "t-shirt anti vax",
    "Category": "T-shirts",
    "Confidence": 0.998482287,
-   "Semantic": "anti vax, ",
+   "Semantic": "anti vax",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71sSJFe4FFL._AC_UL320_.jpg"
  },
@@ -23407,8 +23407,8 @@
    "Query": "maglietta no vax",
    "Category": "T-shirts",
    "Confidence": 0.99848336,
-   "Semantic": "my body my choice, ",
-   "Visual": "prohibition, syringe, ",
+   "Semantic": "my body my choice",
+   "Visual": "prohibition, syringe",
    "Image": "https://m.media-amazon.com/images/I/71sj464gQzL._AC_UL320_.jpg"
  },
  {
@@ -23420,7 +23420,7 @@
    "Category": "T-shirts",
    "Confidence": 0.998486757,
    "Semantic": "no green pass",
-   "Visual": "QR code, middle finger, animal,",
+   "Visual": "QR code, middle finger, animal",
    "Image": "https://m.media-amazon.com/images/I/61kq-YXiexL._AC_UL320_.jpg"
  },
  {
@@ -23431,7 +23431,7 @@
    "Query": "maglietta vaccino",
    "Category": "T-shirts",
    "Confidence": 0.998488188,
-   "Semantic": "jesus, ",
+   "Semantic": "jesus",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61+8PMYmnhL._AC_UL320_.jpg"
  },
@@ -23467,8 +23467,8 @@
    "Query": "t-shirt anti vax",
    "Category": "T-shirts",
    "Confidence": 0.99851054,
-   "Semantic": "I survived, ",
-   "Visual": "syringe, ",
+   "Semantic": "I survived",
+   "Visual": "syringe",
    "Image": "https://m.media-amazon.com/images/I/619g+dNu0EL._AC_UL320_.jpg"
  },
  {
@@ -23479,8 +23479,8 @@
    "Query": "coronavirus",
    "Category": "T-shirts",
    "Confidence": 0.998511136,
-   "Semantic": "complotism, ",
-   "Visual": "virus, ",
+   "Semantic": "complotism",
+   "Visual": "virus",
    "Image": "https://m.media-amazon.com/images/I/71pOId8alSL._AC_UL320_.jpg"
  },
  {
@@ -23636,7 +23636,7 @@
    "Category": "T-shirts",
    "Confidence": 0.998588026,
    "Semantic": "im vaccinated",
-   "Visual": "syringe, booster, people, animals, ",
+   "Visual": "syringe, booster, people, animals",
    "Image": "https://m.media-amazon.com/images/I/61u0iMkpubL._AC_UL320_.jpg"
  },
  {
@@ -24116,7 +24116,7 @@
    "Category": "T-shirts",
    "Confidence": 0.998757243,
    "Semantic": "im vaccinated",
-   "Visual": "we can do it, ",
+   "Visual": "we can do it",
    "Image": "https://m.media-amazon.com/images/I/713fB4nwxqL._AC_UL320_.jpg"
  },
  {
@@ -24368,7 +24368,7 @@
    "Category": "T-shirts",
    "Confidence": 0.998843551,
    "Semantic": "im vaccinated",
-   "Visual": "syringe, booster, people, animals, ",
+   "Visual": "syringe, booster, people, animals",
    "Image": "https://m.media-amazon.com/images/I/61eIwi32hOL._AC_UL320_.jpg"
  },
  {
@@ -24475,7 +24475,7 @@
    "Query": "t-shirt impf",
    "Category": "T-shirts",
    "Confidence": 0.99888128,
-   "Semantic": "complotism, ",
+   "Semantic": "complotism",
    "Visual": "tick",
    "Image": "https://m.media-amazon.com/images/I/615BVAQrJXL._AC_UL320_.jpg"
  },
@@ -24776,7 +24776,7 @@
    "Category": "T-shirts",
    "Confidence": 0.998975635,
    "Semantic": "im vaccinated",
-   "Visual": "syringe, booster, people, animals, ",
+   "Visual": "syringe, booster, people, animals",
    "Image": "https://m.media-amazon.com/images/I/51rv2eqgzzS._AC_UL320_.jpg"
  },
  {
@@ -25256,7 +25256,7 @@
    "Category": "T-shirts",
    "Confidence": 0.999109685,
    "Semantic": "im vaccinated",
-   "Visual": "syringe, booster, people, animals, ",
+   "Visual": "syringe, booster, people, animals",
    "Image": "https://m.media-amazon.com/images/I/61CXSRkmhiS._AC_UL320_.jpg"
  },
  {
@@ -25832,7 +25832,7 @@
    "Category": "T-shirts",
    "Confidence": 0.999300718,
    "Semantic": "no fear no vax",
-   "Visual": "us flag, ",
+   "Visual": "us flag",
    "Image": "https://m.media-amazon.com/images/I/71+JoujxVRL._AC_UL320_.jpg"
  },
  {
@@ -26515,7 +26515,7 @@
    "Query": "tシャツ ワクチン",
    "Category": "T-shirts",
    "Confidence": 0.999528289,
-   "Semantic": "science, ?, ",
+   "Semantic": "science, ?",
    "Visual": "prohibition, mask, syringe",
    "Image": "https://m.media-amazon.com/images/I/51lICpP8Y8L._AC_UL320_.jpg"
  },
