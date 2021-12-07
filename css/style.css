@@ -1,4 +1,3 @@
-
 .souvenir-grid{
     display: flex;
     flex-direction:row;
@@ -28,5 +27,9 @@ p{
     line-height: 12px;
     background-color: white;
     margin:0 2px;
+}
+
+h2{
+    margin-top:30px;
 }
 

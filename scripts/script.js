@@ -1,42 +1,55 @@
-const cards = d3.select("#all-categories");
+//containers as a const -> append later
+const semCards = d3.select("#semantic-categories");
+const visCards = d3.select("#visual-categories");
 
-
-
-// d3.csv(), d3.tsv
+//load json data
 d3.json("data/souvenirs.json").then(function (myData) {
 
     var semantics = [];
     var visuals = [];
 
+    //split semantic and visual categories and put into the two arrays
     myData.forEach(function (object) {
 
         tempSemantic = object.Semantic.split(', ')
-
         semantics = semantics.concat(tempSemantic)
+
+        tempVisual = object.Visual.split(', ')
+        visuals = visuals.concat(tempVisual)
 
     });
 
+    //put all categories in the arrays in lowercase
     semantics = semantics.map(s => s.toLowerCase());
+    visuals = visuals.map(s => s.toLowerCase());
 
+    //remove duplicates in the arrays
     semantics = [...new Set(semantics)];
-    console.log(semantics);
+    visuals = [...new Set(visuals)];
 
+    //display image FOR EACH semantic
     semantics.forEach(function (semantic) {
 
         found = false;
-        while(found == false){
 
-        index = Math.floor(Math.random() * (myData.length))
-        data = myData[index]
-        dataSemantics = data.Semantic.split(', ').map(s => s.toLowerCase());
+        //pick random rows UNTIL one fits the semantic category
+        while (found == false) {
 
+            //random row
+            index = Math.floor(Math.random() * (myData.length))
+            data = myData[index]
+            dataSemantics = data.Semantic.split(', ').map(s => s.toLowerCase());
+
+            //check if row includes the semantic category
             if (dataSemantics.includes(semantic)) {
-                found = true
-                console.log('wewe');
 
-                let card = cards.append('div')
+                //stop cycle
+                found = true;
+
+                //display image and text
+                let card = semCards.append('div')
                     .classed("img-container", true)
-                    .attr('collection', semantic);
+                    .attr('collection', semantic)
 
                 card.append("img")
                     .classed("img-fill", true)
@@ -51,21 +64,63 @@ d3.json("data/souvenirs.json").then(function (myData) {
 
     });
 
+    //display image FOR EACH visual
+    visuals.forEach(function (visual) {
 
-    // document.getElementsByClassName('img-container').addEventListener('click', openCollection(this))
+        found = false;
 
-    var anchors = document.getElementsByClassName('img-container');
-        for(var i = 0; i < anchors.length; i++) {
-            var anchor = anchors[i];
-            anchor.onclick = function() {
+        //pick random rows UNTIL one fits the semantic category
+        while (found == false) {
 
-                attr = this.getAttribute('collection')
-                console.log(attr);
+            //random row
+            index = Math.floor(Math.random() * (myData.length))
+            data = myData[index]
+            dataVisuals = data.Visual.split(', ').map(s => s.toLowerCase());
 
-                window.open('collection.html' + '?collection=' + attr)
+            //check if row includes the semantic category
+            if (dataVisuals.includes(visual)) {
+
+                //stop cycle
+                found = true;
+
+                //display image and text
+                let card = visCards.append('div')
+                    .classed("img-container", true)
+                    .attr('collection', visual)
+
+                card.append("img")
+                    .classed("img-fill", true)
+                    .attr("src", data.Image)
+
+                card.append("p")
+                    .classed("title", true)
+                    .html(visual)
 
             }
         }
+
+    });
+
+    //array with all the cards
+    var anchors = document.getElementsByClassName('img-container');
+
+    //FOR EACH card save semantic category and pass through link
+    for (var i = 0; i < anchors.length; i++) {
+
+        //single card as a variable
+        var anchor = anchors[i];
+
+        //when i click on the card
+        anchor.onclick = function () {
+
+            //get semantic category
+            attr = this.getAttribute('collection')
+
+            //open new page and pass the semantic category in the link
+            window.open('collection.html' + '?collection=' + attr, "_self")
+
+        }
+    }
 
     // filter1Checkbox.addEventListener('change', () => {
 
@@ -74,8 +129,5 @@ d3.json("data/souvenirs.json").then(function (myData) {
     //     } else {
     //         d3.selectAll('.card').transition().duration(900).style("visibility", "visible");
     //     }
-});
 
-function openCollection(e){
-    console.log(e);
-}
+});
