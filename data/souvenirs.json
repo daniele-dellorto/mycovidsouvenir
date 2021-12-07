@@ -43,7 +43,7 @@
    "Query": "vaccine bracelet",
    "Category": "Bracelets",
    "Confidence": 0.524355948,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "pharmacy, red cross, heart",
    "Image": "https://m.media-amazon.com/images/I/61rL8nVxgjL._AC_UL320_.jpg"
  },
@@ -91,7 +91,7 @@
    "Query": "كوفيد -19",
    "Category": "Bracelets",
    "Confidence": 0.693508029,
-   "Semantic": "im vaccinated, I got the shot",
+   "Semantic": "im vaccinated, i got the shot",
    "Visual": "virus",
    "Image": "https://m.media-amazon.com/images/I/41YVkxH237L._AC_UL320_.jpg"
  },
@@ -103,7 +103,7 @@
    "Query": "pulsera vacuna",
    "Category": "Bracelets",
    "Confidence": 0.698130548,
-   "Semantic": "im vaccinated, I got the shot",
+   "Semantic": "im vaccinated, i got the shot",
    "Visual": "virus",
    "Image": "https://m.media-amazon.com/images/I/71RMRtchiuL._AC_UL320_.jpg"
  },
@@ -115,7 +115,7 @@
    "Query": "armband vaccin",
    "Category": "Bracelets",
    "Confidence": 0.698239684,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "pharmacy, red cross",
    "Image": "https://m.media-amazon.com/images/I/61KEdemOgmL._AC_UL320_.jpg"
  },
@@ -199,7 +199,7 @@
    "Query": "armband covid",
    "Category": "Bracelets",
    "Confidence": 0.860177815,
-   "Semantic": "im vaccinated, I got the shot",
+   "Semantic": "im vaccinated, i got the shot",
    "Visual": "pharmacy",
    "Image": "https://m.media-amazon.com/images/I/711B0girPIL._AC_UL320_.jpg"
  },
@@ -247,7 +247,7 @@
    "Query": "bracelet vaccine",
    "Category": "Bracelets",
    "Confidence": 0.897204399,
-   "Semantic": "im vaccinated, I got the shot",
+   "Semantic": "im vaccinated, i got the shot",
    "Visual": "pharmacy",
    "Image": "https://m.media-amazon.com/images/I/61xiO6t7lFS._AC_UL320_.jpg"
  },
@@ -295,7 +295,7 @@
    "Query": "bracelet vaccine",
    "Category": "Bracelets",
    "Confidence": 0.914653361,
-   "Semantic": "im vaccinated, I got the shot",
+   "Semantic": "im vaccinated, i got the shot",
    "Visual": "virus",
    "Image": "https://m.media-amazon.com/images/I/61w8BBQk6eL._AC_UL320_.jpg"
  },
@@ -343,7 +343,7 @@
    "Query": "armband vaccin",
    "Category": "Bracelets",
    "Confidence": 0.926513612,
-   "Semantic": "im vaccinated, I got the shot",
+   "Semantic": "im vaccinated, i got the shot",
    "Visual": "pharmacy, red cross",
    "Image": "https://m.media-amazon.com/images/I/61B-gyuERlL._AC_UL320_.jpg"
  },
@@ -403,7 +403,7 @@
    "Query": "pulsera vacuna",
    "Category": "Bracelets",
    "Confidence": 0.950439453,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "virus",
    "Image": "https://m.media-amazon.com/images/I/61prdCXxK9L._AC_UL320_.jpg"
  },
@@ -427,7 +427,7 @@
    "Query": "pulsera vacuna",
    "Category": "Bracelets",
    "Confidence": 0.95453465,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "virus",
    "Image": "https://m.media-amazon.com/images/I/719nqPJtQkL._AC_UL320_.jpg"
  },
@@ -451,7 +451,7 @@
    "Query": "armband vaccin",
    "Category": "Bracelets",
    "Confidence": 0.961846411,
-   "Semantic": "im vaccinated, I got the shot",
+   "Semantic": "im vaccinated, i got the shot",
    "Visual": "pharmacy, red cross",
    "Image": "https://m.media-amazon.com/images/I/61KUraH2tdL._AC_UL320_.jpg"
  },
@@ -463,7 +463,7 @@
    "Query": "armband vaccin",
    "Category": "Bracelets",
    "Confidence": 0.964654863,
-   "Semantic": "im vaccinated, I got the shot",
+   "Semantic": "im vaccinated, i got the shot",
    "Visual": "pharmacy, red cross",
    "Image": "https://m.media-amazon.com/images/I/61XZjXDBjvL._AC_UL320_.jpg"
  },
@@ -499,7 +499,7 @@
    "Query": "armband covid",
    "Category": "Bracelets",
    "Confidence": 0.966737807,
-   "Semantic": "im vaccinated, I got the shot",
+   "Semantic": "im vaccinated, i got the shot",
    "Visual": "syringe",
    "Image": "https://m.media-amazon.com/images/I/61Nj7HEB3OS._AC_UL320_.jpg"
  },
@@ -583,7 +583,7 @@
    "Query": "bracelet vaccine",
    "Category": "Bracelets",
    "Confidence": 0.973965943,
-   "Semantic": "im vaccinated, I got the shot",
+   "Semantic": "im vaccinated, i got the shot",
    "Visual": "pharmacy",
    "Image": "https://m.media-amazon.com/images/I/61-DwUhY6YS._AC_UL320_.jpg"
  },
@@ -595,7 +595,7 @@
    "Query": "كوفيد -19",
    "Category": "Bracelets",
    "Confidence": 0.974787712,
-   "Semantic": "im vaccinated, I got the shot",
+   "Semantic": "im vaccinated, i got the shot",
    "Visual": "virus",
    "Image": "https://m.media-amazon.com/images/I/71xqgXBdzKL._AC_UL320_.jpg"
  },
@@ -643,7 +643,7 @@
    "Query": "pulsera vacuna",
    "Category": "Bracelets",
    "Confidence": 0.977261782,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "virus",
    "Image": "https://m.media-amazon.com/images/I/71CI84bh+6L._AC_UL320_.jpg"
  },
@@ -679,7 +679,7 @@
    "Query": "bracelet covid pass",
    "Category": "Bracelets",
    "Confidence": 0.979762614,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "virus",
    "Image": "https://m.media-amazon.com/images/I/51ck1cCBqkL._AC_UL320_.jpg"
  },
@@ -727,7 +727,7 @@
    "Query": "pulsera vacuna",
    "Category": "Bracelets",
    "Confidence": 0.981343985,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "virus",
    "Image": "https://m.media-amazon.com/images/I/718hZMuMmhL._AC_UL320_.jpg"
  },
@@ -739,7 +739,7 @@
    "Query": "bracelet vaccine",
    "Category": "Bracelets",
    "Confidence": 0.982377827,
-   "Semantic": "im vaccinated, I got the shot",
+   "Semantic": "im vaccinated, i got the shot",
    "Visual": "pharmacy, red cross",
    "Image": "https://m.media-amazon.com/images/I/61CEa8L7s2L._AC_UL320_.jpg"
  },
@@ -883,7 +883,7 @@
    "Query": "كوفيد -19",
    "Category": "Bracelets",
    "Confidence": 0.986709654,
-   "Semantic": "im vaccinated, I got the shot",
+   "Semantic": "im vaccinated, i got the shot",
    "Visual": "pharmacy, red cross",
    "Image": "https://m.media-amazon.com/images/I/61Sdil6TRiL._AC_UL320_.jpg"
  },
@@ -1003,7 +1003,7 @@
    "Query": "كوفيد -19",
    "Category": "Bracelets",
    "Confidence": 0.991858661,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "virus",
    "Image": "https://m.media-amazon.com/images/I/811LnBwI3PL._AC_UL320_.jpg"
  },
@@ -1087,7 +1087,7 @@
    "Query": "bracelet covid pass",
    "Category": "Bracelets",
    "Confidence": 0.994030237,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "virus",
    "Image": "https://m.media-amazon.com/images/I/719KDtmDahS._AC_UL320_.jpg"
  },
@@ -1111,7 +1111,7 @@
    "Query": "bracelet vaccine",
    "Category": "Bracelets",
    "Confidence": 0.994430244,
-   "Semantic": "im vaccinated, I got the shot",
+   "Semantic": "im vaccinated, i got the shot",
    "Visual": "pharmacy",
    "Image": "https://m.media-amazon.com/images/I/51sohn58-lL._AC_UL320_.jpg"
  },
@@ -1123,7 +1123,7 @@
    "Query": "bracelet vaccine",
    "Category": "Bracelets",
    "Confidence": 0.994957149,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "virus",
    "Image": "https://m.media-amazon.com/images/I/7108GAvY7ZL._AC_UL320_.jpg"
  },
@@ -1171,7 +1171,7 @@
    "Query": "vaccine bracelet",
    "Category": "Bracelets",
    "Confidence": 0.995476305,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "virus",
    "Image": "https://m.media-amazon.com/images/I/813aBkZs8pL._AC_UL320_.jpg"
  },
@@ -1423,7 +1423,7 @@
    "Query": "vaccine bracelet",
    "Category": "Bracelets",
    "Confidence": 0.998230278,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "virus",
    "Image": "https://m.media-amazon.com/images/I/61D474-IIRL._AC_UL320_.jpg"
  },
@@ -1603,7 +1603,7 @@
    "Query": "pulsera vacuna",
    "Category": "Bracelets",
    "Confidence": 0.99909699,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "virus",
    "Image": "https://m.media-amazon.com/images/I/61Qv0c1QfAS._AC_UL320_.jpg"
  },
@@ -1615,7 +1615,7 @@
    "Query": "armband covid",
    "Category": "Bracelets",
    "Confidence": 0.999111474,
-   "Semantic": "im vaccinated, I got the shot",
+   "Semantic": "im vaccinated, i got the shot",
    "Visual": "pharmacy",
    "Image": "https://m.media-amazon.com/images/I/71RBMVJJkRL._AC_UL320_.jpg"
  },
@@ -1675,7 +1675,7 @@
    "Query": "bracelet vaccine",
    "Category": "Bracelets",
    "Confidence": 0.999283016,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "virus",
    "Image": "https://m.media-amazon.com/images/I/71a0oqZBiwL._AC_UL320_.jpg"
  },
@@ -2023,7 +2023,7 @@
    "Query": "vaccine bracelet",
    "Category": "Bracelets",
    "Confidence": 0.999867082,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "virus",
    "Image": "https://m.media-amazon.com/images/I/71AVa3V3sKL._AC_UL320_.jpg"
  },
@@ -2515,7 +2515,7 @@
    "Query": "cap vaccin",
    "Category": "Caps",
    "Confidence": 0.989609838,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "syringe",
    "Image": "https://m.media-amazon.com/images/I/61HWY7+TwfS._AC_UL320_.jpg"
  },
@@ -2563,7 +2563,7 @@
    "Query": "boné vacina",
    "Category": "Caps",
    "Confidence": 0.992667139,
-   "Semantic": "Kinky covid",
+   "Semantic": "kinky covid",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61BNn2MxDeS._AC_UL320_.jpg"
  },
@@ -2587,7 +2587,7 @@
    "Query": "cappello vaccino",
    "Category": "Caps",
    "Confidence": 0.993198216,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "syringe",
    "Image": "https://m.media-amazon.com/images/I/51wjm4oKYxS._AC_UL320_.jpg"
  },
@@ -2599,7 +2599,7 @@
    "Query": "boné vacina",
    "Category": "Caps",
    "Confidence": 0.993684948,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "syringe",
    "Image": "https://m.media-amazon.com/images/I/51OZXoqy9pS._AC_UL320_.jpg"
  },
@@ -2623,7 +2623,7 @@
    "Query": "boné vacina",
    "Category": "Caps",
    "Confidence": 0.994321346,
-   "Semantic": "Kinky covid",
+   "Semantic": "kinky covid",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61qxKqD1WGS._AC_UL320_.jpg"
  },
@@ -2743,7 +2743,7 @@
    "Query": "cap vaccine",
    "Category": "Caps",
    "Confidence": 0.997621477,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "syringe",
    "Image": "https://m.media-amazon.com/images/I/516UdK3JoQL._AC_UL320_.jpg"
  },
@@ -2767,7 +2767,7 @@
    "Query": "cap social distancing",
    "Category": "Caps",
    "Confidence": 0.99816221,
-   "Semantic": "Social distance champion",
+   "Semantic": "social distance champion",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61R1ngWJ7QL._AC_UL320_.jpg"
  },
@@ -2779,7 +2779,7 @@
    "Query": "cap social distancing",
    "Category": "Caps",
    "Confidence": 0.998260677,
-   "Semantic": "Social distance champion",
+   "Semantic": "social distance champion",
    "Visual": "people",
    "Image": "https://m.media-amazon.com/images/I/615jMwYq2rL._AC_UL320_.jpg"
  },
@@ -2803,7 +2803,7 @@
    "Query": "cap social distancing",
    "Category": "Caps",
    "Confidence": 0.998373508,
-   "Semantic": "Social distance champion",
+   "Semantic": "social distance champion",
    "Visual": "people",
    "Image": "https://m.media-amazon.com/images/I/61GOMFG5tUL._AC_UL320_.jpg"
  },
@@ -2815,7 +2815,7 @@
    "Query": "gorra vacuna",
    "Category": "Caps",
    "Confidence": 0.998385429,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "syringe",
    "Image": "https://m.media-amazon.com/images/I/51vGxqEzBXS._AC_UL320_.jpg"
  },
@@ -2851,7 +2851,7 @@
    "Query": "ワクチンキャップ",
    "Category": "Caps",
    "Confidence": 0.998443425,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "syringe",
    "Image": "https://m.media-amazon.com/images/I/61U8IX-BZVS._AC_UL320_.jpg"
  },
@@ -3259,7 +3259,7 @@
    "Query": "cap vaccin",
    "Category": "Caps",
    "Confidence": 0.999347508,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "syringe, virus",
    "Image": "https://m.media-amazon.com/images/I/81fWzfSpJ3S._AC_UL320_.jpg"
  },
@@ -3295,7 +3295,7 @@
    "Query": "cap vaccin",
    "Category": "Caps",
    "Confidence": 0.999352753,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "syringe",
    "Image": "https://m.media-amazon.com/images/I/81zeQ55yL8S._AC_UL320_.jpg"
  },
@@ -3319,7 +3319,7 @@
    "Query": "cap vaccin",
    "Category": "Caps",
    "Confidence": 0.999409795,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "syringe, virus",
    "Image": "https://m.media-amazon.com/images/I/81tXZVTs1US._AC_UL320_.jpg"
  },
@@ -3367,7 +3367,7 @@
    "Query": "cap vaccin",
    "Category": "Caps",
    "Confidence": 0.999433577,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "syringe, virus",
    "Image": "https://m.media-amazon.com/images/I/81bs9ZYuxwS._AC_UL320_.jpg"
  },
@@ -3439,7 +3439,7 @@
    "Query": "cappello vaccino",
    "Category": "Caps",
    "Confidence": 0.999497056,
-   "Semantic": "there’s no vaccine against stupidity, im vaccinated",
+   "Semantic": "theres no vaccine against stupidity, im vaccinated",
    "Visual": "syringe",
    "Image": "https://m.media-amazon.com/images/I/71gHfDaS+3S._AC_UL320_.jpg"
  },
@@ -3487,7 +3487,7 @@
    "Query": "cap vaccin",
    "Category": "Caps",
    "Confidence": 0.99954778,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "syringe, virus",
    "Image": "https://m.media-amazon.com/images/I/81qNpv6mWUS._AC_UL320_.jpg"
  },
@@ -3511,7 +3511,7 @@
    "Query": "cap vaccin",
    "Category": "Caps",
    "Confidence": 0.999579728,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "syringe, virus",
    "Image": "https://m.media-amazon.com/images/I/81mvbMziF8S._AC_UL320_.jpg"
  },
@@ -3535,7 +3535,7 @@
    "Query": "cap vaccin",
    "Category": "Caps",
    "Confidence": 0.999604285,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "syringe, virus",
    "Image": "https://m.media-amazon.com/images/I/81RY28LFAmL._AC_UL320_.jpg"
  },
@@ -3655,7 +3655,7 @@
    "Query": "cappello vaccino",
    "Category": "Caps",
    "Confidence": 0.999695301,
-   "Semantic": "there's no vaccine against stupidity, im vaccinated",
+   "Semantic": "theres no vaccine against stupidity, im vaccinated",
    "Visual": "syringe",
    "Image": "https://m.media-amazon.com/images/I/811LL173PFL._AC_UL320_.jpg"
  },
@@ -3919,7 +3919,7 @@
    "Query": "cappello vaccino",
    "Category": "Caps",
    "Confidence": 0.999909878,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "syringe",
    "Image": "https://m.media-amazon.com/images/I/516n9ht8TFS._AC_UL320_.jpg"
  },
@@ -4627,7 +4627,7 @@
    "Query": "cap vaccine",
    "Category": "Caps",
    "Confidence": 0.999982357,
-   "Semantic": "keep calm ",
+   "Semantic": "keep calm",
    "Visual": "syringe",
    "Image": "https://m.media-amazon.com/images/I/61cRgPoy19L._AC_UL320_.jpg"
  },
@@ -5263,7 +5263,7 @@
    "Query": "vlag vaccin",
    "Category": "Flags",
    "Confidence": 0.849958956,
-   "Semantic": "there's no vaccine against stupidity",
+   "Semantic": "theres no vaccine against stupidity",
    "Visual": "syringe",
    "Image": "https://m.media-amazon.com/images/I/51TbmHkI8kL._AC_UL320_.jpg"
  },
@@ -5875,7 +5875,7 @@
    "Query": "bandiera vaccino",
    "Category": "Flags",
    "Confidence": 0.99410975,
-   "Semantic": "there's no vaccine against stupidity",
+   "Semantic": "theres no vaccine against stupidity",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61Ij8yaQRNL._AC_UL320_.jpg"
  },
@@ -5899,7 +5899,7 @@
    "Query": "bandiera vaccino",
    "Category": "Flags",
    "Confidence": 0.994405866,
-   "Semantic": "Science, im vaccinated",
+   "Semantic": "science, im vaccinated",
    "Visual": "syringe",
    "Image": "https://m.media-amazon.com/images/I/61ia+nO+ebS._AC_UL320_.jpg"
  },
@@ -6127,7 +6127,7 @@
    "Query": "anti vaccin",
    "Category": "Masks",
    "Confidence": 0.515582621,
-   "Semantic": "there's no vaccine against stupidity",
+   "Semantic": "theres no vaccine against stupidity",
    "Visual": "syringe",
    "Image": "https://m.media-amazon.com/images/I/61uiT-uGS+L._AC_UL320_.jpg"
  },
@@ -8059,7 +8059,7 @@
    "Query": "vaccine mug",
    "Category": "Mugs",
    "Confidence": 0.990509808,
-   "Semantic": "there's no vaccine against stupidity",
+   "Semantic": "theres no vaccine against stupidity",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61RGgIuC-PS._AC_UL320_.jpg"
  },
@@ -8743,7 +8743,7 @@
    "Query": "mug vaccine",
    "Category": "Mugs",
    "Confidence": 0.995025814,
-   "Semantic": "there's no vaccine against stupidity",
+   "Semantic": "theres no vaccine against stupidity",
    "Visual": "virus, syringe",
    "Image": "https://m.media-amazon.com/images/I/41HG8ERkMAL._AC_UL320_.jpg"
  },
@@ -8791,7 +8791,7 @@
    "Query": "mug vaccine",
    "Category": "Mugs",
    "Confidence": 0.995339155,
-   "Semantic": "there's no vaccine against stupidity",
+   "Semantic": "theres no vaccine against stupidity",
    "Visual": "syringe, virus",
    "Image": "https://m.media-amazon.com/images/I/417+xlLynSS._AC_UL320_.jpg"
  },
@@ -9031,7 +9031,7 @@
    "Query": "cup vaccine",
    "Category": "Mugs",
    "Confidence": 0.996643305,
-   "Semantic": "freedom ",
+   "Semantic": "freedom",
    "Visual": "us flag",
    "Image": "https://m.media-amazon.com/images/I/61djUtTZ6+L._AC_UL320_.jpg"
  },
@@ -9175,7 +9175,7 @@
    "Query": "mug anti vax",
    "Category": "Mugs",
    "Confidence": 0.997111797,
-   "Semantic": "flat earth ",
+   "Semantic": "flat earth",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/51Qb-QE2-pL._AC_UL320_.jpg"
  },
@@ -9223,7 +9223,7 @@
    "Query": "tasse vaccin",
    "Category": "Mugs",
    "Confidence": 0.99753356,
-   "Semantic": "anti social champion",
+   "Semantic": "social distance champion",
    "Visual": "animals",
    "Image": "https://m.media-amazon.com/images/I/51j-sTBPs3S._AC_UL320_.jpg"
  },
@@ -9367,7 +9367,7 @@
    "Query": "taza vacuna",
    "Category": "Mugs",
    "Confidence": 0.998139501,
-   "Semantic": "alcol",
+   "Semantic": "alcohol",
    "Visual": "rainbow",
    "Image": "https://m.media-amazon.com/images/I/51Ak+PibuyS._AC_UL320_.jpg"
  },
@@ -10759,7 +10759,7 @@
    "Query": "pin vaccine",
    "Category": "Pins",
    "Confidence": 0.452671558,
-   "Semantic": "i got th shot",
+   "Semantic": "i got the shot",
    "Visual": "people",
    "Image": "https://m.media-amazon.com/images/I/61wdo0hWtoS._AC_UL320_.jpg"
  },
@@ -13927,7 +13927,7 @@
    "Query": "pin covid",
    "Category": "Pins",
    "Confidence": 0.901569665,
-   "Semantic": "im vaccinated, ",
+   "Semantic": "im vaccinated",
    "Visual": "band aid, tick",
    "Image": "https://m.media-amazon.com/images/I/6170jJtXg+S._AC_UL320_.jpg"
  },
@@ -14047,7 +14047,7 @@
    "Query": "covid-19",
    "Category": "Pins",
    "Confidence": 0.905100763,
-   "Semantic": "im vaccinated,",
+   "Semantic": "im vaccinated",
    "Visual": "band aid, tick",
    "Image": "https://m.media-amazon.com/images/I/817AgHO5BbL._AC_UL320_.jpg"
  },
@@ -14215,7 +14215,7 @@
    "Query": "pin vaccine",
    "Category": "Pins",
    "Confidence": 0.912103713,
-   "Semantic": "hug and kiss, im vaccinated, vaccine cause adult",
+   "Semantic": "hug and kiss, im vaccinated, vaccine cause adults",
    "Visual": "syringe",
    "Image": "https://m.media-amazon.com/images/I/61ceC1DBGeL._AC_UL320_.jpg"
  },
@@ -18523,7 +18523,7 @@
    "Query": "sticker vaccin",
    "Category": "Stickers",
    "Confidence": 0.974340379,
-   "Semantic": "I got the shot ",
+   "Semantic": "i got the shot",
    "Visual": "syringe, us flag",
    "Image": "https://m.media-amazon.com/images/I/71uRznYQ64S._AC_UL320_.jpg"
  },
@@ -18535,7 +18535,7 @@
    "Query": "pegatina vacuna",
    "Category": "Stickers",
    "Confidence": 0.976096571,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "syringe, us flag",
    "Image": "https://m.media-amazon.com/images/I/61fiTwQV1zL._AC_UL320_.jpg"
  },
@@ -18571,7 +18571,7 @@
    "Query": "sticker vaccine",
    "Category": "Stickers",
    "Confidence": 0.978669047,
-   "Semantic": "I got the shot ",
+   "Semantic": "i got the shot",
    "Visual": "syringe, us flag",
    "Image": "https://m.media-amazon.com/images/I/71szJLpng1L._AC_UL320_.jpg"
  },
@@ -18823,7 +18823,7 @@
    "Query": "sticker vaccine",
    "Category": "Stickers",
    "Confidence": 0.988726676,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "tick, band aid",
    "Image": "https://m.media-amazon.com/images/I/61ePy-F8RXL._AC_UL320_.jpg"
  },
@@ -19075,7 +19075,7 @@
    "Query": "autocollant vaccin",
    "Category": "Stickers",
    "Confidence": 0.99541384,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "siringe",
    "Image": "https://m.media-amazon.com/images/I/51Ahl3CfBFL._AC_UL320_.jpg"
  },
@@ -19087,7 +19087,7 @@
    "Query": "sticker vaccine",
    "Category": "Stickers",
    "Confidence": 0.995610178,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "siringe, band aids, people",
    "Image": "https://m.media-amazon.com/images/I/718+dzYZVcL._AC_UL320_.jpg"
  },
@@ -19195,7 +19195,7 @@
    "Query": "sticker vaccin",
    "Category": "Stickers",
    "Confidence": 0.998484194,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "siringe, us flag",
    "Image": "https://m.media-amazon.com/images/I/71lGVH040EL._AC_UL320_.jpg"
  },
@@ -19219,7 +19219,7 @@
    "Query": "sticker vaccin",
    "Category": "Stickers",
    "Confidence": 0.999079943,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "siringe, us flag",
    "Image": "https://m.media-amazon.com/images/I/61zuhChkiJS._AC_UL320_.jpg"
  },
@@ -19231,7 +19231,7 @@
    "Query": "flag vaccine",
    "Category": "Stickers",
    "Confidence": 0.999136031,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "siringe, us flag",
    "Image": "https://m.media-amazon.com/images/I/619ISl6uzPS._AC_UL320_.jpg"
  },
@@ -19243,7 +19243,7 @@
    "Query": "pegatina vacuna",
    "Category": "Stickers",
    "Confidence": 0.99918133,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "siringe, us flag",
    "Image": "https://m.media-amazon.com/images/I/61O-mZvZ0pL._AC_UL320_.jpg"
  },
@@ -19255,7 +19255,7 @@
    "Query": "sticker vaccin",
    "Category": "Stickers",
    "Confidence": 0.999191344,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "siringe, us flag",
    "Image": "https://m.media-amazon.com/images/I/61ExL3JjyOL._AC_UL320_.jpg"
  },
@@ -19267,7 +19267,7 @@
    "Query": "لقاح العلم",
    "Category": "Stickers",
    "Confidence": 0.999203146,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "siringe, us flag",
    "Image": "https://m.media-amazon.com/images/I/61ZbrpASXwL._AC_UL320_.jpg"
  },
@@ -19351,7 +19351,7 @@
    "Query": "covid",
    "Category": "T-shirts",
    "Confidence": 0.945546091,
-   "Semantic": "I survived, Kinky covid ",
+   "Semantic": "I survived, kinky covid",
    "Visual": "virus",
    "Image": "https://m.media-amazon.com/images/I/71qdCTLV21L._AC_UL320_.jpg"
  },
@@ -19435,7 +19435,7 @@
    "Query": "t-shirt covid",
    "Category": "T-shirts",
    "Confidence": 0.960110247,
-   "Semantic": "Social distance champion",
+   "Semantic": "social distance champion",
    "Visual": "Mask",
    "Image": "https://m.media-amazon.com/images/I/41yLC1mlQbL._AC_UL320_.jpg"
  },
@@ -19507,7 +19507,7 @@
    "Query": "t-shirt social distancing",
    "Category": "T-shirts",
    "Confidence": 0.972033262,
-   "Semantic": "Social distance champion",
+   "Semantic": "social distance champion",
    "Visual": "Animals",
    "Image": "https://m.media-amazon.com/images/I/61FnlaulbJL._AC_UL320_.jpg"
  },
@@ -19567,7 +19567,7 @@
    "Query": "t-shirt vaccine",
    "Category": "T-shirts",
    "Confidence": 0.977515638,
-   "Semantic": "I’m vaccinated",
+   "Semantic": "im vaccinated",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71aYfoa9cRL._AC_UL320_.jpg"
  },
@@ -19603,7 +19603,7 @@
    "Query": "t-shirt covid",
    "Category": "T-shirts",
    "Confidence": 0.979014099,
-   "Semantic": "I’m vaccinated",
+   "Semantic": "im vaccinated",
    "Visual": "Mask",
    "Image": "https://m.media-amazon.com/images/I/51Nbb1W4PoL._AC_UL320_.jpg"
  },
@@ -19615,7 +19615,7 @@
    "Query": "flag vaccine",
    "Category": "T-shirts",
    "Confidence": 0.980760098,
-   "Semantic": "I’m vaccinated",
+   "Semantic": "im vaccinated",
    "Visual": "Siringe, US flags/colors",
    "Image": "https://m.media-amazon.com/images/I/71-bPQf-uyL._AC_UL320_.jpg"
  },
@@ -19627,7 +19627,7 @@
    "Query": "coronavirus",
    "Category": "T-shirts",
    "Confidence": 0.981426656,
-   "Semantic": "Alcohol",
+   "Semantic": "alcohol",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61rTx73ePEL._AC_UL320_.jpg"
  },
@@ -19651,7 +19651,7 @@
    "Query": "camiseta vacuna",
    "Category": "T-shirts",
    "Confidence": 0.98310709,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71BROFACsKS._AC_UL320_.jpg"
  },
@@ -19699,7 +19699,7 @@
    "Query": "t-shirt covid",
    "Category": "T-shirts",
    "Confidence": 0.984883249,
-   "Semantic": "I’m vaccinated",
+   "Semantic": "im vaccinated",
    "Visual": "Mask",
    "Image": "https://m.media-amazon.com/images/I/51FmliTXTcL._AC_UL320_.jpg"
  },
@@ -19723,7 +19723,7 @@
    "Query": "t-shirt vaccin",
    "Category": "T-shirts",
    "Confidence": 0.985009313,
-   "Semantic": "I’m vaccinated",
+   "Semantic": "im vaccinated",
    "Visual": "Mask, We can do it, Band aid",
    "Image": "https://m.media-amazon.com/images/I/717szXVYvyL._AC_UL320_.jpg"
  },
@@ -19759,7 +19759,7 @@
    "Query": "maglietta green pass",
    "Category": "T-shirts",
    "Confidence": 0.986642838,
-   "Semantic": "Alcohol",
+   "Semantic": "alcohol",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71C2RNXPyjL._AC_UL320_.jpg"
  },
@@ -19771,7 +19771,7 @@
    "Query": "t-shirt social distancing",
    "Category": "T-shirts",
    "Confidence": 0.987265706,
-   "Semantic": "Social distance champion\n",
+   "Semantic": "social distance champion",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61Ex2mFQKnL._AC_UL320_.jpg"
  },
@@ -19795,7 +19795,7 @@
    "Query": "anti vax t-shirt",
    "Category": "T-shirts",
    "Confidence": 0.987953305,
-   "Semantic": "Science ",
+   "Semantic": "science",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61n5MqyYpmS._AC_UL320_.jpg"
  },
@@ -19843,7 +19843,7 @@
    "Query": "maglietta green pass",
    "Category": "T-shirts",
    "Confidence": 0.988565266,
-   "Semantic": "Alcohol ",
+   "Semantic": "alcohol",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61kUZHOJbpL._AC_UL320_.jpg"
  },
@@ -19879,7 +19879,7 @@
    "Query": "anti vax t-shirt",
    "Category": "T-shirts",
    "Confidence": 0.988852501,
-   "Semantic": "Science",
+   "Semantic": "science",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/51q79UgKHtS._AC_UL320_.jpg"
  },
@@ -20023,7 +20023,7 @@
    "Query": "t-shirt covid",
    "Category": "T-shirts",
    "Confidence": 0.990747571,
-   "Semantic": "There’s no vaccine against stupidity",
+   "Semantic": "theres no vaccine against stupidity",
    "Visual": "Mask",
    "Image": "https://m.media-amazon.com/images/I/51GnyhchroL._AC_UL320_.jpg"
  },
@@ -20047,7 +20047,7 @@
    "Query": "maglietta vaccino",
    "Category": "T-shirts",
    "Confidence": 0.990988672,
-   "Semantic": "There’s no vaccine against stupidity",
+   "Semantic": "theres no vaccine against stupidity",
    "Visual": "siringe, pharmacy, band aid ",
    "Image": "https://m.media-amazon.com/images/I/61IPY2rW8ZS._AC_UL320_.jpg"
  },
@@ -20095,7 +20095,7 @@
    "Query": "Anti vaccine t-shirt",
    "Category": "T-shirts",
    "Confidence": 0.991282344,
-   "Semantic": "Science",
+   "Semantic": "science",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/51QMb2pX7nS._AC_UL320_.jpg"
  },
@@ -20359,7 +20359,7 @@
    "Query": "maglietta green pass",
    "Category": "T-shirts",
    "Confidence": 0.993858278,
-   "Semantic": "Alcohol",
+   "Semantic": "alcohol",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61ZMflfwWrL._AC_UL320_.jpg"
  },
@@ -20431,7 +20431,7 @@
    "Query": "t-shirt social distancing",
    "Category": "T-shirts",
    "Confidence": 0.99398309,
-   "Semantic": "Social distance champion",
+   "Semantic": "social distance champion",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/714bEiyRY6L._AC_UL320_.jpg"
  },
@@ -20479,7 +20479,7 @@
    "Query": "maglietta green pass",
    "Category": "T-shirts",
    "Confidence": 0.994137168,
-   "Semantic": "Alcohol",
+   "Semantic": "alcohol",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61RZJ-LZ8EL._AC_UL320_.jpg"
  },
@@ -20515,7 +20515,7 @@
    "Query": "maglietta vaccino",
    "Category": "T-shirts",
    "Confidence": 0.994252086,
-   "Semantic": "There’s no vaccine against stupidity",
+   "Semantic": "theres no vaccine against stupidity",
    "Visual": "siringe, band aid, booster",
    "Image": "https://m.media-amazon.com/images/I/71JQlPjhJsS._AC_UL320_.jpg"
  },
@@ -20527,7 +20527,7 @@
    "Query": "anti vax",
    "Category": "T-shirts",
    "Confidence": 0.994395375,
-   "Semantic": "I got the shot, Alcohol",
+   "Semantic": "i got the shot, alcohol",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/81JAVMEbm1L._AC_UL320_.jpg"
  },
@@ -20563,7 +20563,7 @@
    "Query": "covid",
    "Category": "T-shirts",
    "Confidence": 0.994656205,
-   "Semantic": "Alcohol",
+   "Semantic": "alcohol",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71LqRFewStL._AC_UL320_.jpg"
  },
@@ -20587,7 +20587,7 @@
    "Query": "t-shirt vaccine",
    "Category": "T-shirts",
    "Confidence": 0.994668305,
-   "Semantic": "Social distance champion",
+   "Semantic": "social distance champion",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61ME2hj9oML._AC_UL320_.jpg"
  },
@@ -20671,7 +20671,7 @@
    "Query": "t-shirt vaccin",
    "Category": "T-shirts",
    "Confidence": 0.994968474,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71qzVooz7dL._AC_UL320_.jpg"
  },
@@ -20827,7 +20827,7 @@
    "Query": "maglietta green pass",
    "Category": "T-shirts",
    "Confidence": 0.995419145,
-   "Semantic": "Alcohol",
+   "Semantic": "alcohol",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71NdxeoIjJL._AC_UL320_.jpg"
  },
@@ -20863,7 +20863,7 @@
    "Query": "t-shirt vaccine",
    "Category": "T-shirts",
    "Confidence": 0.995439351,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/714G7cxB9CS._AC_UL320_.jpg"
  },
@@ -20995,7 +20995,7 @@
    "Query": "t-shirt social distancing",
    "Category": "T-shirts",
    "Confidence": 0.995752931,
-   "Semantic": "Social distance champion",
+   "Semantic": "social distance champion",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61gSVPOFfbL._AC_UL320_.jpg"
  },
@@ -21031,7 +21031,7 @@
    "Query": "maglietta green pass",
    "Category": "T-shirts",
    "Confidence": 0.99578613,
-   "Semantic": "Alcohol",
+   "Semantic": "alcohol",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71X3W+v+IlL._AC_UL320_.jpg"
  },
@@ -21127,7 +21127,7 @@
    "Query": "t-shirt social distancing",
    "Category": "T-shirts",
    "Confidence": 0.996020377,
-   "Semantic": "Social distance champion",
+   "Semantic": "social distance champion",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61-+D51gqbL._AC_UL320_.jpg"
  },
@@ -21139,7 +21139,7 @@
    "Query": "maglietta green pass",
    "Category": "T-shirts",
    "Confidence": 0.996052861,
-   "Semantic": "Alcohol",
+   "Semantic": "alcohol",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61PMaWKl3BL._AC_UL320_.jpg"
  },
@@ -21151,7 +21151,7 @@
    "Query": "camisa vacina",
    "Category": "T-shirts",
    "Confidence": 0.996129513,
-   "Semantic": "Kinky covid",
+   "Semantic": "kinky covid",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/511WDz1XENS._AC_UL320_.jpg"
  },
@@ -21175,7 +21175,7 @@
    "Query": "anti vax",
    "Category": "T-shirts",
    "Confidence": 0.99617517,
-   "Semantic": "Kinky covid",
+   "Semantic": "kinky covid",
    "Visual": "Siringe",
    "Image": "https://m.media-amazon.com/images/I/71m7aOu-GZL._AC_UL320_.jpg"
  },
@@ -21188,7 +21188,7 @@
    "Category": "T-shirts",
    "Confidence": 0.996182144,
    "Semantic": "im vaccinated",
-   "Visual": "Kinky covid",
+   "Visual": "kinky covid",
    "Image": "https://m.media-amazon.com/images/I/61vLSDFOEAS._AC_UL320_.jpg"
  },
  {
@@ -21211,7 +21211,7 @@
    "Query": "maglietta green pass",
    "Category": "T-shirts",
    "Confidence": 0.996200144,
-   "Semantic": "Alcohol",
+   "Semantic": "alcohol",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61HPFZIJ2nL._AC_UL320_.jpg"
  },
@@ -21439,7 +21439,7 @@
    "Query": "t-shirt social distancing",
    "Category": "T-shirts",
    "Confidence": 0.996679902,
-   "Semantic": "Social distance champion",
+   "Semantic": "social distance champion",
    "Visual": "Rainbow",
    "Image": "https://m.media-amazon.com/images/I/71-WvaM2dBL._AC_UL320_.jpg"
  },
@@ -21475,7 +21475,7 @@
    "Query": "maglietta green pass",
    "Category": "T-shirts",
    "Confidence": 0.996741951,
-   "Semantic": "Alcohol",
+   "Semantic": "alcohol",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61AigEHvveS._AC_UL320_.jpg"
  },
@@ -21763,7 +21763,7 @@
    "Query": "maglietta green pass",
    "Category": "T-shirts",
    "Confidence": 0.99717772,
-   "Semantic": "Alcohol",
+   "Semantic": "alcohol",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/618yC757qsL._AC_UL320_.jpg"
  },
@@ -21799,7 +21799,7 @@
    "Query": "maglietta green pass",
    "Category": "T-shirts",
    "Confidence": 0.997187674,
-   "Semantic": "Alcohol",
+   "Semantic": "alcohol",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61o2X45KfkS._AC_UL320_.jpg"
  },
@@ -21991,7 +21991,7 @@
    "Query": "maglietta no vax",
    "Category": "T-shirts",
    "Confidence": 0.997424126,
-   "Semantic": "No gree pass",
+   "Semantic": "no green pass",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/619HDkCHCmL._AC_UL320_.jpg"
  },
@@ -22003,7 +22003,7 @@
    "Query": "t-shirt covid",
    "Category": "T-shirts",
    "Confidence": 0.997441888,
-   "Semantic": "Social distance champion",
+   "Semantic": "social distance champion",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/41Qqq2FolsL._AC_UL320_.jpg"
  },
@@ -22027,7 +22027,7 @@
    "Query": "t-shirt vaccine",
    "Category": "T-shirts",
    "Confidence": 0.997477233,
-   "Semantic": "Alcohol, I got the shot",
+   "Semantic": "alcohol, i got the shot",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61ggJfybuqL._AC_UL320_.jpg"
  },
@@ -22039,7 +22039,7 @@
    "Query": "maglietta green pass",
    "Category": "T-shirts",
    "Confidence": 0.997481406,
-   "Semantic": "Alcohol",
+   "Semantic": "alcohol",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71TWgZYsXRL._AC_UL320_.jpg"
  },
@@ -22075,7 +22075,7 @@
    "Query": "t-shirt social distancing",
    "Category": "T-shirts",
    "Confidence": 0.997492313,
-   "Semantic": "Social distance champion",
+   "Semantic": "social distance champion",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71BcQquw1wL._AC_UL320_.jpg"
  },
@@ -22147,7 +22147,7 @@
    "Query": "no green pass",
    "Category": "T-shirts",
    "Confidence": 0.997584105,
-   "Semantic": "Freedom ",
+   "Semantic": "freedom",
    "Visual": "people",
    "Image": "https://m.media-amazon.com/images/I/61rdtOYoEjL._AC_UL320_.jpg"
  },
@@ -22207,7 +22207,7 @@
    "Query": "t-shirt vaccin",
    "Category": "T-shirts",
    "Confidence": 0.997644842,
-   "Semantic": "Science",
+   "Semantic": "science",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/51H6IllngKL._AC_UL320_.jpg"
  },
@@ -22231,7 +22231,7 @@
    "Query": "t-shirt vaccine",
    "Category": "T-shirts",
    "Confidence": 0.997680008,
-   "Semantic": "im vaccinated ",
+   "Semantic": "im vaccinated",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71ZAce03eWL._AC_UL320_.jpg"
  },
@@ -22255,7 +22255,7 @@
    "Query": "t-shirt pass sanitaire",
    "Category": "T-shirts",
    "Confidence": 0.997685313,
-   "Semantic": "I got the shot ",
+   "Semantic": "i got the shot",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/41mxVUB1UiL._AC_UL320_.jpg"
  },
@@ -22267,7 +22267,7 @@
    "Query": "t-shirt social distancing",
    "Category": "T-shirts",
    "Confidence": 0.997687697,
-   "Semantic": "Social distance champion",
+   "Semantic": "social distance champion",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61ewl2SJqfL._AC_UL320_.jpg"
  },
@@ -22291,7 +22291,7 @@
    "Query": "t-shirt vaccine",
    "Category": "T-shirts",
    "Confidence": 0.997707129,
-   "Semantic": "Science, I got my shot",
+   "Semantic": "science, i got the shot",
    "Visual": "People, siringe",
    "Image": "https://m.media-amazon.com/images/I/71hqhvoEyXL._AC_UL320_.jpg"
  },
@@ -22447,7 +22447,7 @@
    "Query": "لقاح تي شيرت",
    "Category": "T-shirts",
    "Confidence": 0.997821093,
-   "Semantic": "Science",
+   "Semantic": "science",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61OuYGfpJqS._AC_UL320_.jpg"
  },
@@ -22531,7 +22531,7 @@
    "Query": "t-shirt social distancing",
    "Category": "T-shirts",
    "Confidence": 0.997866094,
-   "Semantic": "Social distance champion",
+   "Semantic": "social distance champion",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/51s9t7eCAnL._AC_UL320_.jpg"
  },
@@ -22603,7 +22603,7 @@
    "Query": "t-shirt vaccin",
    "Category": "T-shirts",
    "Confidence": 0.99796021,
-   "Semantic": "im vaccinated ",
+   "Semantic": "im vaccinated",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71eOr5RgNXL._AC_UL320_.jpg"
  },
@@ -22615,7 +22615,7 @@
    "Query": "t-shirt vaccine",
    "Category": "T-shirts",
    "Confidence": 0.997968137,
-   "Semantic": "Science",
+   "Semantic": "science",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61hIXQfCubL._AC_UL320_.jpg"
  },
@@ -22639,7 +22639,7 @@
    "Query": "Anti vaccine t-shirt",
    "Category": "T-shirts",
    "Confidence": 0.997978151,
-   "Semantic": "Science",
+   "Semantic": "science",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/51g2TjDRf5S._AC_UL320_.jpg"
  },
@@ -22735,7 +22735,7 @@
    "Query": "maglietta green pass",
    "Category": "T-shirts",
    "Confidence": 0.998077512,
-   "Semantic": "Alcohol",
+   "Semantic": "alcohol",
    "Visual": "QR code",
    "Image": "https://m.media-amazon.com/images/I/51kRs6BL7tL._AC_UL320_.jpg"
  },
@@ -22819,7 +22819,7 @@
    "Query": "t-shirt social distancing",
    "Category": "T-shirts",
    "Confidence": 0.998156965,
-   "Semantic": "Kinky covid",
+   "Semantic": "kinky covid",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71-WTxXj7SL._AC_UL320_.jpg"
  },
@@ -22867,7 +22867,7 @@
    "Query": "maglietta vaccino",
    "Category": "T-shirts",
    "Confidence": 0.998187482,
-   "Semantic": "im vaccinated ",
+   "Semantic": "im vaccinated",
    "Visual": "Tick",
    "Image": "https://m.media-amazon.com/images/I/513Z-wwLKOS._AC_UL320_.jpg"
  },
@@ -22903,7 +22903,7 @@
    "Query": "t-shirt vaccine",
    "Category": "T-shirts",
    "Confidence": 0.998259723,
-   "Semantic": "Science",
+   "Semantic": "science",
    "Visual": "Rainbow",
    "Image": "https://m.media-amazon.com/images/I/71585HIgV5L._AC_UL320_.jpg"
  },
@@ -22915,7 +22915,7 @@
    "Query": "tシャツ ワクチン",
    "Category": "T-shirts",
    "Confidence": 0.998268366,
-   "Semantic": "im vaccinated ",
+   "Semantic": "im vaccinated",
    "Visual": "Rainbow",
    "Image": "https://m.media-amazon.com/images/I/41bNxz-f+gL._AC_UL320_.jpg"
  },
@@ -22927,7 +22927,7 @@
    "Query": "t-shirt vaccine",
    "Category": "T-shirts",
    "Confidence": 0.998275876,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "Siringe",
    "Image": "https://m.media-amazon.com/images/I/61axU90qGrL._AC_UL320_.jpg"
  },
@@ -22951,7 +22951,7 @@
    "Query": "t-shirt vaccine",
    "Category": "T-shirts",
    "Confidence": 0.998278499,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "Siringe, virus",
    "Image": "https://m.media-amazon.com/images/I/71VjgkOVonS._AC_UL320_.jpg"
  },
@@ -22999,7 +22999,7 @@
    "Query": "maglietta vaccino",
    "Category": "T-shirts",
    "Confidence": 0.998290241,
-   "Semantic": "Alcohol",
+   "Semantic": "alcohol",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61XrKgxQdqL._AC_UL320_.jpg"
  },
@@ -23023,7 +23023,7 @@
    "Query": "t-shirt vaccin",
    "Category": "T-shirts",
    "Confidence": 0.998306274,
-   "Semantic": "I’m vaccinated, ",
+   "Semantic": "im vaccinated",
    "Visual": "syringe, booster, people, animals, ",
    "Image": "https://m.media-amazon.com/images/I/71KtGeFgK4L._AC_UL320_.jpg"
  },
@@ -23059,7 +23059,7 @@
    "Query": "t-shirt impfpass",
    "Category": "T-shirts",
    "Confidence": 0.9983114,
-   "Semantic": "no green pass,",
+   "Semantic": "no green pass",
    "Visual": "QR code, middle finger,",
    "Image": "https://m.media-amazon.com/images/I/613NMgZ4kNL._AC_UL320_.jpg"
  },
@@ -23095,7 +23095,7 @@
    "Query": "t-shirt vaccin",
    "Category": "T-shirts",
    "Confidence": 0.998335898,
-   "Semantic": "anti vax,",
+   "Semantic": "anti vax",
    "Visual": "tick, plague symbol, ",
    "Image": "https://m.media-amazon.com/images/I/8147PcueVNL._AC_UL320_.jpg"
  },
@@ -23107,7 +23107,7 @@
    "Query": "camiseta vacuna",
    "Category": "T-shirts",
    "Confidence": 0.998351097,
-   "Semantic": "I’m vaccinated, ",
+   "Semantic": "im vaccinated",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71LI5da-59S._AC_UL320_.jpg"
  },
@@ -23119,7 +23119,7 @@
    "Query": "t-shirt impfpass",
    "Category": "T-shirts",
    "Confidence": 0.998354614,
-   "Semantic": "no green pass,",
+   "Semantic": "no green pass",
    "Visual": "QR code, middle finger,",
    "Image": "https://m.media-amazon.com/images/I/71Xp4xMJDuL._AC_UL320_.jpg"
  },
@@ -23131,7 +23131,7 @@
    "Query": "maglietta vaccino",
    "Category": "T-shirts",
    "Confidence": 0.998355091,
-   "Semantic": "I’m vaccinated, ",
+   "Semantic": "im vaccinated",
    "Visual": "syringe, ",
    "Image": "https://m.media-amazon.com/images/I/619+3q9hjzL._AC_UL320_.jpg"
  },
@@ -23143,7 +23143,7 @@
    "Query": "t-shirt impf",
    "Category": "T-shirts",
    "Confidence": 0.998367608,
-   "Semantic": "anti vax,",
+   "Semantic": "anti vax",
    "Visual": "prohibition, ",
    "Image": "https://m.media-amazon.com/images/I/61hfjImiuAL._AC_UL320_.jpg"
  },
@@ -23155,7 +23155,7 @@
    "Query": "camiseta vacuna",
    "Category": "T-shirts",
    "Confidence": 0.998376608,
-   "Semantic": "I’m vaccinated, ",
+   "Semantic": "im vaccinated",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71vn5MLIu-S._AC_UL320_.jpg"
  },
@@ -23167,7 +23167,7 @@
    "Query": "t-shirt vaccin",
    "Category": "T-shirts",
    "Confidence": 0.998384118,
-   "Semantic": "I’m vaccinated, ",
+   "Semantic": "im vaccinated",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/714goHpPF6L._AC_UL320_.jpg"
  },
@@ -23179,7 +23179,7 @@
    "Query": "maglietta green pass",
    "Category": "T-shirts",
    "Confidence": 0.99838841,
-   "Semantic": "no green pass,",
+   "Semantic": "no green pass",
    "Visual": "italia",
    "Image": "https://m.media-amazon.com/images/I/71fOr7GlTxL._AC_UL320_.jpg"
  },
@@ -23191,7 +23191,7 @@
    "Query": "maglietta vaccino",
    "Category": "T-shirts",
    "Confidence": 0.998410344,
-   "Semantic": "I’m vaccinated, ",
+   "Semantic": "im vaccinated",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71JskqG7JrL._AC_UL320_.jpg"
  },
@@ -23203,7 +23203,7 @@
    "Query": "no vax",
    "Category": "T-shirts",
    "Confidence": 0.998411775,
-   "Semantic": "no green pass,",
+   "Semantic": "no green pass",
    "Visual": "QR code, middle finger,",
    "Image": "https://m.media-amazon.com/images/I/71+CSU94XML._AC_UL320_.jpg"
  },
@@ -23215,7 +23215,7 @@
    "Query": "maglietta vaccino",
    "Category": "T-shirts",
    "Confidence": 0.998413563,
-   "Semantic": "I’m vaccinated, ",
+   "Semantic": "im vaccinated",
    "Visual": "syringe,",
    "Image": "https://m.media-amazon.com/images/I/61Yt1HZ1rWS._AC_UL320_.jpg"
  },
@@ -23227,7 +23227,7 @@
    "Query": "tシャツ ワクチン",
    "Category": "T-shirts",
    "Confidence": 0.998416305,
-   "Semantic": "I’m vaccinated, science, ",
+   "Semantic": "im vaccinated, science, ",
    "Visual": "syringe,",
    "Image": "https://m.media-amazon.com/images/I/61ZoepBkn5S._AC_UL320_.jpg"
  },
@@ -23251,7 +23251,7 @@
    "Query": "t-shirt anti vax",
    "Category": "T-shirts",
    "Confidence": 0.998431742,
-   "Semantic": "complotism,",
+   "Semantic": "complotism",
    "Visual": "sheep, mask, syringe, ",
    "Image": "https://m.media-amazon.com/images/I/71-J-MBlBPL._AC_UL320_.jpg"
  },
@@ -23263,7 +23263,7 @@
    "Query": "tシャツ ワクチン",
    "Category": "T-shirts",
    "Confidence": 0.998432219,
-   "Semantic": "I’m vaccinated, ",
+   "Semantic": "im vaccinated",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/41B17oAygkS._AC_UL320_.jpg"
  },
@@ -23287,7 +23287,7 @@
    "Query": "t-shirt social distancing",
    "Category": "T-shirts",
    "Confidence": 0.99845469,
-   "Semantic": "Social distance champion, ",
+   "Semantic": "social distance champion",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71yAIaVri-S._AC_UL320_.jpg"
  },
@@ -23299,7 +23299,7 @@
    "Query": "t-shirt vaccin",
    "Category": "T-shirts",
    "Confidence": 0.998458862,
-   "Semantic": "I’m vaccinated, ",
+   "Semantic": "im vaccinated",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/81GqAHkfvTL._AC_UL320_.jpg"
  },
@@ -23419,7 +23419,7 @@
    "Query": "t-shirt impfpass",
    "Category": "T-shirts",
    "Confidence": 0.998486757,
-   "Semantic": "no green pass,",
+   "Semantic": "no green pass",
    "Visual": "QR code, middle finger, animal,",
    "Image": "https://m.media-amazon.com/images/I/61kq-YXiexL._AC_UL320_.jpg"
  },
@@ -23443,7 +23443,7 @@
    "Query": "armband covid",
    "Category": "T-shirts",
    "Confidence": 0.998488665,
-   "Semantic": "I’m vaccinated",
+   "Semantic": "im vaccinated",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71m4yeKfIxL._AC_UL320_.jpg"
  },
@@ -23455,7 +23455,7 @@
    "Query": "maglietta no vax",
    "Category": "T-shirts",
    "Confidence": 0.998503447,
-   "Semantic": "no green pass,",
+   "Semantic": "no green pass",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61EVf85HM-L._AC_UL320_.jpg"
  },
@@ -23551,7 +23551,7 @@
    "Query": "t-shirt social distancing",
    "Category": "T-shirts",
    "Confidence": 0.998545528,
-   "Semantic": "there’s no vaccine against stupidity",
+   "Semantic": "theres no vaccine against stupidity",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71IvZ02OCNL._AC_UL320_.jpg"
  },
@@ -23635,7 +23635,7 @@
    "Query": "t-shirt vaccin",
    "Category": "T-shirts",
    "Confidence": 0.998588026,
-   "Semantic": "I’m vaccinated",
+   "Semantic": "im vaccinated",
    "Visual": "syringe, booster, people, animals, ",
    "Image": "https://m.media-amazon.com/images/I/61u0iMkpubL._AC_UL320_.jpg"
  },
@@ -23647,7 +23647,7 @@
    "Query": "camisa vacina",
    "Category": "T-shirts",
    "Confidence": 0.998592436,
-   "Semantic": "I’m vaccinated",
+   "Semantic": "im vaccinated",
    "Visual": "red cross",
    "Image": "https://m.media-amazon.com/images/I/51QVEPJDGKL._AC_UL320_.jpg"
  },
@@ -23671,7 +23671,7 @@
    "Query": "maglietta vaccino",
    "Category": "T-shirts",
    "Confidence": 0.998609662,
-   "Semantic": "I’m vaccinated",
+   "Semantic": "im vaccinated",
    "Visual": "syringe",
    "Image": "https://m.media-amazon.com/images/I/61I99M8GzjL._AC_UL320_.jpg"
  },
@@ -23707,7 +23707,7 @@
    "Query": "t-shirt vaccine",
    "Category": "T-shirts",
    "Confidence": 0.998621821,
-   "Semantic": "I’m vaccinated",
+   "Semantic": "im vaccinated",
    "Visual": "tick",
    "Image": "https://m.media-amazon.com/images/I/51NhRjMGRyS._AC_UL320_.jpg"
  },
@@ -23719,7 +23719,7 @@
    "Query": "t-shirt vaccine",
    "Category": "T-shirts",
    "Confidence": 0.998623014,
-   "Semantic": "I’m vaccinated",
+   "Semantic": "im vaccinated",
    "Visual": "mask, syringe",
    "Image": "https://m.media-amazon.com/images/I/61geL7xVzYL._AC_UL320_.jpg"
  },
@@ -23803,7 +23803,7 @@
    "Query": "t-shirt vaccine",
    "Category": "T-shirts",
    "Confidence": 0.99863261,
-   "Semantic": "I’m vaccinated",
+   "Semantic": "im vaccinated",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71mCG5sIgwL._AC_UL320_.jpg"
  },
@@ -23851,7 +23851,7 @@
    "Query": "vaccine t-shirt",
    "Category": "T-shirts",
    "Confidence": 0.998650372,
-   "Semantic": "I got the shot, alcohol",
+   "Semantic": "i got the shot, alcohol",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/81RHRc6LbWL._AC_UL320_.jpg"
  },
@@ -23983,7 +23983,7 @@
    "Query": "camiseta vacuna",
    "Category": "T-shirts",
    "Confidence": 0.998707891,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71zM5v3sXiL._AC_UL320_.jpg"
  },
@@ -24367,7 +24367,7 @@
    "Query": "t-shirt vaccin",
    "Category": "T-shirts",
    "Confidence": 0.998843551,
-   "Semantic": "I’m vaccinated, ",
+   "Semantic": "im vaccinated",
    "Visual": "syringe, booster, people, animals, ",
    "Image": "https://m.media-amazon.com/images/I/61eIwi32hOL._AC_UL320_.jpg"
  },
@@ -24487,7 +24487,7 @@
    "Query": "t-shirt vaccine",
    "Category": "T-shirts",
    "Confidence": 0.998881519,
-   "Semantic": "I got my shot",
+   "Semantic": "i got the shot",
    "Visual": "syringe",
    "Image": "https://m.media-amazon.com/images/I/71nFPD8hJ3L._AC_UL320_.jpg"
  },
@@ -24619,7 +24619,7 @@
    "Query": "t-shirt social distancing",
    "Category": "T-shirts",
    "Confidence": 0.998932183,
-   "Semantic": "social distancing champion",
+   "Semantic": "social distance champion",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/51RhCrd1bQL._AC_UL320_.jpg"
  },
@@ -24631,7 +24631,7 @@
    "Query": "لقاح تي شيرت",
    "Category": "T-shirts",
    "Confidence": 0.998940051,
-   "Semantic": "alcohol, I got the shot",
+   "Semantic": "alcohol, i got the shot",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/813+cf5lLkL._AC_UL320_.jpg"
  },
@@ -24691,7 +24691,7 @@
    "Query": "t-shirt social distancing",
    "Category": "T-shirts",
    "Confidence": 0.998952746,
-   "Semantic": "social distancing champion",
+   "Semantic": "social distance champion",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/51+8+4FbSCL._AC_UL320_.jpg"
  },
@@ -24739,7 +24739,7 @@
    "Query": "t-shirt social distancing",
    "Category": "T-shirts",
    "Confidence": 0.998966456,
-   "Semantic": "social distancing champion",
+   "Semantic": "social distance champion",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/715OhTwGm5L._AC_UL320_.jpg"
  },
@@ -24775,7 +24775,7 @@
    "Query": "t-shirt vaccin",
    "Category": "T-shirts",
    "Confidence": 0.998975635,
-   "Semantic": "I’m vaccinated",
+   "Semantic": "im vaccinated",
    "Visual": "syringe, booster, people, animals, ",
    "Image": "https://m.media-amazon.com/images/I/51rv2eqgzzS._AC_UL320_.jpg"
  },
@@ -24787,7 +24787,7 @@
    "Query": "maglietta vaccino",
    "Category": "T-shirts",
    "Confidence": 0.998985469,
-   "Semantic": "social distancing champion",
+   "Semantic": "social distance champion",
    "Visual": "palette",
    "Image": "https://m.media-amazon.com/images/I/71a5GUaC+5L._AC_UL320_.jpg"
  },
@@ -25255,7 +25255,7 @@
    "Query": "t-shirt vaccin",
    "Category": "T-shirts",
    "Confidence": 0.999109685,
-   "Semantic": "I’m vaccinated",
+   "Semantic": "im vaccinated",
    "Visual": "syringe, booster, people, animals, ",
    "Image": "https://m.media-amazon.com/images/I/61CXSRkmhiS._AC_UL320_.jpg"
  },
@@ -25387,7 +25387,7 @@
    "Query": "maglietta vaccino",
    "Category": "T-shirts",
    "Confidence": 0.999161601,
-   "Semantic": "There’s no vaccine against stupidity",
+   "Semantic": "theres no vaccine against stupidity",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/613dG49V+ES._AC_UL320_.jpg"
  },
@@ -25483,7 +25483,7 @@
    "Query": "t-shirt anti vax",
    "Category": "T-shirts",
    "Confidence": 0.999181569,
-   "Semantic": "political",
+   "Semantic": "politics",
    "Visual": "syringe",
    "Image": "https://m.media-amazon.com/images/I/6144iIToVUL._AC_UL320_.jpg"
  },
@@ -25519,7 +25519,7 @@
    "Query": "t-shirt social distancing",
    "Category": "T-shirts",
    "Confidence": 0.999185264,
-   "Semantic": "social distancing champion",
+   "Semantic": "social distance champion",
    "Visual": "people",
    "Image": "https://m.media-amazon.com/images/I/71Y4m4nWeTL._AC_UL320_.jpg"
  },
@@ -25531,7 +25531,7 @@
    "Query": "t-shirt vaccine",
    "Category": "T-shirts",
    "Confidence": 0.999191582,
-   "Semantic": "There’s no vaccine against stupidity",
+   "Semantic": "theres no vaccine against stupidity",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71ItOWCuSjL._AC_UL320_.jpg"
  },
@@ -25543,7 +25543,7 @@
    "Query": "t-shirt vaccine",
    "Category": "T-shirts",
    "Confidence": 0.999197423,
-   "Semantic": "im vaccinated, Social distance champion",
+   "Semantic": "im vaccinated, social distance champion",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71lLXYBF-JS._AC_UL320_.jpg"
  },
@@ -25555,7 +25555,7 @@
    "Query": "maglietta green pass",
    "Category": "T-shirts",
    "Confidence": 0.999197781,
-   "Semantic": "freedom, political",
+   "Semantic": "freedom, politics",
    "Visual": "italia",
    "Image": "https://m.media-amazon.com/images/I/61huEUcZSAL._AC_UL320_.jpg"
  },
@@ -25627,7 +25627,7 @@
    "Query": "t-shirt vaccine",
    "Category": "T-shirts",
    "Confidence": 0.999216914,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71mizDCh3TL._AC_UL320_.jpg"
  },
@@ -25651,7 +25651,7 @@
    "Query": "t-shirt vaccin",
    "Category": "T-shirts",
    "Confidence": 0.999218464,
-   "Semantic": "I got the shot",
+   "Semantic": "i got the shot",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/81zK-L3r8RL._AC_UL320_.jpg"
  },
@@ -25783,7 +25783,7 @@
    "Query": "t-shirt vaccine",
    "Category": "T-shirts",
    "Confidence": 0.999289751,
-   "Semantic": "There’s no vaccine against stupidity",
+   "Semantic": "theres no vaccine against stupidity",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71+0AHDdTJS._AC_UL320_.jpg"
  },
@@ -25819,7 +25819,7 @@
    "Query": "t-shirt anti vax",
    "Category": "T-shirts",
    "Confidence": 0.99929297,
-   "Semantic": "I got an immune system",
+   "Semantic": "i got my immune system",
    "Visual": "syringe",
    "Image": "https://m.media-amazon.com/images/I/617cjJtIH6L._AC_UL320_.jpg"
  },
@@ -25855,7 +25855,7 @@
    "Query": "t-shirt vaccine",
    "Category": "T-shirts",
    "Confidence": 0.999305487,
-   "Semantic": "political",
+   "Semantic": "politics",
    "Visual": "usa flag/colors",
    "Image": "https://m.media-amazon.com/images/I/71TxcABzmSL._AC_UL320_.jpg"
  },
@@ -25891,7 +25891,7 @@
    "Query": "t-shirt social distancing",
    "Category": "T-shirts",
    "Confidence": 0.99932158,
-   "Semantic": "social distancing champion",
+   "Semantic": "social distance champion",
    "Visual": "people, skull",
    "Image": "https://m.media-amazon.com/images/I/51w7q3bUivL._AC_UL320_.jpg"
  },
@@ -25903,7 +25903,7 @@
    "Query": "t-shirt vaccine",
    "Category": "T-shirts",
    "Confidence": 0.99932158,
-   "Semantic": "vaccines save lives",
+   "Semantic": "vaccine saves lives",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71r0Pq-9biL._AC_UL320_.jpg"
  },
@@ -25927,7 +25927,7 @@
    "Query": "maglietta vaccino",
    "Category": "T-shirts",
    "Confidence": 0.999335468,
-   "Semantic": "social distancing champion",
+   "Semantic": "social distance champion",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/61vpZZUh-lL._AC_UL320_.jpg"
  },
@@ -26011,7 +26011,7 @@
    "Query": "t-shirt social distancing",
    "Category": "T-shirts",
    "Confidence": 0.999357283,
-   "Semantic": "social distancing champion",
+   "Semantic": "social distance champion",
    "Visual": "people",
    "Image": "https://m.media-amazon.com/images/I/51qsyBwxrqS._AC_UL320_.jpg"
  },
@@ -26059,7 +26059,7 @@
    "Query": "t-shirt social distancing",
    "Category": "T-shirts",
    "Confidence": 0.999379635,
-   "Semantic": "social distancing champion",
+   "Semantic": "social distance champion",
    "Visual": "middle finger, skull",
    "Image": "https://m.media-amazon.com/images/I/61gzDxu9L6L._AC_UL320_.jpg"
  },
@@ -26107,7 +26107,7 @@
    "Query": "pro vaccin",
    "Category": "T-shirts",
    "Confidence": 0.999405265,
-   "Semantic": "i got my shot",
+   "Semantic": "i got the shot",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/41tk6F5sP9L._AC_UL320_.jpg"
  },
@@ -26131,7 +26131,7 @@
    "Query": "Anti vaccine t-shirt",
    "Category": "T-shirts",
    "Confidence": 0.999414325,
-   "Semantic": "alcohol, I got my shot",
+   "Semantic": "alcohol, i got the shot",
    "Visual": "tick, syringe",
    "Image": "https://m.media-amazon.com/images/I/71fPCN+Ab2S._AC_UL320_.jpg"
  },
@@ -26191,7 +26191,7 @@
    "Query": "Anti vaccine t-shirt",
    "Category": "T-shirts",
    "Confidence": 0.999429047,
-   "Semantic": "alcohol, I got my shot",
+   "Semantic": "alcohol, i got the shot",
    "Visual": "tick, syringe",
    "Image": "https://m.media-amazon.com/images/I/71yK6TXbmlS._AC_UL320_.jpg"
  },
@@ -26263,7 +26263,7 @@
    "Query": "t-shirt vaccine",
    "Category": "T-shirts",
    "Confidence": 0.999454677,
-   "Semantic": "vaccines save lives",
+   "Semantic": "vaccine saves lives",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71h3jH416SL._AC_UL320_.jpg"
  },
@@ -26311,7 +26311,7 @@
    "Query": "t-shirt impf",
    "Category": "T-shirts",
    "Confidence": 0.999461114,
-   "Semantic": "coommunity",
+   "Semantic": "community",
    "Visual": "syringe, mask",
    "Image": "https://m.media-amazon.com/images/I/71ie-5RNuLL._AC_UL320_.jpg"
  },
@@ -26383,7 +26383,7 @@
    "Query": "t-shirt vaccine",
    "Category": "T-shirts",
    "Confidence": 0.999486804,
-   "Semantic": "i got my shot",
+   "Semantic": "i got the shot",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/711NDTf8OUS._AC_UL320_.jpg"
  },
@@ -26443,7 +26443,7 @@
    "Query": "t-shirt anti vax",
    "Category": "T-shirts",
    "Confidence": 0.999502182,
-   "Semantic": "political",
+   "Semantic": "politics",
    "Visual": "us flag",
    "Image": "https://m.media-amazon.com/images/I/61WI8T3UYEL._AC_UL320_.jpg"
  },
@@ -26695,7 +26695,7 @@
    "Query": "vaccine t-shirt",
    "Category": "T-shirts",
    "Confidence": 0.999576271,
-   "Semantic": "social distancing champion",
+   "Semantic": "social distance champion",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/51w-qSOdd3L._AC_UL320_.jpg"
  },
@@ -26899,7 +26899,7 @@
    "Query": "t-shirt social distancing",
    "Category": "T-shirts",
    "Confidence": 0.999641419,
-   "Semantic": "social distancing champion",
+   "Semantic": "social distance champion",
    "Visual": "skull",
    "Image": "https://m.media-amazon.com/images/I/61LLCnvGUiL._AC_UL320_.jpg"
  },
@@ -27223,7 +27223,7 @@
    "Query": "t-shirt social distancing",
    "Category": "T-shirts",
    "Confidence": 0.999736726,
-   "Semantic": "social distancing champion",
+   "Semantic": "social distance champion",
    "Visual": "animals",
    "Image": "https://m.media-amazon.com/images/I/51VG2c3rcVL._AC_UL320_.jpg"
  },
@@ -27247,7 +27247,7 @@
    "Query": "t-shirt social distancing",
    "Category": "T-shirts",
    "Confidence": 0.999739587,
-   "Semantic": "social distancing champion",
+   "Semantic": "social distance champion",
    "Visual": "people, gun",
    "Image": "https://m.media-amazon.com/images/I/71oZXGkUHPL._AC_UL320_.jpg"
  },
@@ -27283,7 +27283,7 @@
    "Query": "Anti vaccine t-shirt",
    "Category": "T-shirts",
    "Confidence": 0.999746978,
-   "Semantic": "anti anti vax, comminity",
+   "Semantic": "anti anti vax, community",
    "Visual": "animals",
    "Image": "https://m.media-amazon.com/images/I/81WpocIh40L._AC_UL320_.jpg"
  },
@@ -27319,7 +27319,7 @@
    "Query": "Anti vaccine t-shirt",
    "Category": "T-shirts",
    "Confidence": 0.999765098,
-   "Semantic": "social distancing champion",
+   "Semantic": "social distance champion",
    "Visual": "band aid",
    "Image": "https://m.media-amazon.com/images/I/718APnp4liS._AC_UL320_.jpg"
  },
@@ -27343,7 +27343,7 @@
    "Query": "t-shirt social distancing",
    "Category": "T-shirts",
    "Confidence": 0.999770582,
-   "Semantic": "social distancing champion",
+   "Semantic": "social distance champion",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/71sEAZxy0ML._AC_UL320_.jpg"
  },
@@ -27391,7 +27391,7 @@
    "Query": "t-shirt social distancing",
    "Category": "T-shirts",
    "Confidence": 0.999788582,
-   "Semantic": "social distancing champion",
+   "Semantic": "social distance champion",
    "Visual": "",
    "Image": "https://m.media-amazon.com/images/I/51eUPteFvCL._AC_UL320_.jpg"
  },
@@ -27475,7 +27475,7 @@
    "Query": "t-shirt social distancing",
    "Category": "T-shirts",
    "Confidence": 0.999835968,
-   "Semantic": "social distancing champion",
+   "Semantic": "social distance champion",
    "Visual": "skull",
    "Image": "https://m.media-amazon.com/images/I/61RfFS5lYZS._AC_UL320_.jpg"
  },
