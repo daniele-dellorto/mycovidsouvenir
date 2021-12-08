@@ -21,23 +21,23 @@ d3.json("data/preview.json").then(function (myData) {
 
 
     //for each category in preview.json
-    for (var i = 0; i < myData.length; i++) {
+    myData.forEach(function(collection){
 
         //card position based on the type of the category: semantic/visual
 
         let card;
 
-        if (myData[i].type == "semantic") {
+        if (collection.type == "semantic") {
 
             card = semCards.append('div')
                 .classed("img-container", true)
-                .attr('collection', myData[i].title.toLowerCase())
+                .attr('collection', collection.title.toLowerCase())
 
-        } else if (myData[i].type == "visual") {
+        } else if (collection.type == "visual") {
 
             card = visCards.append('div')
                 .classed("img-container", true)
-                .attr('collection', myData[i].title.toLowerCase())
+                .attr('collection', collection.title.toLowerCase())
 
         }
 
@@ -45,13 +45,13 @@ d3.json("data/preview.json").then(function (myData) {
 
         card.append("img")
             .classed("img-fill", true)
-            .attr("src", myData[i].image)
+            .attr("src", collection.image)
 
         card.append("p")
             .classed("title", true)
-            .html(myData[i].title)
+            .html(collection.title)
 
-    };
+    });
 
     //select all the cards
 
