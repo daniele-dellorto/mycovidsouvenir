@@ -1,15 +1,33 @@
 //container as a const -> append later
 const cards = d3.select("#all-souvenirs");
+const coverContainer = d3.select("#coverContainer");
 
 //retrieve category through link
 const collection = new URLSearchParams(window.location.search).get('collection')
 
-//show the category as a title
-const titleContainer = d3.select("#titleContainer");
+//load cover
+d3.json("data/covers.json").then(function (categories) {
 
-titleContainer.append('h1')
-    .classed("collectionTitle", true)
-    .html(collection);
+    console.log(categories[collection]);
+
+    let coverImg = coverContainer.append('div')
+        .classed("col-6", true);
+
+    coverImg.append("img")
+        .classed("img-cover", true)
+        .attr("src", categories[collection].image)
+
+    let coverTxt = coverContainer.append('div')
+        .classed("col-6", true);
+
+     coverTxt.append("h1")
+        .classed("collectionTitle", true)
+        .html(categories[collection].title)
+
+    coverTxt.append("p")
+        .html(categories[collection].text)
+
+})
 
 //load json data
 d3.json("data/souvenirs.json").then(function (myDataRaw) {
@@ -51,7 +69,7 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
         if (count > 0) {
 
             //display object name and count at the beginning of the section
-            cards.append('p').html(product + ': ' + count)
+            cards.append('h2').html(product + ': ' + count)
 
             //create cards container
             let typeContainer = cards.append("div")

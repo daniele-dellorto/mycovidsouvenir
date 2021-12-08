@@ -1,7 +1,6 @@
-#titleContainer{
-    margin:0;
-    padding:0;
-    margin-top:50px;
+#coverContainer{
+    height: 70vh;
+    border-bottom:2px solid black;
 }
 
 .souvenir-grid{
@@ -24,9 +23,17 @@
     max-width: 100%;    
 }
 
-p{
+.img-cover{
+    object-fit:scale-down;
+}
+
+h2{
     width: 100%;
     margin-top: 40px;
     font-size: 40px;
+}
+
+p{
+    font-size: 20px;
 }
 

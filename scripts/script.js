@@ -2,6 +2,19 @@
 const semCards = d3.select("#semantic-categories");
 const visCards = d3.select("#visual-categories");
 
+
+// //load json data
+// d3.json("data/preview.json").then(function (myData) {
+
+//     const semantics = myData.semantic;
+
+//     myData.semantic.forEach( function(){
+        
+//         console.log('wewe')
+//     });
+
+
+
 //load json data
 d3.json("data/souvenirs.json").then(function (myData) {
 

@@ -1,0 +1,33 @@
+[{
+    "semantic":
+    {
+        "birthday":
+        {
+            "title": "Birthday",
+            "image": "./assets/semantic/birthday.png"
+        },
+
+        
+        "christmas":
+        {
+            "title": "Christmas",
+            "image": "./assets/semantic/christmas.png"
+        }
+    },
+
+    "visual":
+    {
+        "animals":
+        {
+            "title": "Animals",
+            "image": "./assets/visual/animals.png"            
+        },
+
+        "bandAid":
+        {
+            "title": "Band aid",
+            "image": "./assets/visual/bandAid.png"            
+        }
+    }
+}
+]

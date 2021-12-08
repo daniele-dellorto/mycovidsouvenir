@@ -305,7 +305,7 @@
     "Link": "http://amazon.fr//Vaccines-Chemtrails-Climate-Change-Scienc/dp/B091DT56VW/ref=sr_1_23?keywords=tasse+vaccin&qid=1637941392&sr=8-23",
     "Country": "['France']",
     "Query": "tasse vaccin",
-    "Category": "Bracelets",
+    "Category": "Mugs",
     "Confidence": 0.91760987,
     "Semantic": "flat earth, complotism, science",
     "Visual": "syringe",
@@ -656,7 +656,7 @@
     "Category": "Bracelets",
     "Confidence": 0.977683544,
     "Semantic": "im vaccinated",
-    "Visual": "band aid, tick, , heart",
+    "Visual": "band aid, tick, heart",
     "Image": "https://m.media-amazon.com/images/I/71PpoU4prFL._AC_UL320_.jpg"
   },
   {
