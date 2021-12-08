@@ -3,6 +3,13 @@
     border-bottom:2px solid black;
 }
 
+#coverContainer .col-6{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
 .souvenir-grid{
     display: flex;
     flex-direction:row;
@@ -24,7 +31,14 @@
 }
 
 .img-cover{
-    object-fit:scale-down;
+    max-width:70%;
+    max-height:70%;
+}
+
+h1{
+    width:100%;
+    text-align:left;
+    margin-bottom:20px;
 }
 
 h2{
