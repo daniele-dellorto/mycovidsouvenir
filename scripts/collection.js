@@ -1,14 +1,18 @@
-//container as a const -> append later
+//containers as a const -> append later
 const cards = d3.select("#all-souvenirs");
 const coverContainer = d3.select("#coverContainer");
 
 //retrieve category through link
 const collection = new URLSearchParams(window.location.search).get('collection')
 
+// ****************************************************************************************************************
+// vale la pena accorpare preview.json e covers.json?
+// bisognerebbe scrivere come preview.json, magari aggiungendo un identifier=""
+// però invece che categories[collection].image occorrerebbe mettere un if(categories.identifier == collection)
+// ****************************************************************************************************************
+
 //load cover
 d3.json("data/covers.json").then(function (categories) {
-
-    console.log(categories[collection]);
 
     let coverImg = coverContainer.append('div')
         .classed("col-6", true);
