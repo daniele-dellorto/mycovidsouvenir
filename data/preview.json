@@ -1,7 +1,61 @@
 [{
-        "title": "Birthday",
+        "title": "Hug and kiss",
         "type": "semantic",
         "image": "./assets/semantic/birthday.png"
+    },
+
+    {
+        "title": "If you can read this",
+        "type": "semantic",
+        "image": "./assets/semantic/christmas.png"
+    },
+
+    {
+        "title": "Social distance champion",
+        "type": "semantic",
+        "image": "./assets/semantic/christmas.png"
+    },
+
+    {
+        "title": "Kinky covid",
+        "type": "semantic",
+        "image": "./assets/semantic/christmas.png"
+    },
+
+    {
+        "title": "I'm maccinated",
+        "type": "semantic",
+        "image": "./assets/semantic/christmas.png"
+    },
+
+    {
+        "title": "I got the shot",
+        "type": "semantic",
+        "image": "./assets/semantic/christmas.png"
+    },
+
+    {
+        "title": "Keep calm",
+        "type": "semantic",
+        "image": "./assets/semantic/christmas.png"
+    },
+
+    {
+        "title": "Vaccines cause adults",
+        "type": "semantic",
+        "image": "./assets/semantic/christmas.png"
+    },
+
+    {
+        "title": "No vaccine against stupidity",
+        "type": "semantic",
+        "image": "./assets/semantic/christmas.png"
+    },
+
+    {
+        "title": "Jesus is my vaccine",
+        "type": "semantic",
+        "image": "./assets/semantic/christmas.png"
     },
 
     {
@@ -11,7 +65,175 @@
     },
 
     {
-        "title": "Animals",
+        "title": "Politics",
+        "type": "semantic",
+        "image": "./assets/semantic/christmas.png"
+    },
+
+    {
+        "title": "My body my choice",
+        "type": "semantic",
+        "image": "./assets/semantic/christmas.png"
+    },
+
+    {
+        "title": "Fuck covid",
+        "type": "semantic",
+        "image": "./assets/semantic/christmas.png"
+    },
+
+    {
+        "title": "Health Jobs",
+        "type": "semantic",
+        "image": "./assets/semantic/christmas.png"
+    },
+
+    {
+        "title": "Teachers",
+        "type": "semantic",
+        "image": "./assets/semantic/christmas.png"
+    },
+
+    {
+        "title": "Alcohol",
+        "type": "semantic",
+        "image": "./assets/semantic/christmas.png"
+    },
+
+    {
+        "title": "I got my immune system",
+        "type": "semantic",
+        "image": "./assets/semantic/christmas.png"
+    },
+
+    {
+        "title": "No fear no vax",
+        "type": "semantic",
+        "image": "./assets/semantic/christmas.png"
+    },
+
+    {
+        "title": "Freedom",
+        "type": "semantic",
+        "image": "./assets/semantic/christmas.png"
+    },
+
+    {
+        "title": "No green pass",
+        "type": "semantic",
+        "image": "./assets/semantic/christmas.png"
+    },
+
+    {
+        "title": "Save lives",
+        "type": "semantic",
+        "image": "./assets/semantic/christmas.png"
+    },
+
+    {
+        "title": "The only thing flatter than earth",
+        "type": "semantic",
+        "image": "./assets/semantic/christmas.png"
+    },
+
+    {
+        "title": "Complotism",
+        "type": "semantic",
+        "image": "./assets/semantic/christmas.png"
+    },
+
+    {
+        "title": "Science",
+        "type": "semantic",
+        "image": "./assets/semantic/christmas.png"
+    },
+
+    {
+        "title": "Anti vax",
+        "type": "semantic",
+        "image": "./assets/semantic/christmas.png"
+    },
+
+    {
+        "title": "Birthday",
+        "type": "semantic",
+        "image": "./assets/semantic/birthday.png"
+    },
+
+    {
+        "title": "I survived",
+        "type": "semantic",
+        "image": "./assets/semantic/christmas.png"
+    },
+
+    {
+        "title": "Get vaccinated",
+        "type": "semantic",
+        "image": "./assets/semantic/christmas.png"
+    },
+
+    {
+        "title": "Palette",
+        "type": "visual",
+        "image": "./assets/visual/animals.png"
+    },
+
+    {
+        "title": "USA flag",
+        "type": "visual",
+        "image": "./assets/visual/bandAid.png"
+    },
+
+    {
+        "title": "QR code",
+        "type": "visual",
+        "image": "./assets/visual/animals.png"
+    },
+
+    {
+        "title": "Mask",
+        "type": "visual",
+        "image": "./assets/visual/bandAid.png"
+    },
+
+    {
+        "title": "Gun",
+        "type": "visual",
+        "image": "./assets/visual/animals.png"
+    },
+
+    {
+        "title": "Skull",
+        "type": "visual",
+        "image": "./assets/visual/bandAid.png"
+    },
+
+    {
+        "title": "Middle finger",
+        "type": "visual",
+        "image": "./assets/visual/animals.png"
+    },
+
+    {
+        "title": "Virus",
+        "type": "visual",
+        "image": "./assets/visual/bandAid.png"
+    },
+
+    {
+        "title": "Plague symbol",
+        "type": "visual",
+        "image": "./assets/visual/animals.png"
+    },
+
+    {
+        "title": "Syringe",
+        "type": "visual",
+        "image": "./assets/visual/bandAid.png"
+    },
+
+    {
+        "title": "Vial",
         "type": "visual",
         "image": "./assets/visual/animals.png"
     },
@@ -20,5 +242,71 @@
         "title": "Band aid",
         "type": "visual",
         "image": "./assets/visual/bandAid.png"
+    },
+
+    {
+        "title": "Pharmacy",
+        "type": "visual",
+        "image": "./assets/visual/animals.png"
+    },
+
+    {
+        "title": "Red cross",
+        "type": "visual",
+        "image": "./assets/visual/bandAid.png"
+    },
+
+    {
+        "title": "Prohibition",
+        "type": "visual",
+        "image": "./assets/visual/animals.png"
+    },
+
+    {
+        "title": "Sheeps",
+        "type": "visual",
+        "image": "./assets/visual/bandAid.png"
+    },
+
+    {
+        "title": "Animals",
+        "type": "visual",
+        "image": "./assets/visual/animals.png"
+    },
+
+    {
+        "title": "Crocodiles",
+        "type": "visual",
+        "image": "./assets/visual/bandAid.png"
+    },
+
+    {
+        "title": "People",
+        "type": "visual",
+        "image": "./assets/visual/animals.png"
+    },
+
+    {
+        "title": "Checkbox",
+        "type": "visual",
+        "image": "./assets/visual/bandAid.png"
+    },
+
+    {
+        "title": "We can do it",
+        "type": "visual",
+        "image": "./assets/visual/animals.png"
+    },
+
+    {
+        "title": "Heart",
+        "type": "visual",
+        "image": "./assets/visual/bandAid.png"
+    },
+
+    {
+        "title": "Countries",
+        "type": "visual",
+        "image": "./assets/visual/animals.png"
     }
 ]
