@@ -3,144 +3,72 @@ const semCards = d3.select("#semantic-categories");
 const visCards = d3.select("#visual-categories");
 
 
-// //load json data
-// d3.json("data/preview.json").then(function (myData) {
+//load preview.json data
+d3.json("data/preview.json").then(function (myData) {
 
-//     const semantics = myData.semantic;
+    // myData.semantic.forEach(function (name) {});
+        // -- -- -- -- -- -- -- -- -- > il json è costruito in modo che semantic è un array contentente elementi così: 
+        // {
+        //     categoria1: {
+        //         "title": "titolo",
+        //         "image": "link"
+        //     }
+        // }, 
+        // ...
+        // -- -- -- -- -- -- -- -- -- > come richiamare il nome della categoria?
+        // myData.semantic.map(function(d) { return d.title; }) ritorna tutti i title nell'array, ma ancora non le categorie
 
-//     myData.semantic.forEach( function(){
-        
-//         console.log('wewe')
-//     });
 
 
+    //for each category in preview.json
+    for (var i = 0; i < myData.length; i++) {
 
-//load json data
-d3.json("data/souvenirs.json").then(function (myData) {
+        //card position based on the type of the category: semantic/visual
 
-    var semantics = [];
-    var visuals = [];
+        let card;
 
-    //split semantic and visual categories and put into the two arrays
-    myData.forEach(function (object) {
+        if (myData[i].type == "semantic") {
 
-        tempSemantic = object.Semantic.split(', ')
-        semantics = semantics.concat(tempSemantic)
+            card = semCards.append('div')
+                .classed("img-container", true)
+                .attr('collection', myData[i].title.toLowerCase())
 
-        tempVisual = object.Visual.split(', ')
-        visuals = visuals.concat(tempVisual)
+        } else if (myData[i].type == "visual") {
 
-    });
+            card = visCards.append('div')
+                .classed("img-container", true)
+                .attr('collection', myData[i].title.toLowerCase())
 
-    //put all categories in the arrays in lowercase
-    semantics = semantics.map(s => s.toLowerCase());
-    visuals = visuals.map(s => s.toLowerCase());
+        }
 
-    //remove duplicates in the arrays
-    semantics = [...new Set(semantics)];
-    visuals = [...new Set(visuals)];
+        //add image and title
 
-    //display image FOR EACH semantic
-    semantics.forEach(function (semantic) {
+        card.append("img")
+            .classed("img-fill", true)
+            .attr("src", myData[i].image)
 
-        found = false;
+        card.append("p")
+            .classed("title", true)
+            .html(myData[i].title)
 
-        //pick random rows UNTIL one fits the semantic category
-        while (found == false) {
+    };
 
-            //random row
-            index = Math.floor(Math.random() * (myData.length))
-            data = myData[index]
-            dataSemantics = data.Semantic.split(', ').map(s => s.toLowerCase());
+    //select all the cards
 
-            //check if row includes the semantic category
-            if (dataSemantics.includes(semantic)) {
+        var anchors = document.getElementsByClassName('img-container');
 
-                //stop cycle
-                found = true;
+    //when click on the card, save title and pass through link
 
-                //display image and text
-                let card = semCards.append('div')
-                    .classed("img-container", true)
-                    .attr('collection', semantic)
+        for (var i = 0; i < anchors.length; i++) {
 
-                card.append("img")
-                    .classed("img-fill", true)
-                    .attr("src", data.Image)
-
-                card.append("p")
-                    .classed("title", true)
-                    .html(semantic)
+            var anchor = anchors[i];
+            
+            anchor.onclick = function () {
+                
+                attr = this.getAttribute('collection')
+                window.open('collection.html' + '?collection=' + attr, "_self")
 
             }
         }
-
-    });
-
-    //display image FOR EACH visual
-    visuals.forEach(function (visual) {
-
-        found = false;
-
-        //pick random rows UNTIL one fits the semantic category
-        while (found == false) {
-
-            //random row
-            index = Math.floor(Math.random() * (myData.length))
-            data = myData[index]
-            dataVisuals = data.Visual.split(', ').map(s => s.toLowerCase());
-
-            //check if row includes the semantic category
-            if (dataVisuals.includes(visual)) {
-
-                //stop cycle
-                found = true;
-
-                //display image and text
-                let card = visCards.append('div')
-                    .classed("img-container", true)
-                    .attr('collection', visual)
-
-                card.append("img")
-                    .classed("img-fill", true)
-                    .attr("src", data.Image)
-
-                card.append("p")
-                    .classed("title", true)
-                    .html(visual)
-
-            }
-        }
-
-    });
-
-    //array with all the cards
-    var anchors = document.getElementsByClassName('img-container');
-
-    //FOR EACH card save semantic category and pass through link
-    for (var i = 0; i < anchors.length; i++) {
-
-        //single card as a variable
-        var anchor = anchors[i];
-
-        //when i click on the card
-        anchor.onclick = function () {
-
-            //get semantic category
-            attr = this.getAttribute('collection')
-
-            //open new page and pass the semantic category in the link
-            window.open('collection.html' + '?collection=' + attr, "_self")
-
-        }
-    }
-
-    // filter1Checkbox.addEventListener('change', () => {
-
-    //     if(filter1Checkbox.checked) {
-    //         d3.selectAll('.card').transition().duration(900).style("visibility", "hidden");
-    //     } else {
-    //         d3.selectAll('.card').transition().duration(900).style("visibility", "visible");
-    //     }
 
 });
