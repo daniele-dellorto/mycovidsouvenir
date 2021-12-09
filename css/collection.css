@@ -3,6 +3,11 @@
     border-bottom:2px solid black;
 }
 
+#countryContainer{
+    height: 20vh;
+    border-bottom:2px solid black;
+}
+
 #coverContainer .col-6{
     display:flex;
     flex-direction:column;
