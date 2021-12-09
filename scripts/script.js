@@ -2,23 +2,8 @@
 const semCards = d3.select("#semantic-categories");
 const visCards = d3.select("#visual-categories");
 
-
 //load preview.json data
 d3.json("data/collections.json").then(function (myData) {
-
-    // ****************************************************************************************************************
-    // myData.semantic.forEach(function (name) {});
-    // -- -- -- -- -- -- -- -- -- > il json è costruito in modo che semantic è un array contentente elementi così: 
-    // {
-    //     categoria1: {
-    //         "title": "titolo",
-    //         "image": "link"
-    //     }
-    // }, 
-    // ...
-    // -- -- -- -- -- -- -- -- -- > come richiamare il nome della categoria?
-    // myData.semantic.map(function(d) { return d.title; }) ritorna tutti i title nell'array, ma ancora non le categorie
-    // ****************************************************************************************************************
 
     //for each category in preview.json
     for (var collection in myData){
