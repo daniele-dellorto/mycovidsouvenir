@@ -4,7 +4,7 @@ const visCards = d3.select("#visual-categories");
 
 
 //load preview.json data
-d3.json("data/preview.json").then(function (myData) {
+d3.json("data/collections.json").then(function (myData) {
 
     // ****************************************************************************************************************
     // myData.semantic.forEach(function (name) {});
@@ -21,37 +21,37 @@ d3.json("data/preview.json").then(function (myData) {
     // ****************************************************************************************************************
 
     //for each category in preview.json
-    myData.forEach(function (collection) {
+    for (var collection in myData){
 
         //card position based on the type of the category: semantic/visual
 
         let card;
 
-        if (collection.type == "semantic") {
+        if (myData[collection].type == "semantic") {
 
             card = semCards.append('div')
                 .classed("img-container", true)
-                .attr('collection', collection.title.toLowerCase())
+                .attr('collection', myData[collection].title.toLowerCase())
 
-        } else if (collection.type == "visual") {
+        } else if (myData[collection].type == "visual") {
 
             card = visCards.append('div')
                 .classed("img-container", true)
-                .attr('collection', collection.title.toLowerCase())
+                .attr('collection', myData[collection].title.toLowerCase())
 
-        }
+         }
 
         //add image and title
 
         card.append("img")
             .classed("img-fill", true)
-            .attr("src", collection.image)
+            .attr("src", myData[collection].image)
 
         card.append("p")
             .classed("title", true)
-            .html(collection.title)
+            .html(myData[collection].title)
 
-    });
+    };
 
     //select all the cards
 

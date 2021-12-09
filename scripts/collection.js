@@ -12,14 +12,14 @@ const collection = new URLSearchParams(window.location.search).get('collection')
 // ****************************************************************************************************************
 
 //load cover
-d3.json("data/covers.json").then(function (categories) {
+d3.json("data/collections.json").then(function (categories) {
 
     let coverImg = coverContainer.append('div')
         .classed("col-6", true);
 
     coverImg.append("img")
         .classed("img-cover", true)
-        .attr("src", categories[collection].image)
+        .attr("src", categories[collection].coverImage)
 
     let coverTxt = coverContainer.append('div')
         .classed("col-6", true);

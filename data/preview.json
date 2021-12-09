@@ -1,7 +1,6 @@
 [{
         "title": "Hug and kiss",
         "type": "semantic",
-        "image": "./assets/semantic/christmas.png"
     },
 
     {
@@ -13,73 +12,61 @@
     {
         "title": "Social distance champion",
         "type": "semantic",
-        "image": "./assets/semantic/socialDistanceChampion.png"
     },
 
     {
         "title": "Kinky covid",
         "type": "semantic",
-        "image": "./assets/semantic/kinkyCovid.png"
     },
 
     {
         "title": "I'm vaccinated",
         "type": "semantic",
-        "image": "./assets/semantic/christmas.png"
     },
 
     {
         "title": "I got the shot",
         "type": "semantic",
-        "image": "./assets/semantic/christmas.png"
     },
 
     {
         "title": "Keep calm",
         "type": "semantic",
-        "image": "./assets/semantic/christmas.png"
     },
 
     {
         "title": "Vaccines cause adults",
         "type": "semantic",
-        "image": "./assets/semantic/christmas.png"
     },
 
     {
         "title": "No vaccine against stupidity",
         "type": "semantic",
-        "image": "./assets/semantic/christmas.png"
     },
 
     {
         "title": "Jesus is my vaccine",
         "type": "semantic",
-        "image": "./assets/semantic/jesusIsMyVaccine.png"
     },
 
     {
         "title": "Christmas",
         "type": "semantic",
-        "image": "./assets/semantic/christmas.png"
     },
 
     {
         "title": "Politics",
         "type": "semantic",
-        "image": "./assets/semantic/politics.png"
     },
 
     {
         "title": "My body my choice",
         "type": "semantic",
-        "image": "./assets/semantic/christmas.png"
     },
 
     {
         "title": "Fuck covid",
         "type": "semantic",
-        "image": "./assets/semantic/christmas.png"
     },
 
     {
@@ -139,31 +126,26 @@
     {
         "title": "Complotism",
         "type": "semantic",
-        "image": "./assets/semantic/complotism.png"
     },
 
     {
         "title": "Science",
         "type": "semantic",
-        "image": "./assets/semantic/science.png"
     },
 
     {
         "title": "Anti vax",
         "type": "semantic",
-        "image": "./assets/semantic/christmas.png"
     },
 
     {
         "title": "Birthday",
         "type": "semantic",
-        "image": "./assets/semantic/birthday.png"
     },
 
     {
         "title": "I survived",
         "type": "semantic",
-        "image": "./assets/semantic/christmas.png"
     },
 
     {
@@ -175,138 +157,115 @@
     {
         "title": "Palette",
         "type": "visual",
-        "image": "./assets/visual/animals.png"
     },
 
     {
         "title": "USA flag",
         "type": "visual",
-        "image": "./assets/visual/USAflag.png"
     },
 
     {
         "title": "QR code",
         "type": "visual",
-        "image": "./assets/visual/QRcode.png"
     },
 
     {
         "title": "Mask",
         "type": "visual",
-        "image": "./assets/visual/mask.png"
     },
 
     {
         "title": "Gun",
         "type": "visual",
-        "image": "./assets/visual/gun.png"
     },
 
     {
         "title": "Skull",
         "type": "visual",
-        "image": "./assets/visual/skull.png"
     },
 
     {
         "title": "Middle finger",
         "type": "visual",
-        "image": "./assets/visual/middleFinger.png"
     },
 
     {
         "title": "Virus",
         "type": "visual",
-        "image": "./assets/visual/virus.png"
     },
 
     {
         "title": "Plague symbol",
         "type": "visual",
-        "image": "./assets/visual/plagueSymbol.png"
     },
 
     {
         "title": "Syringe",
         "type": "visual",
-        "image": "./assets/visual/syringe.png"
     },
 
     {
         "title": "Vial",
         "type": "visual",
-        "image": "./assets/visual/vial.png"
     },
 
     {
         "title": "Band aid",
         "type": "visual",
-        "image": "./assets/visual/bandAid.png"
     },
 
     {
         "title": "Pharmacy",
         "type": "visual",
-        "image": "./assets/visual/pharmacy.png"
     },
 
     {
         "title": "Red cross",
         "type": "visual",
-        "image": "./assets/visual/redCross.png"
     },
 
     {
         "title": "Prohibition",
         "type": "visual",
-        "image": "./assets/visual/prohibition.png"
     },
 
     {
         "title": "Sheeps",
         "type": "visual",
-        "image": "./assets/visual/sheep.png"
     },
 
     {
         "title": "Animals",
         "type": "visual",
-        "image": "./assets/visual/animals.png"
     },
 
     {
         "title": "Crocodiles",
         "type": "visual",
-        "image": "./assets/visual/bandAid.png"
     },
 
     {
         "title": "People",
         "type": "visual",
-        "image": "./assets/visual/people.png"
     },
 
     {
         "title": "Checkbox",
         "type": "visual",
-        "image": "./assets/visual/checkbox.png"
     },
 
     {
         "title": "We can do it",
         "type": "visual",
-        "image": "./assets/visual/weCanDoIt.png"
     },
 
     {
         "title": "Heart",
         "type": "visual",
-        "image": "./assets/visual/heart.png"
     },
 
     {
         "title": "Countries",
         "type": "visual",
-        "image": "./assets/visual/animals.png"
     }
 ]
