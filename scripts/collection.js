@@ -3,7 +3,9 @@ const cards = d3.select("#all-souvenirs");
 const coverContainer = d3.select("#coverContainer");
 
 //retrieve category through link
-const collection = new URLSearchParams(window.location.search).get('collection')
+const collection = new URLSearchParams(window.location.search).get('collection');
+
+myData = [];
 
 //page title
 document.title = collection.toUpperCase();
@@ -33,8 +35,6 @@ d3.json("data/collections.json").then(function (categories) {
 //load json data
 d3.json("data/souvenirs.json").then(function (myDataRaw) {
 
-    myData = [];
-
     allCountries = [];
 
     //FOR EACH row verify if the product fits into the category
@@ -56,11 +56,7 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
 
     })
 
-    console.log(allCountries);
-
     setCountries = [...new Set(allCountries)];
-
-    console.log(setCountries);
 
     var countCountries = [];
 
@@ -81,6 +77,10 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
             'value': count
         })
 
+        createDonutChart({
+            a: count,
+            b: myData.length - count
+        });
 
     })
 
@@ -133,60 +133,45 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
 
 })
 
-function createDonutChart() {
+function createDonutChart(data) {
 
     // set the dimensions and margins of the graph
-    var width = 450
-    height = 450
-    margin = 40
+    const width = 200,
+        height = 200,
+        margin = 8;
 
     // The radius of the pieplot is half the width or half the height (smallest one). I subtract a bit of margin.
-    var radius = Math.min(width, height) / 2 - margin
+    const radius = Math.min(width, height) / 2 - margin
 
     // append the svg object to the div called 'my_dataviz'
-    var svg = d3.select("#countryContainer")
+    const svg = d3.select("#countryContainer")
         .append("svg")
+        .classed("pieChart", true)
         .attr("width", width)
         .attr("height", height)
         .append("g")
-        .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
-
-    // Create dummy data
-    var data = {
-        a: 9,
-        b: 20,
-        c: 30,
-        d: 8,
-        e: 12
-    }
+        .attr("transform", `translate(${width / 2},${height / 2})`);
 
     // set the color scale
-    var color = d3.scaleOrdinal()
-        .domain(data)
-        .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56"])
+    const color = d3.scaleOrdinal()
+        .range(["#ff0000", '#d2d2d2'])
 
     // Compute the position of each group on the pie:
-    var pie = d3.pie()
-        .value(function (d) {
-            return d.value;
-        })
-    var data_ready = pie(d3.entries(data))
+    const pie = d3.pie().sort(null)
+        .value(d => d[1])
+
+    const data_ready = pie(Object.entries(data))
 
     // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
     svg
         .selectAll('whatever')
         .data(data_ready)
-        .enter()
-        .append('path')
+        .join('path')
         .attr('d', d3.arc()
-            .innerRadius(100) // This is the size of the donut hole
+            .innerRadius(radius / 1.2) // This is the size of the donut hole
             .outerRadius(radius)
         )
-        .attr('fill', function (d) {
-            return (color(d.data.key))
-        })
-        .attr("stroke", "black")
-        .style("stroke-width", "2px")
+        .attr('fill', d => color(d.data[0]))
         .style("opacity", 0.7)
 
 }
