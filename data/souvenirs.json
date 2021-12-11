@@ -7987,7 +7987,7 @@
     "Query": "beker vaccin",
     "Category": "Mugs",
     "Confidence": 0.990456283,
-    "Semantic": "",
+    "Semantic": "----",
     "Visual": "checkbox",
     "Image": "https://m.media-amazon.com/images/I/61Kw5G+GhyL._AC_UL320_.jpg"
   },
@@ -9667,7 +9667,7 @@
     "Query": "Socken covid",
     "Category": "Others",
     "Confidence": 0.642095327,
-    "Semantic": "",
+    "Semantic": "----",
     "Visual": "????",
     "Image": "https://m.media-amazon.com/images/I/71YnyKdfIHL._AC_UL320_.jpg"
   },
@@ -9679,7 +9679,7 @@
     "Query": "Socken covid",
     "Category": "Others",
     "Confidence": 0.642918885,
-    "Semantic": "",
+    "Semantic": "----",
     "Visual": "????",
     "Image": "https://m.media-amazon.com/images/I/71kD1D5HQYS._AC_UL320_.jpg"
   },
@@ -10303,7 +10303,7 @@
     "Query": "patch covid",
     "Category": "Patches",
     "Confidence": 0.990448654,
-    "Semantic": "",
+    "Semantic": "----",
     "Visual": "mask",
     "Image": "https://m.media-amazon.com/images/I/61GpteYoXoL._AC_UL320_.jpg"
   },
@@ -10315,7 +10315,7 @@
     "Query": "patch covid",
     "Category": "Patches",
     "Confidence": 0.993842483,
-    "Semantic": "",
+    "Semantic": "----",
     "Visual": "mask, people",
     "Image": "https://m.media-amazon.com/images/I/61HLN9arzFL._AC_UL320_.jpg"
   },
@@ -10399,7 +10399,7 @@
     "Query": "patch covid",
     "Category": "Patches",
     "Confidence": 0.997063696,
-    "Semantic": "",
+    "Semantic": "----",
     "Visual": "mask",
     "Image": "https://m.media-amazon.com/images/I/71CjvwmWmFL._AC_UL320_.jpg"
   },
@@ -10423,7 +10423,7 @@
     "Query": "patch covid",
     "Category": "Patches",
     "Confidence": 0.998222888,
-    "Semantic": "",
+    "Semantic": "----",
     "Visual": "mask",
     "Image": "https://m.media-amazon.com/images/I/61q4gSRAWEL._AC_UL320_.jpg"
   },
@@ -10495,7 +10495,7 @@
     "Query": "patch covid",
     "Category": "Patches",
     "Confidence": 0.998991549,
-    "Semantic": "",
+    "Semantic": "----",
     "Visual": "mask",
     "Image": "https://m.media-amazon.com/images/I/712Mniw+NsL._AC_UL320_.jpg"
   },
@@ -10567,7 +10567,7 @@
     "Query": "patch covid",
     "Category": "Patches",
     "Confidence": 0.999384999,
-    "Semantic": "",
+    "Semantic": "----",
     "Visual": "mask",
     "Image": "https://m.media-amazon.com/images/I/713tICaWR7L._AC_UL320_.jpg"
   },
@@ -23863,7 +23863,7 @@
     "Query": "anti vax",
     "Category": "T-shirts",
     "Confidence": 0.998680294,
-    "Semantic": "",
+    "Semantic": "----",
     "Visual": "????",
     "Image": "https://m.media-amazon.com/images/I/515gJcKRjJL._AC_UL320_.jpg"
   },
@@ -26143,7 +26143,7 @@
     "Query": "t-shirt anti vax",
     "Category": "T-shirts",
     "Confidence": 0.999426842,
-    "Semantic": "",
+    "Semantic": "----",
     "Visual": "animals",
     "Image": "https://m.media-amazon.com/images/I/71zzL7cXgOL._AC_UL320_.jpg"
   },
@@ -27067,7 +27067,7 @@
     "Query": "maglietta no vax",
     "Category": "T-shirts",
     "Confidence": 0.999701679,
-    "Semantic": "",
+    "Semantic": "----",
     "Visual": "????",
     "Image": "https://m.media-amazon.com/images/I/71KjeqA99iL._AC_UL320_.jpg"
   },
