@@ -466,6 +466,15 @@
         "image": "",
         "coverImage": "",
         "text": ""
+    },        
+
+    "special":
+    {
+        "type": "visual",
+        "title": "special",
+        "image": "",
+        "coverImage": "",
+        "text": ""
     }
 
 
