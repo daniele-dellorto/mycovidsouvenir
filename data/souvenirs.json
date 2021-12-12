@@ -6727,8 +6727,8 @@
     "Query": "taza vacuna",
     "Category": "Mugs",
     "Confidence": 0.915675342,
-    "Semantic": "special",
-    "Visual": "special",
+    "Semantic": "----",
+    "Visual": "biohazard symbol",
     "Image": "https://m.media-amazon.com/images/I/619BhQhmC9L._AC_UL320_.jpg"
   },
   {
@@ -7219,8 +7219,8 @@
     "Query": "mug vaccine",
     "Category": "Mugs",
     "Confidence": 0.9777565,
-    "Semantic": "special",
-    "Visual": "special",
+    "Semantic": "----",
+    "Visual": "biohazard symbol",
     "Image": "https://m.media-amazon.com/images/I/61S4BC6vrAL._AC_UL320_.jpg"
   },
   {
