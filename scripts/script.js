@@ -8,86 +8,90 @@ d3.json("data/collections.json").then(function (myData) {
     //for each category in preview.json
     for (var collection in myData) {
 
-        //card position based on the type of the category: semantic/visual
+        let collTitle = myData[collection].title;
+        let collId = myData[collection].title.toLowerCase();
+        let collType = myData[collection].type;
+        let collImg = myData[collection].image;
 
-        let card;
+        d3.json("data/souvenirs.json").then(function (data) {
 
-        if (myData[collection].type == "semantic") {
+            var count = 0;
 
-            card = semCards.append('div')
-                .classed("collCard", true)
-                .attr('collection', myData[collection].title.toLowerCase())
+            data.forEach(function (d) {
 
-        } else if (myData[collection].type == "visual") {
+                dataValueMes = d.semantic.split(', ').map(s => s.toLowerCase());
+                dataValueVis = d.visual.split(', ').map(s => s.toLowerCase());
 
-            card = visCards.append('div')
-                .classed("collCard", true)
-                .attr('collection', myData[collection].title.toLowerCase())
+                if (dataValueMes.includes(collId) || dataValueVis.includes(collId)) {
+                    count++;
+                }
+            });
 
-        }
+            var sizeClass;
 
-        //call function count
-        var categoryCount = countObjects("data/souvenirs.json", myData[collection].type, myData[collection].title.toLowerCase())
-        console.log(categoryCount);
+            if (count < 100) {
 
-        //add image and title
+                sizeClass = "small"
 
-        card.append("h3")
-            .classed("title", true)
-            .html(myData[collection].title)
+            } else if (count < 500) {
 
-        card.append("p")
+                sizeClass = "medium"
+
+            } else {
+
+                sizeClass = "big"
+
+            }
+
+            let card;
+
+            if (collType == "semantic") {
+
+                card = semCards.append('div')
+                    .classed("collCard", true)
+                    .classed(sizeClass, true)
+
+            } else if (collType == "visual") {
+
+                card = visCards.append('div')
+                    .classed("collCard", true)
+                    .classed(sizeClass, true)
+
+            }
+
+            card.append("h3")
                 .classed("title", true)
-                .html(categoryCount + " products")
+                .html(collTitle)
 
-        card.append("img")
-            .classed("img-fill", true)
-            .attr("src", myData[collection].image)
+            card.append("p")
+                .classed("title", true)
+                .html(count + " products")
 
-    };
+            card.append("img")
+                .classed("thumbImg", true)
+                .attr("src", collImg)
+
+            card.on("click", function() {
+                window.open('collection.html' + '?collection=' + collId, "_self")               
+            });
+
+        });
+
+    }
 
     //select all the cards
 
-    var anchors = document.getElementsByClassName('collCard');
+    // var anchors = document.getElementsByClassName('collCard');
 
-    //when click on the card, save title and pass through link
+    // //when click on the card, save title and pass through link
 
-    for (var i = 0; i < anchors.length; i++) {
+    // for (var i = 0; i < anchors.length; i++) {
 
-        var anchor = anchors[i];
+    //     console.log("wewe");
 
-        anchor.onclick = function () {
+    //     var anchor = anchors[i];
 
-            attr = this.getAttribute('collection')
-            window.open('collection.html' + '?collection=' + attr, "_self")
 
-        }
-    }
+    // }
 
 });
-
-function countObjects(dataLink, attribute, value) {
-
-    d3.json(dataLink).then(function (data) {
-
-        
-
-    var count = 0;
-
-
-        data.forEach(function(d) {
-
-            dataValue = d[attribute].split(', ').map(s => s.toLowerCase());
-
-            if (dataValue.includes(value)) {
-                count++;
-            }
-        });
-
-        
-    return count
-    
-    });
-    
-
-}
