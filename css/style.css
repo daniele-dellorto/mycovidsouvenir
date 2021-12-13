@@ -1,35 +1,61 @@
 .souvenir-grid{
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(12vw, 1fr));
+    grid-auto-rows: minmax(15vw, 15vw);
+    grid-auto-flow: dense;
 }
 
-.img-container{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between !important;
-    flex-wrap: nowrap;
-    width:10vw;
-    height:11vw;
-    margin:8px;
-    justify-content: center;
-    border: 1px solid black;
+.collCard{
+    background-color: #fff;
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 10px;
+    overflow: hidden;
 }
 
-.img-fill{
+.collCard img{
     object-fit: contain;
-    max-width: 100%;    
-    max-height:85%;
-}
+    max-width: auto;
+    max-height: 100%;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+  }
 
-p{
-    font-size: 10px;
-    line-height: 12px;
-    background-color: white;
-    margin:0 2px;
-}
+.small{
+    grid-row: span 1;
+    grid-column: span 1;
+    
+  }
+  
+  .medium{
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+  
+  .big{
+    grid-row: span 2;
+    grid-column: span 3;
+  }
 
-h2{
-    margin-top:30px;
+  p{
+    font-family: sans-serif;
+    font-size: .8em;
+    margin: 0px;
+  }
+  
+  h3{
+    font-family: sans-serif;
+    font-size: 1em;
+    margin: 0px;
+  }
+
+  h2{
+      margin-top:30px;
+  }  
+
+.homeIntroduction{
+    background-color:red;
 }
 

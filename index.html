@@ -1,38 +1,99 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>My covid souvenir</title>
-  </head>
-  <body>
-      <div class="container-fluid">
-        <h1>My covid souvenir</h1>
-        <!-- <input type="checkbox" id="filter1" name="filter" value="filter1">
-        <label for="filter1">Filter 1</label> -->
-        <h2>Semantic</h2>
-        <div id="semantic-categories" class="souvenir-grid"></div>
-        <h2>Visual</h2>
-        <div id="visual-categories" class="souvenir-grid"></div>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>My covid souvenir</title>
+</head>
+
+<body>
+
+  <div class="container-fluid" id="header">
+    <div class="row">
+      <div class="col">
+        <p>logo</p>
       </div>
+      <div class="col">
+        <p>shop</p>
+      </div>
+      <div class="col">
+        <p>about</p>
+      </div>
+    </div>
+  </div>
 
-      <!-- ******************* Utilities ******************* -->
-      <!-- Javascript libraries -->
-      <!-- d3.js -->
-      <script src="https://d3js.org/d3.v7.min.js"></script>
+    <div class="container-fluid homeIntroduction" id="message-introduction">
+      <div class="row">
+        <div class="col-8">
+          <h2>Message</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+            optio, eaque rerum! Provident similique accusantium nemo autem.</p>
+        </div>
+        <div class="col-4">
+        </div>
+      </div>
+    </div>
+    
+    <div id="message-grid" class="souvenir-grid"></div>
+    
+    <div class="container-fluid homeIntroduction" id="visual-introduction">
+      <div class="row">
+        <div class="col-8">
+          <h2>Visual</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+            optio, eaque rerum! Provident similique accusantium nemo autem.</p>
+        </div>
+        <div class="col-4">
+        </div>
+      </div>
+    </div>
 
-      <!-- jQuery and Popper. They are required by Bootstrap, we discourage using jQuery -->
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-      <!-- Bootstrap -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-      <!-- Your js file -->
-      <script src="scripts/script.js"></script>
-  </body>
+    <div id="visual-grid" class="souvenir-grid"></div>
+
+    <div class="container-fluid homeIntroduction" id="stock funds">
+      <div class="row">
+        <div class="col-8">
+          <h2>Everything 1$</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+            optio, eaque rerum! Provident similique accusantium nemo autem.</p>
+        </div>
+        <div class="col-4">
+        </div>
+      </div>
+    </div>
+
+  <!-- ******************* Utilities ******************* -->
+  <!-- Javascript libraries -->
+  <!-- d3.js -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <!-- jQuery and Popper. They are required by Bootstrap, we discourage using jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <!-- Bootstrap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <!-- Your js file -->
+  <script src="scripts/script.js"></script>
+</body>
+
 </html>

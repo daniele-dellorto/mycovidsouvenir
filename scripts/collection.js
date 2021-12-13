@@ -41,15 +41,15 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
     myDataRaw.forEach(function (product) {
 
         //array with product categories
-        dataSemantics = product.Semantic.split(', ').map(s => s.toLowerCase());
-        dataVisuals = product.Visual.split(', ').map(s => s.toLowerCase());
+        dataSemantics = product.semantic.split(', ').map(s => s.toLowerCase());
+        dataVisuals = product.visual.split(', ').map(s => s.toLowerCase());
 
         //IF product includes the category -> add its data to myData (array with all products fitting)
         if (dataSemantics.includes(collection) || dataVisuals.includes(collection)) {
 
             myData.push(product)
 
-            countries = product.Country.split(', ').map(s => s.toLowerCase());
+            countries = product.country.split(', ').map(s => s.toLowerCase());
             allCountries = allCountries.concat(countries);
 
         }
@@ -97,7 +97,7 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
         //add 1 to count FOR each object of this kind in myData
         for (var object of myData) {
 
-            if (object.Category.toLowerCase() == product.toLowerCase()) {
+            if (object.category.toLowerCase() == product.toLowerCase()) {
 
                 count++;
 
@@ -117,7 +117,7 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
             //FOR each object of this kind in my data show image
             for (var object of myData) {
 
-                if (object.Category.toLowerCase() == product.toLowerCase()) {
+                if (object.category.toLowerCase() == product.toLowerCase()) {
 
                     let card = typeContainer.append('div')
                         .classed("img-container", true);
