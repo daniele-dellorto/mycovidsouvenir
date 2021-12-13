@@ -14,7 +14,7 @@
     overflow: hidden;
 }
 
-.collCard img{
+.thumbImg{
     object-fit: contain;
     max-width: auto;
     max-height: 100%;

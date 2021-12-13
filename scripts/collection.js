@@ -124,7 +124,7 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
 
                     card.append("img")
                         .classed("img-fill", true)
-                        .attr("src", object.Image)
+                        .attr("src", object.image)
                 }
             }
         }

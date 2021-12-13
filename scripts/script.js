@@ -32,13 +32,13 @@ d3.json("data/collections.json").then(function (myData) {
 
         //add image and title
 
-        card.append("p")
-            .classed("title", true)
-            .html(categoryCount + " products")
-
         card.append("h3")
             .classed("title", true)
             .html(myData[collection].title)
+
+        card.append("p")
+                .classed("title", true)
+                .html(categoryCount + " products")
 
         card.append("img")
             .classed("img-fill", true)
@@ -68,9 +68,12 @@ d3.json("data/collections.json").then(function (myData) {
 
 function countObjects(dataLink, attribute, value) {
 
+    d3.json(dataLink).then(function (data) {
+
+        
+
     var count = 0;
 
-    d3.json(dataLink).then(function (data) {
 
         data.forEach(function(d) {
 
@@ -82,8 +85,9 @@ function countObjects(dataLink, attribute, value) {
         });
 
         
-    });
-
     return count
+    
+    });
+    
 
 }
