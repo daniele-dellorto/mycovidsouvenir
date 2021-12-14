@@ -23,6 +23,12 @@ d3.json("data/souvenirs.json").then(function (data) {
                 .classed("product-image", true)
                 .attr("src", data[i].image)
 
+            imgContainer.append('a')
+                .classed("amazon-link", true)
+                .attr("href", data[i].link)
+                .attr("target", "_blank")
+                .html("link")
+
             let semContainer = textContainer.append('div')
                 .classed("product-tag", true)
 
