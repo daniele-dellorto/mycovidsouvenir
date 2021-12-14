@@ -1,3 +1,5 @@
+/*______________________________________________________typography*/
+
 @font-face {
     font-family: 'saint_regussemi_bold';
     src: url('../fonts/sonar_hubermann_-_saintregus-semibold-webfont.woff2') format('woff2'),
@@ -25,9 +27,32 @@
 
 }
 
+p{
+  font-family: 'Noto sans', 'sans-serif';
+  font-size: .8rem;
+  margin: 0px;
+}
+
+h3{
+  font-family: 'Noto sans', 'sans-serif';
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0px;
+}
+
+h2{
+  font-family: 'saint_regussemi_bold';
+  color:white;
+  font-weight: bold;
+}
+
+/*______________________________________________________body*/
+
 body{
   background-color: #f8f9fa;
 }
+
+/*______________________________________________________navbar*/
 
 #navBar {
   position: -webkit-sticky; /* Safari */
@@ -72,6 +97,8 @@ body{
   text-decoration: none;
 }
 
+/*______________________________________________________grid*/
+
 .collCard{
     background-color: #fff;
     border-radius: 10px;
@@ -80,25 +107,6 @@ body{
     overflow: hidden;
     cursor:pointer;
 }
-
-  p{
-    font-family: 'Noto sans', 'sans-serif';
-    font-size: .8rem;
-    margin: 0px;
-  }
-
-  h3{
-    font-family: 'Noto sans', 'sans-serif';
-    font-weight: bold;
-    font-size: 1rem;
-    margin: 0px;
-  }
-
-  h2{
-    font-family: 'saint_regussemi_bold';
-    color:white;
-    font-weight: bold;
-  }
 
   .scrollBarStyle::-webkit-scrollbar{
     width: 10px;
@@ -120,4 +128,56 @@ body{
 
 .scrollBarStyle{
   transition: .3s;
+}
+
+/*footer___________________________________*/
+
+footer {
+    margin-top: 3rem;
+    padding: 0 1rem; 
+    grid-column: 1 / span 4;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1rem;
+    font-size: 1rem;
+}
+
+footer * {
+    grid-column: span 1;
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: repeat(2, 65px);
+    column-gap: 0.5rem;
+}
+
+.logo * {
+    grid-column: span 1;
+}
+
+.icon {
+    vertical-align: bottom;
+    padding-bottom: 0.6rem;
+}
+
+footer img {
+    height: 50px;
+    width: auto;
+}
+
+footer h1 {
+    margin: 0 0 1rem 0;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+    margin: 0;
+    line-height: 1.5;
 }
