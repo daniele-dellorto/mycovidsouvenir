@@ -19,27 +19,66 @@ d3.json("data/souvenirs.json").then(function (data) {
                 .classed("product-category", true)
                 .html(data[i].category)
 
-            textContainer.append('p')
-                .classed("product-tags", true)
-                .html("message: " + data[i].semantic)
-
-            textContainer.append('p')
-                .classed("product-tags", true)
-                .html("message: " + data[i].visual)
-
             imgContainer.append('img')
                 .classed("product-image", true)
                 .attr("src", data[i].image)
 
+            let semContainer = textContainer.append('div')
+                .classed("product-tag", true)
+
+            semContainer.append("p")
+                .classed("tag-title", true)
+                .html("messages: ")
+
+            let visContainer = textContainer.append('div')
+                .classed("product-tag", true)
+    
+            visContainer.append("p")
+                .classed("tag-title", true)
+                .html("visuals: ")
+
+            semTags = data[i].semantic.split(', ').map(s => s.toLowerCase());
+            visTags = data[i].visual.split(', ').map(s => s.toLowerCase());
+
+            semTags.forEach(function (semTag) {                
+
+                var linkTag = "collection.html" + "?collection=" + semTag;
+
+                semContainer.append('a')
+                    .classed("tag", true)                    
+                    .attr("href", linkTag)
+                    .html(semTag)
+
+            })
+
+            visTags.forEach(function (visTag) {                
+
+                var linkTag = "collection.html" + "?collection=" + visTag;
+
+                visContainer.append('a')
+                    .classed("tag", true)                    
+                    .attr("href", linkTag)
+                    .html(visTag)
+
+            })
+            
             countries = data[i].country.split(', ').map(s => s.toLowerCase());
 
             countries.forEach(function (country) {
 
-                flagLink = "./assets/svg/" + country + ".svg"
+                noDots = country.split(".").join("");
+                flagLink = "./assets/svg/" + noDots + ".svg";
 
-                textContainer.append('img')
+                let marketplace = textContainer.append('div')
+                    .classed("marketplace", true)
+
+                marketplace.append('img')
                     .classed("flag", true)
                     .attr("src", flagLink)
+
+                marketplace.append('p')
+                    .classed("domain", true)
+                    .html(country)
 
             })
 
