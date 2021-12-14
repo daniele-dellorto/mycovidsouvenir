@@ -8,6 +8,10 @@
   padding: 0;
 }
 
+.collCard{
+    z-index:-1;
+}
+
 .souvenir-grid{
     margin:20px 15px;
     display: grid;
@@ -62,16 +66,15 @@
     padding: 10px 15px;
 }
 
-.homeIntroduction:after {
-    background: linear-gradient(-45deg, #ffffff 16px, transparent 0), linear-gradient(45deg, #ffffff 16px, transparent 0);
-    background-position: center;
-    background-repeat: repeat-x;
-    background-size: 32px 32px;
-    content: " ";
-    display: block;
-    position: relative;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    height: 32px;
+.zigzag {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 50px;
+    height:2rem;
+    background-image: linear-gradient(
+    135deg, red 50%, transparent 50%),linear-gradient(
+    225deg, red 50%, transparent 50%);
+        background-position: top left;
+        background-size: 2rem 2rem;
+        background-repeat: repeat-x;
 }
