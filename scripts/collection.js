@@ -55,7 +55,7 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
 
     setCountries = [...new Set(allCountries)];
 
-    var countCountries = [];
+    var countCountries = [{name: 'none', value: 0}];
 
     setCountries.forEach(function (country) {
 
@@ -69,17 +69,30 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
 
         })
 
-        countCountries.push({
+        thisCountry = {
             'name': country,
             'value': count
-        })
+        }
 
-        createDonutChart({
-            a: count,
-            b: myData.length - count
-        });
-
+        for (var i = 0; i < countCountries.length; i++) {
+          if (thisCountry.value > countCountries[i].value) {
+            countCountries.splice(i, 0, thisCountry)
+            break
+          }
+        }
     })
+
+    countCountries.pop();
+
+    countryList = coverContainer.append('div')
+                  .classed("row", true);
+
+    for (var i = 0; i < countCountries.length; i++) {
+      name = countCountries[i].name
+      value = countCountries[i].value
+      countryList.append('p').html(name + ": " + value)
+    }
+
 
     console.log(countCountries);
 

@@ -59,15 +59,6 @@
     cursor:pointer;
 }
 
-.thumbImg{
-    object-fit: contain;
-    max-width: auto;
-    max-height: 100%;
-    position: relative;
-    transform: translateX(-50%);
-    left: 50%;
-  }
-
   p{
     font-family: 'Noto sans', 'sans-serif';
     font-size: .8rem;
