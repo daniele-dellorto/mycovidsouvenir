@@ -5,32 +5,29 @@ const coverContainer = d3.select("#coverContainer");
 //retrieve category through link
 const collection = new URLSearchParams(window.location.search).get('collection');
 
-myData = [];
-
 //page title
-document.title = collection.toUpperCase();
+document.title = collectionData[collection].title + " - My Covid Souvenir";
 
-//load cover
-d3.json("data/collections.json").then(function (categories) {
+//draw cover
 
     let coverImg = coverContainer.append('div')
         .classed("col-6", true);
 
     coverImg.append("img")
         .classed("img-cover", true)
-        .attr("src", categories[collection].coverImage)
+        .attr("src", collectionData[collection].coverImage)
 
     let coverTxt = coverContainer.append('div')
         .classed("col-6", true);
 
     coverTxt.append("h1")
         .classed("collectionTitle", true)
-        .html(categories[collection].title)
+        .html(collectionData[collection].title)
 
     coverTxt.append("p")
-        .html(categories[collection].text)
+        .html(collectionData[collection].text)
 
-})
+myData = [];
 
 //load json data
 d3.json("data/souvenirs.json").then(function (myDataRaw) {
@@ -108,7 +105,7 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
         if (count > 0) {
 
             //display object name and count at the beginning of the section
-            cards.append('h2').html(product + ': ' + count)
+            cards.append('h3').html(product + ': ' + count)
 
             //create cards container
             let typeContainer = cards.append("div")

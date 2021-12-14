@@ -14,12 +14,6 @@
     align-items: center;
 }
 
-.souvenir-grid{
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-}
-
 .img-container{
     display:flex;
     width:15vw;
@@ -31,27 +25,10 @@
 
 .img-fill{
     object-fit: contain;
-    max-width: 100%;    
+    max-width: 100%;
 }
 
 .img-cover{
     max-width:70%;
     max-height:70%;
 }
-
-h1{
-    width:100%;
-    text-align:left;
-    margin-bottom:20px;
-}
-
-h2{
-    width: 100%;
-    margin-top: 40px;
-    font-size: 40px;
-}
-
-p{
-    font-size: 20px;
-}
-
