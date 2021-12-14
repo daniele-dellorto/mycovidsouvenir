@@ -1,5 +1,5 @@
 //containers as a const -> append later
-const cards = d3.select("#all-souvenirs");
+const souvenirContainer = d3.select("#all-souvenirs");
 const coverContainer = d3.select("#coverContainer");
 
 //retrieve category through link
@@ -93,11 +93,8 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
 
         //add 1 to count FOR each object of this kind in myData
         for (var object of myData) {
-
             if (object.category.toLowerCase() == product.toLowerCase()) {
-
                 count++;
-
             }
         }
 
@@ -105,10 +102,11 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
         if (count > 0) {
 
             //display object name and count at the beginning of the section
-            cards.append('h3').html(product + ': ' + count)
+            categoryName = souvenirContainer.append('div').classed('categoryName', true)
+            categoryName.append('h2').html(product + ': ' + count)
 
-            //create cards container
-            let typeContainer = cards.append("div")
+            //create souvenirContainer container
+            let typeContainer = souvenirContainer.append("div")
                 .classed("souvenir-grid", true);
 
             //FOR each object of this kind in my data show image
@@ -117,10 +115,10 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
                 if (object.category.toLowerCase() == product.toLowerCase()) {
 
                     let card = typeContainer.append('div')
-                        .classed("img-container", true);
+                        .classed("collCard productSize", true);
 
                     card.append("img")
-                        .classed("img-fill", true)
+                        .classed("thumbImg", true)
                         .attr("src", object.image)
                 }
             }
