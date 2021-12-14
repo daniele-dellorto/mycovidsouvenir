@@ -2,19 +2,22 @@
   margin: 0;
 }
 
-#collections .col-6 {
+#collections .scrollBarStyle {
   height: 100vh;
   overflow-y: scroll;
   padding: 0;
 }
 
 .souvenir-grid{
-    margin:20px 15px;
+    padding:20px 15px;
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fill, minmax(10vw, 1fr));
     grid-auto-rows: minmax(12vw, 12vw);
     grid-auto-flow: dense;
+    background-color: white;
+    filter: brightness(100%);
+    transition: .3s;
 }
 
 .thumbImg {
@@ -24,6 +27,7 @@
   position: relative;
   transform: translateX(-50%);
   left: 50%;
+  transition: .3s;
 }
 
 .small {
@@ -39,6 +43,19 @@
 .big {
   grid-row: span 2;
   grid-column: span 3;
+}
+
+.minified{
+  grid-row: span 1 !important;
+  grid-column: span 1 !important;
+}
+
+.minifiedGrid{
+  grid-template-columns: repeat(auto-fill, minmax(1vw, 100vw)) !important;
+}
+
+.minifiedDarken{
+  filter: brightness(30%);
 }
 
 .homeTitle, .homeIntroduction{

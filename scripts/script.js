@@ -75,3 +75,42 @@ for(var collection in collectionData) {
         });
 
     }
+
+    document.querySelectorAll('.scrollBarStyle').forEach(item => {
+      item.addEventListener('mouseenter', event => {
+        //reset sections to minimum dimension
+        document.querySelectorAll('.scrollBarStyle').forEach(item => {
+          item.classList.remove("col-6");
+          item.classList.remove("col-10");
+          item.classList.add("col-2");
+        });
+        //set the hovered section to max dimension
+        item.classList.remove("col-2");
+        item.classList.add("col-10");
+
+        document.querySelectorAll('.souvenir-grid').forEach(card => {
+          card.classList.add('minifiedGrid');
+        });
+
+        item.querySelectorAll('.souvenir-grid').forEach(card => {
+          card.classList.remove('minifiedGrid');
+        });
+
+        document.querySelectorAll('.collCard').forEach(card => {
+          card.classList.add('minified');
+        });
+
+        item.querySelectorAll('.collCard').forEach(card => {
+          card.classList.remove('minified');
+        });
+
+        document.querySelectorAll('.souvenir-grid').forEach(card => {
+          card.classList.add('minifiedDarken');
+        });
+
+        item.querySelectorAll('.souvenir-grid').forEach(card => {
+          card.classList.remove('minifiedDarken');
+        });
+
+      })
+    })
