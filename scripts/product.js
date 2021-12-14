@@ -40,18 +40,24 @@ d3.json("data/souvenirs.json").then(function (data) {
             semTags = data[i].semantic.split(', ').map(s => s.toLowerCase());
             visTags = data[i].visual.split(', ').map(s => s.toLowerCase());
 
-            semTags.forEach(function (semTag) {
+            semTags.forEach(function (semTag) {                
+
+                var linkTag = "collection.html" + "?collection=" + semTag;
 
                 semContainer.append('a')
-                    .classed("tag", true)
+                    .classed("tag", true)                    
+                    .attr("href", linkTag)
                     .html(semTag)
 
             })
 
-            visTags.forEach(function (visTag) {
+            visTags.forEach(function (visTag) {                
+
+                var linkTag = "collection.html" + "?collection=" + visTag;
 
                 visContainer.append('a')
-                    .classed("tag", true)
+                    .classed("tag", true)                    
+                    .attr("href", linkTag)
                     .html(visTag)
 
             })
