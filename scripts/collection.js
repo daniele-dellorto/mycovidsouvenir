@@ -130,20 +130,29 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
 
                 if (object.category.toLowerCase() == product.toLowerCase()) {
 
-                    let card = typeContainer.append('div')
-                        .classed("collCard productSize", true);
+                    var card = typeContainer.append('div')
+                        .classed("collCard productSize", true)
+                        .attr('id', object.id);
 
                     card.append("img")
                         .classed("thumbImg", true)
                         .attr("src", object.image)
 
-                    card.on("click", function () {
-                        window.open('product.html' + '?id=' + object.id, "_self")
-                    });
+                    // card.on("click", function () {
+                    //     window.open('product.html' + '?id=' + object.id, "_self")
+                    // });
                 }
             }
         }
 
     });
 
+    document.querySelectorAll('.collCard').forEach(item =>{
+        item.addEventListener('click', function(){
+            var prodId = item.getAttribute("id");
+            window.open('product.html' + '?id=' + prodId, "_self");
+        })
+    })
+
 })
+
