@@ -55,7 +55,7 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
 
     setCountries = [...new Set(allCountries)];
 
-    var countCountries = [];
+    var countCountries = [{name: 'none', value: 0}];
 
     setCountries.forEach(function (country) {
 
@@ -69,17 +69,30 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
 
         })
 
-        countCountries.push({
+        thisCountry = {
             'name': country,
             'value': count
-        })
+        }
 
-        createDonutChart({
-            a: count,
-            b: myData.length - count
-        });
-
+        for (var i = 0; i < countCountries.length; i++) {
+          if (thisCountry.value > countCountries[i].value) {
+            countCountries.splice(i, 0, thisCountry)
+            break
+          }
+        }
     })
+
+    countCountries.pop();
+
+    countryList = coverContainer.append('div')
+                  .classed("row", true);
+
+    for (var i = 0; i < countCountries.length; i++) {
+      name = countCountries[i].name
+      value = countCountries[i].value
+      countryList.append('p').html(name + ": " + value)
+    }
+
 
     console.log(countCountries);
 
@@ -127,46 +140,3 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
     });
 
 })
-
-function createDonutChart(data) {
-
-    // set the dimensions and margins of the graph
-    const width = 200,
-        height = 200,
-        margin = 8;
-
-    // The radius of the pieplot is half the width or half the height (smallest one). I subtract a bit of margin.
-    const radius = Math.min(width, height) / 2 - margin
-
-    // append the svg object to the div called 'my_dataviz'
-    const svg = d3.select("#countryContainer")
-        .append("svg")
-        .classed("pieChart", true)
-        .attr("width", width)
-        .attr("height", height)
-        .append("g")
-        .attr("transform", `translate(${width / 2},${height / 2})`);
-
-    // set the color scale
-    const color = d3.scaleOrdinal()
-        .range(["#ff0000", '#d2d2d2'])
-
-    // Compute the position of each group on the pie:
-    const pie = d3.pie().sort(null)
-        .value(d => d[1])
-
-    const data_ready = pie(Object.entries(data))
-
-    // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
-    svg
-        .selectAll('whatever')
-        .data(data_ready)
-        .join('path')
-        .attr('d', d3.arc()
-            .innerRadius(radius / 1.2) // This is the size of the donut hole
-            .outerRadius(radius)
-        )
-        .attr('fill', d => color(d.data[0]))
-        .style("opacity", 0.7)
-
-}
