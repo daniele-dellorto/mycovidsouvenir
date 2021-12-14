@@ -9,14 +9,6 @@ const collection = new URLSearchParams(window.location.search).get('collection')
 document.title = collectionData[collection].title + " - My Covid Souvenir";
 
 //draw cover
-
-let coverImg = coverContainer.append('div')
-    .classed("col-6", true);
-
-coverImg.append("img")
-    .classed("img-cover", true)
-    .attr("src", collectionData[collection].coverImage)
-
 let coverTxt = coverContainer.append('div')
     .classed("col-6", true);
 
@@ -26,6 +18,13 @@ coverTxt.append("h1")
 
 coverTxt.append("p")
     .html(collectionData[collection].text)
+
+let coverImg = coverContainer.append('div')
+    .classed("col-6", true);
+
+coverImg.append("img")
+    .classed("img-cover", true)
+    .attr("src", collectionData[collection].coverImage)
 
 myData = [];
 
@@ -118,7 +117,7 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
         if (count > 0) {
 
             //display object name and count at the beginning of the section
-            categoryName = souvenirContainer.append('div').classed('categoryName', true)
+            categoryName = souvenirContainer.append('div').classed('row categoryName', true)
             categoryName.append('h3').html(product + ': ' + count)
 
             //create souvenirContainer container
@@ -137,10 +136,6 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
                     card.append("img")
                         .classed("thumbImg", true)
                         .attr("src", object.image)
-
-                    // card.on("click", function () {
-                    //     window.open('product.html' + '?id=' + object.id, "_self")
-                    // });
                 }
             }
         }
@@ -155,4 +150,3 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
     })
 
 })
-
