@@ -1,3 +1,5 @@
+/*______________________________________________________grid*/
+
 #collections {
   margin: 0;
 }
@@ -45,6 +47,8 @@
   grid-column: span 3;
 }
 
+/*______________________________________________________minified grid*/
+
 .minified{
   grid-row: span 1 !important;
   grid-column: span 1 !important;
@@ -58,7 +62,9 @@
   filter: brightness(30%);
 }
 
-.homeTitle, .homeIntroduction{
+/*______________________________________________________grid titles*/
+
+.homeTitle{
     background-color:red;
     padding:0;
 }
@@ -70,17 +76,13 @@
   z-index:999;
 }
 
-.homeIntroduction p{
-    padding: 0 15px 10px 15px;
-}
-
 .homeTitle h2{
     margin:0;
     padding: 10px 15px;
 }
 
-.zigzag {
-    position: -webkit-sticky; /* Safari */
+/*.zigzag {
+    position: -webkit-sticky;
     position: sticky;
     z-index:998;
     top: 50px;
@@ -91,4 +93,12 @@
         background-position: top left;
         background-size: 2rem 2rem;
         background-repeat: repeat-x;
+}*/
+
+/*______________________________________________________leftovers*/
+
+#leftovers{
+  position:fixed;
+  bottom:20px;
+  right:30px;
 }
