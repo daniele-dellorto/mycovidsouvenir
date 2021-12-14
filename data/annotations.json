@@ -1,13 +1,14 @@
-collectionData = {
+annotations = {
 
-    "hugs and kisses":
-    {
-        "type": "semantic",
-        "title": "Hugs and kisses",
-        "image": "./assets/semantic/christmas.png",
-        "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
-    },
+    "hugs and kisses": [{
+        "id": "15",
+        "text": "Hugs and kisses",
+      },
+      {
+        "id": "15",
+        "text": "Hugs and kisses",
+      }
+    ],
 
     "if you can read this":
     {

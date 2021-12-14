@@ -2,16 +2,13 @@
 const semCards = d3.select("#message-grid");
 const visCards = d3.select("#visual-grid");
 
-//load preview.json data
-d3.json("data/collections.json").then(function (myData) {
 
-    //for each category in preview.json
-    for (var collection in myData) {
+for(var collection in collectionData) {
 
-        let collTitle = myData[collection].title;
-        let collId = myData[collection].title.toLowerCase();
-        let collType = myData[collection].type;
-        let collImg = myData[collection].image;
+        let collTitle = collectionData[collection].title;
+        let collId = collectionData[collection].title.toLowerCase();
+        let collType = collectionData[collection].type;
+        let collImg = collectionData[collection].image;
 
         d3.json("data/souvenirs.json").then(function (data) {
 
@@ -72,26 +69,9 @@ d3.json("data/collections.json").then(function (myData) {
                 .attr("src", collImg)
 
             card.on("click", function() {
-                window.open('collection.html' + '?collection=' + collId, "_self")               
+                window.open('collection.html' + '?collection=' + collId, "_self")
             });
 
         });
 
     }
-
-    //select all the cards
-
-    // var anchors = document.getElementsByClassName('collCard');
-
-    // //when click on the card, save title and pass through link
-
-    // for (var i = 0; i < anchors.length; i++) {
-
-    //     console.log("wewe");
-
-    //     var anchor = anchors[i];
-
-
-    // }
-
-});
