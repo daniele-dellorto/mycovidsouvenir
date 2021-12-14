@@ -61,7 +61,7 @@ for(var collection in collectionData) {
                 .html(collTitle)
 
             card.append("p")
-                .classed("title", true)
+                .classed("count", true)
                 .html(count + " products")
 
             card.append("img")

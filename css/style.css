@@ -36,7 +36,7 @@
 }
 
 #logoNavBar{
-    width: 7em;
+    width: 7rem;
 }
 
 .navLink {
@@ -70,19 +70,18 @@
 
   p{
     font-family: 'Noto sans', 'sans-serif';
-    font-size: .8em;
+    font-size: .8rem;
     margin: 0px;
   }
 
   h3{
     font-family: 'Noto sans', 'sans-serif';
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1rem;
     margin: 0px;
   }
 
   h2{
     font-family: 'saint_regussemi_bold';
     font-weight: bold;
-      margin-top:30px;
   }

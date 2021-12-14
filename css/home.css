@@ -41,6 +41,19 @@
   grid-column: span 3;
 }
 
-.homeIntroduction {
-  background-color: red;
+.homeTitle, .homeIntroduction{
+    background-color:red;
+}
+
+.homeTitle{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index:999;
+}
+
+.homeTitle h2{
+    margin:0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
