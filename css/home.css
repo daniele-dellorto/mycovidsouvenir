@@ -8,6 +8,10 @@
   padding: 0;
 }
 
+.collCard{
+    z-index:-1;
+}
+
 .souvenir-grid{
     margin:20px 15px;
     display: grid;
@@ -43,6 +47,7 @@
 
 .homeTitle, .homeIntroduction{
     background-color:red;
+    padding:0;
 }
 
 .homeTitle{
@@ -52,8 +57,24 @@
   z-index:999;
 }
 
+.homeIntroduction p{
+    padding: 0 15px 10px 15px;
+}
+
 .homeTitle h2{
     margin:0;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 15px;
+}
+
+.zigzag {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 50px;
+    height:2rem;
+    background-image: linear-gradient(
+    135deg, red 50%, transparent 50%),linear-gradient(
+    225deg, red 50%, transparent 50%);
+        background-position: top left;
+        background-size: 2rem 2rem;
+        background-repeat: repeat-x;
 }
