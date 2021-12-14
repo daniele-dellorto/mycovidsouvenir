@@ -452,7 +452,7 @@ collectionData = {
 
     "everything 1$":
     {
-        "type": "else",
+        "type": "visual",
         "title": "Everything 1$",
         "image": "",
         "coverImage": "",

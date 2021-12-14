@@ -10,22 +10,22 @@ document.title = collectionData[collection].title + " - My Covid Souvenir";
 
 //draw cover
 
-    let coverImg = coverContainer.append('div')
-        .classed("col-6", true);
+let coverImg = coverContainer.append('div')
+    .classed("col-6", true);
 
-    coverImg.append("img")
-        .classed("img-cover", true)
-        .attr("src", collectionData[collection].coverImage)
+coverImg.append("img")
+    .classed("img-cover", true)
+    .attr("src", collectionData[collection].coverImage)
 
-    let coverTxt = coverContainer.append('div')
-        .classed("col-6", true);
+let coverTxt = coverContainer.append('div')
+    .classed("col-6", true);
 
-    coverTxt.append("h1")
-        .classed("collectionTitle", true)
-        .html(collectionData[collection].title)
+coverTxt.append("h1")
+    .classed("collectionTitle", true)
+    .html(collectionData[collection].title)
 
-    coverTxt.append("p")
-        .html(collectionData[collection].text)
+coverTxt.append("p")
+    .html(collectionData[collection].text)
 
 myData = [];
 
@@ -55,7 +55,10 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
 
     setCountries = [...new Set(allCountries)];
 
-    var countCountries = [{name: 'none', value: 0}];
+    var countCountries = [{
+        name: 'none',
+        value: 0
+    }];
 
     setCountries.forEach(function (country) {
 
@@ -75,22 +78,22 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
         }
 
         for (var i = 0; i < countCountries.length; i++) {
-          if (thisCountry.value > countCountries[i].value) {
-            countCountries.splice(i, 0, thisCountry)
-            break
-          }
+            if (thisCountry.value > countCountries[i].value) {
+                countCountries.splice(i, 0, thisCountry)
+                break
+            }
         }
     })
 
     countCountries.pop();
 
     countryList = coverContainer.append('div')
-                  .classed("row", true);
+        .classed("row", true);
 
     for (var i = 0; i < countCountries.length; i++) {
-      name = countCountries[i].name
-      value = countCountries[i].value
-      countryList.append('p').html(name + ": " + value)
+        name = countCountries[i].name
+        value = countCountries[i].value
+        countryList.append('p').html(name + ": " + value)
     }
 
 
@@ -133,6 +136,10 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
                     card.append("img")
                         .classed("thumbImg", true)
                         .attr("src", object.image)
+
+                    card.on("click", function () {
+                        window.open('product.html' + '?id=' + object.id, "_self")
+                    });
                 }
             }
         }

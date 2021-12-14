@@ -8,10 +8,6 @@
   padding: 0;
 }
 
-.collCard{
-    z-index:-1;
-}
-
 .souvenir-grid{
     margin:20px 15px;
     display: grid;
@@ -69,6 +65,7 @@
 .zigzag {
     position: -webkit-sticky; /* Safari */
     position: sticky;
+    z-index:998;
     top: 50px;
     height:2rem;
     background-image: linear-gradient(
