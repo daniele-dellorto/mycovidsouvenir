@@ -450,10 +450,10 @@ collectionData = {
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
 
-    "everything 1$":
+    "leftovers":
     {
-        "type": "visual",
-        "title": "Everything 1$",
+        "type": "",
+        "title": "leftovers",
         "image": "",
         "coverImage": "",
         "text": ""

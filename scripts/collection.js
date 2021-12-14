@@ -48,6 +48,13 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
             countries = product.country.split(', ').map(s => s.toLowerCase());
             allCountries = allCountries.concat(countries);
 
+        } else if (collection == "leftovers" && dataSemantics == "" && dataVisuals == ""){            
+
+            myData.push(product)
+
+            countries = product.country.split(', ').map(s => s.toLowerCase());
+            allCountries = allCountries.concat(countries);
+
         }
 
     })
