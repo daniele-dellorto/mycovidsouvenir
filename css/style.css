@@ -30,23 +30,39 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-  padding: 12px 15px;
+  height: 7vh;
   background-color: white;
   border-bottom: 3px solid black;
+  background-color: #f8f9fa;
+}
+
+#navBar .col-4{
+  text-align: center;
+}
+
+#navBar .row{
+  height: 100%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  align-items: center;
+}
+
+#logoNavBarCol{
+    height: 100%;
+    border-left: 3px black solid;
+    border-right: 3px black solid;
 }
 
 #logoNavBar{
-    width: 7rem;
+    height: 5vh;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
-.navLink {
-  flex-grow: 0;
-  display:flex;
-  align-items:center;
-}
-
-.navLink a {
-  font-family: 'Noto sans', 'sans-serif';
+#navBar a {
+  font-family: 'saint_regussemi_bold', 'sans-serif';
   font-weight: bold;
 }
 

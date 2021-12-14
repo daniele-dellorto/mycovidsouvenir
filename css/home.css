@@ -3,7 +3,7 @@
 }
 
 #collections .scrollBarStyle {
-  height: 100vh;
+  height: 93vh;
   overflow-y: scroll;
   padding: 0;
 }
@@ -13,9 +13,9 @@
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fill, minmax(10vw, 1fr));
-    grid-auto-rows: minmax(12vw, 12vw);
+    grid-auto-rows: minmax(15vw, 15vw);
     grid-auto-flow: dense;
-    background-color: white;
+    background-color: #f8f9fa;
     filter: brightness(100%);
     transition: .3s;
 }
