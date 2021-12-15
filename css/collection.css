@@ -122,8 +122,29 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  font-family: 'saint_regussemi_bold';
+  font-family: 'Noto sans', 'sans-serif';
   color:white;
   font-weight: bold;
   font-size: 30px;
+}
+
+.annotationText{
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  position: relative;
+  left: 100%;
+  transform: translate(-50%, -170%);
+  z-index: 2;
+  overflow: hidden;
+}
+
+.displayAnnotation{
+  width: 0px;
+  height: 0px;
+}
+
+.displayAnnotation{
+  width: 20vw;
+  height: 10vw;
 }

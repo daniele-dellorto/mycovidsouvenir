@@ -138,7 +138,8 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
 
                     var card = typeContainer.append('div')
                         .classed("collCard productSize", true)
-                        .attr('id','prod' + object.id);
+                        .attr('id','prod' + object.id)
+                        .attr('onclick', "window.open('product.html?id=' + " + object.id + ", '_self')")
 
                     card.append("div")
                         .classed("annotationContainer", true);
@@ -152,13 +153,6 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
 
     });
 
-    document.querySelectorAll('.collCard').forEach(item => {
-        item.addEventListener('click', function () {
-            var prodId = item.getAttribute("id");
-            window.open('product.html' + '?id=' + prodId, "_self");
-        })
-    })
-
     annotationCreate();
 
 })
@@ -169,16 +163,29 @@ function annotationCreate() {
 
         annotatedProduct = d3.select('#prod' + annotation.id);
 
-        console.log("prod: ", annotatedProduct);
+        var annotationContainer = annotatedProduct.select(".annotationContainer");
 
-        annotationContainer = annotatedProduct.select(".annotationContainer");
-
-        console.log("cont: ", annotationContainer);
-
-        var annotation = annotationContainer.append("div")
+        var annotationPin = annotationContainer.append("div")
                                             .classed("annotation", true);
-          annotation.append("div");
-          annotation.append("p").html("!");
+          annotationPin.append("div");
+          annotationPin.append("p").html("!");
+          annotationContainer.append("div")
+                    .classed("annotationText",true)
+                    .html(annotation.text)
 
+        annotationPin.on("mouseover", handleMouseOver)
+                  .on("mouseout", handleMouseOut);
     })
+}
+
+function handleMouseOver(e) {
+  popUp = this.nextElementSibling;
+  popUp.classList.remove('hideAnnotation')
+  popUp.classList.add('displayAnnotation')
+
+}
+function handleMouseOut(e) {
+  popUp = this.nextElementSibling;
+  popUp.classList.remove('displayAnnotation')
+  popUp.classList.add('hideAnnotation')
 }
