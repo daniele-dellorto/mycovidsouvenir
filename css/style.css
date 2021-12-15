@@ -38,6 +38,7 @@ h3{
 }
 
 h2{
+  font-size:1.8rem;
   font-family: 'saint_regussemi_bold';
   color:white;
   font-weight: bold;
@@ -56,7 +57,7 @@ body{
   position: sticky;
   top: 0;
   z-index: 1000;
-  height: 7vh;
+  height: 6vh;
   background-color: white;
   border-bottom: 3px solid black;
   background-color: #f8f9fa;
@@ -82,7 +83,7 @@ body{
 }
 
 #logoNavBar{
-    height: 5vh;
+    height: 4vh;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
