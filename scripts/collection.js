@@ -167,10 +167,10 @@ function annotationCreate() {
 
         var annotationPin = annotationContainer.append("div")
                                             .classed("annotation", true);
-          annotationPin.append("div");
-          annotationPin.append("p").html("!");
-          annotationContainer.append("div")
-                    .classed("annotationText",true)
+        annotationPin.append("div");
+        annotationPin.append("p").html("!");
+        annotationContainer.append("div")
+                    .classed("annotationText  hideAnnotation",true)
                     .html(annotation.text)
 
         annotationPin.on("mouseover", handleMouseOver)
