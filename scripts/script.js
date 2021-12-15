@@ -54,6 +54,8 @@ for(var collection in collectionData) {
                     .classed("collCard", true)
                     .classed(sizeClass, true)
 
+            } else {
+
             }
 
             card.append("h3")
