@@ -48,7 +48,7 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
             countries = product.country.split(', ').map(s => s.toLowerCase());
             allCountries = allCountries.concat(countries);
 
-        } else if (collection == "leftovers" && dataSemantics == "" && dataVisuals == ""){            
+        } else if (collection == "leftovers" && dataSemantics == "" && dataVisuals == "") {
 
             myData.push(product)
 
@@ -149,11 +149,24 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
 
     });
 
-    document.querySelectorAll('.collCard').forEach(item =>{
-        item.addEventListener('click', function(){
+    document.querySelectorAll('.collCard').forEach(item => {
+        item.addEventListener('click', function () {
             var prodId = item.getAttribute("id");
             window.open('product.html' + '?id=' + prodId, "_self");
         })
     })
 
+    annotationCreate();
+
 })
+
+function annotationCreate() {
+
+    annotations.forEach(function (annotation) {
+
+        annotato = document.getElementById(annotation.id);
+
+        console.log(annotato);
+
+    })
+}

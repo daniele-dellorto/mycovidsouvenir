@@ -6,7 +6,6 @@
          url('../fonts/sonar_hubermann_-_saintregus-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -15,7 +14,6 @@
          url('../fonts/sonar_hubermann_-_saintregus-semiboldcondensed-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -24,8 +22,9 @@
          url('../fonts/sonar_hubermann_-_saintregus-semiboldexpanded-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@600&family=Noto+Sans:wght@400;700&display=swap');
 
 p{
   font-family: 'Noto sans', 'sans-serif';
