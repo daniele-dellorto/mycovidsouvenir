@@ -44,6 +44,12 @@ h2{
   color:white;
 }
 
+h1{
+  font-size:2.6rem;
+  font-family: 'saint_regussemi_bold';
+  color:white;
+}
+
 li{
   font-family: 'Noto sans', 'sans-serif';
   font-weight: 400;

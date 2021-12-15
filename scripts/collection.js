@@ -16,6 +16,9 @@ coverTxt.append("h1")
     .classed("collectionTitle", true)
     .html(collectionData[collection].title)
 
+coverTxt.append("h3")
+    .html(collectionData[collection].section)
+
 coverTxt.append("p")
     .html(collectionData[collection].text)
 
