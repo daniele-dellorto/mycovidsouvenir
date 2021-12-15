@@ -24,8 +24,6 @@
     font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@600&family=Noto+Sans:wght@400;700&display=swap');
-
 p{
   font-family: 'Noto sans', 'sans-serif';
   font-size: .8rem;
