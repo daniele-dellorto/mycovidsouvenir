@@ -136,22 +136,22 @@ body{
 /*______________________________________________________footer*/
 
 footer {
-
-  position:absolute;
-  bottom:0;
-
-    background-color: red;
+    background-color: black;
     color:white;
     padding: 3rem 6rem 2rem 6rem;
-    grid-column: 1 / span 4;
+    grid-column: 1 / span 12;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(12, 1fr);
     column-gap: 1rem;
     font-size: 1rem;
 }
 
 footer * {
-    grid-column: span 1;
+    grid-column: span 2;
+}
+
+#contacts, #assistants {
+  grid-column: span 4;
 }
 
 .logo {
@@ -163,6 +163,7 @@ footer * {
 
 .logo * {
     grid-column: span 1;
+    margin-bottom:2rem;
 }
 
 .icon {
@@ -175,11 +176,29 @@ footer img {
     width: auto;
 }
 
+footer svg {
+  color:white;
+}
+
 footer h1 {
-  font-family: 'saint_regussemi_bold', 'sans-serif';
+    font-family: 'saint_regussemi_bold', 'sans-serif';
     margin: 0 0 1rem 0;
     font-size: 0.8rem;
     text-transform: uppercase;
+}
+
+footer a {
+  font-family: 'Noto Sans mono', 'monospace';;
+  color:white;
+}
+
+footer a:hover {
+  color:red;
+  text-decoration:underline;
+}
+
+footer a:hover svg{
+  color:red;
 }
 
 footer ul {
@@ -192,10 +211,14 @@ footer li {
     line-height: 1.5;
 }
 
-footer a {
-  color:white;
+#contacts p{  
+  margin-bottom: 2rem;
 }
 
-footer svg {
-  color:white;
+#contacts li {
+  margin-bottom: 1rem;
+}
+
+#social svg {
+  margin-right: 1rem;
 }
