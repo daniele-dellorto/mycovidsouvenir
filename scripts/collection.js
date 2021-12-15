@@ -138,7 +138,10 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
 
                     var card = typeContainer.append('div')
                         .classed("collCard productSize", true)
-                        .attr('id', object.id);
+                        .attr('id','prod' + object.id);
+
+                    card.append("div")
+                        .classed("annotationContainer", true);
 
                     card.append("img")
                         .classed("thumbImg", true)
@@ -164,9 +167,18 @@ function annotationCreate() {
 
     annotations.forEach(function (annotation) {
 
-        annotato = document.getElementById(annotation.id);
+        annotatedProduct = d3.select('#prod' + annotation.id);
 
-        console.log(annotato);
+        console.log("prod: ", annotatedProduct);
+
+        annotationContainer = annotatedProduct.select(".annotationContainer");
+
+        console.log("cont: ", annotationContainer);
+
+        var annotation = annotationContainer.append("div")
+                                            .classed("annotation", true);
+          annotation.append("div");
+          annotation.append("p").html("!");
 
     })
 }

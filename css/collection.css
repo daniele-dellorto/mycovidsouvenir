@@ -37,6 +37,14 @@
   margin-bottom: 200px;
 }
 
+.collCard{
+    background-color: #fff;
+    border-radius: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px;
+    cursor:pointer;
+}
+
 .productSize {
   grid-row: span 1;
   grid-column: span 1;
@@ -69,4 +77,53 @@
 .img-cover {
   max-width: 70%;
   max-height: 70%;
+}
+
+.annotationContainer{
+  height: 0;
+  width: 100%;
+}
+
+.annotation{
+  width: 40px;
+  height: 40px;
+  color: white;
+  content: "";
+  background-color: red;
+  position: relative;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.annotation:before{
+  width: 40px;
+  height: 40px;
+  color: white;
+  content: "";
+  background-color: red;
+  position: absolute;
+}
+
+.annotation:before {
+   transform: rotate(60deg);
+}
+.annotation div {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  position: absolute;
+  transform: rotate(-60deg);
+}
+
+.annotation p{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'saint_regussemi_bold';
+  color:white;
+  font-weight: bold;
+  font-size: 30px;
 }
