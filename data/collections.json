@@ -4,7 +4,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "Hugs and kisses",
-        "image": "./assets/semantic/christmas.png",
+        "image": "./assets/semantic/hugs_and_kisses.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -13,7 +13,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "If you can read this",
-        "image": "./assets/semantic/christmas.png",
+        "image": "./assets/semantic/if_you_can_read_this.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -22,7 +22,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "Social distancing champion",
-        "image": "./assets/semantic/socialDistanceChampion.png",
+        "image": "./assets/semantic/social_distance_champion.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -31,7 +31,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "Kinky COVID",
-        "image": "./assets/semantic/kinkyCovid.png",
+        "image": "./assets/semantic/kinky_covid.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -40,7 +40,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "Look I'm vaccinated",
-        "image": "./assets/semantic/christmas.png",
+        "image": "./assets/semantic/look_im_vaccinated.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -49,7 +49,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "I got the shot",
-        "image": "./assets/semantic/christmas.png",
+        "image": "./assets/semantic/i_got_the_shot.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -58,7 +58,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "Keep calm",
-        "image": "./assets/semantic/christmas.png",
+        "image": "./assets/semantic/keep_calm.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -67,7 +67,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "Vaccines cause adults",
-        "image": "./assets/semantic/christmas.png",
+        "image": "./assets/semantic/vaccines_cause_adults.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -76,7 +76,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "No vaccine against stupidity",
-        "image": "./assets/semantic/christmas.png",
+        "image": "./assets/semantic/No_vaccine_against_stupidity.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -85,7 +85,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "Jesus is my vaccine",
-        "image": "./assets/semantic/jesusIsMyVaccine.png",
+        "image": "./assets/semantic/jesus_is_my_vaccine.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -94,7 +94,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "Merry (COVID) Xmas",
-        "image": "./assets/semantic/christmas.png",
+        "image": "./assets/semantic/merry_covid_xmas.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -103,7 +103,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "Pandemic politics",
-        "image": "./assets/semantic/politics.png",
+        "image": "./assets/semantic/pandemic_politics.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -112,7 +112,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "My body my choice",
-        "image": "./assets/semantic/christmas.png",
+        "image": "./assets/semantic/my_body_my_choice.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -121,7 +121,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "Fuck COVID",
-        "image": "./assets/semantic/christmas.png",
+        "image": "./assets/semantic/fuck_covid.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -130,7 +130,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "Best doctor/nurse",
-        "image": "./assets/semantic/christmas.png",
+        "image": "./assets/semantic/best_doctor_nurse.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -139,7 +139,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "Best (COVID) teacher",
-        "image": "./assets/semantic/christmas.png",
+        "image": "./assets/semantic/best_covid_teacher.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -148,7 +148,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "Pandemic drinking",
-        "image": "./assets/semantic/christmas.png",
+        "image": "./assets/semantic/pandemic_drinking.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -157,7 +157,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "I have my immune system",
-        "image": "./assets/semantic/christmas.png",
+        "image": "./assets/semantic/i_have_my_immune_system.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -166,7 +166,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "No fear no vax",
-        "image": "./assets/semantic/christmas.png",
+        "image": "./assets/semantic/no_fear_no_vax.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -175,7 +175,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "Freedom fighters",
-        "image": "./assets/semantic/christmas.png",
+        "image": "./assets/semantic/freedom_fighters.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -184,7 +184,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "NO covid passport",
-        "image": "./assets/semantic/christmas.png",
+        "image": "./assets/semantic/no_covid_passport.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -193,7 +193,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "Save lives",
-        "image": "./assets/semantic/christmas.png",
+        "image": "./assets/semantic/save_lives.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -202,7 +202,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "Flatter than earth",
-        "image": "./assets/semantic/flatEarth.png",
+        "image": "./assets/semantic/flatter_than_earth.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -211,7 +211,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "COVID conspiracy",
-        "image": "./assets/semantic/complotism.png",
+        "image": "./assets/semantic/covid_conspiracy.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -220,7 +220,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "Thanks science",
-        "image": "./assets/semantic/science.png",
+        "image": "./assets/semantic/thanks_science.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -229,7 +229,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "Look I'm anti-vax",
-        "image": "./assets/semantic/christmas.png",
+        "image": "./assets/semantic/look_im_antivax.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -238,7 +238,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "Happy (COVID) birthday",
-        "image": "./assets/semantic/birthday.png",
+        "image": "./assets/semantic/happy_covid_birthday.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -247,7 +247,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "I survived",
-        "image": "./assets/semantic/christmas.png",
+        "image": "./assets/semantic/i_survived.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -256,7 +256,7 @@ collectionData = {
     {
         "type": "semantic",
         "title": "Get vaccinated y'all",
-        "image": "./assets/semantic/christmas.png",
+        "image": "./assets/semantic/get_vaccinated_yall.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -265,7 +265,7 @@ collectionData = {
     {
         "type": "visual",
         "title": "COVID palette",
-        "image": "./assets/visual/animals.png",
+        "image": "./assets/visual/covid_palette.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -274,7 +274,7 @@ collectionData = {
     {
         "type": "visual",
         "title": "Stars and stripes",
-        "image": "./assets/visual/USAflag.png",
+        "image": "./assets/visual/stars_and_stripes.png",
         "coverImage": "https://m.media-amazon.com/images/I/61jEDL1sNTL._AC_UL320_.jpg",
         "text": "The USA flag is used worldwide for polarised messages on both sides, promoting the vaccine campaign as well as empowering anti vax slogans. On anti-vax products, the main ideas deal with freedom, fear and politics."
     },
@@ -283,7 +283,7 @@ collectionData = {
     {
         "type": "visual",
         "title": "QR",
-        "image": "./assets/visual/QRcode.png",
+        "image": "./assets/visual/qr.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -301,7 +301,7 @@ collectionData = {
     {
         "type": "visual",
         "title": "Firearms",
-        "image": "./assets/visual/gun.png",
+        "image": "./assets/visual/firearms.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -319,7 +319,7 @@ collectionData = {
     {
         "type": "visual",
         "title": "Middle finger",
-        "image": "./assets/visual/middleFinger.png",
+        "image": "./assets/visual/middle_finger.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -328,7 +328,7 @@ collectionData = {
     {
         "type": "visual",
         "title": "Virus shape",
-        "image": "./assets/visual/virus.png",
+        "image": "./assets/visual/virus_shape.png",
         "coverImage": "https://m.media-amazon.com/images/I/81l0E8vu4FS._AC_UL320_.jpg",
         "text": "The virus visualised as a sphere covered by spikes is used as a decorative or background element. It is also represented as an enemy to destroy, giving it a face and occasionally arms and legs."
     },
@@ -337,7 +337,7 @@ collectionData = {
     {
         "type": "visual",
         "title": "Biohazard symbol",
-        "image": "./assets/visual/plagueSymbol.png",
+        "image": "./assets/visual/biohazard_symbol.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
@@ -355,7 +355,7 @@ collectionData = {
     {
         "type": "visual",
         "title": "Vaccine vial",
-        "image": "./assets/visual/vial.png",
+        "image": "./assets/visual/vaccine_vial.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Vaccines are contained in little vials, these containers are used as a symbol associated with the syringe on many products."
     },
@@ -364,7 +364,7 @@ collectionData = {
     {
         "type": "visual",
         "title": "Band aid",
-        "image": "./assets/visual/bandAid.png",
+        "image": "./assets/visual/band_aid.png",
         "coverImage": "https://m.media-amazon.com/images/I/714xgJVtsuL._AC_UL320_.jpg",
         "text": "A band aid is put on the arm after vaccination, this element becomes a symbol for the vaccination campaign and is combined with a tick to shape a “V” of vaccine or a heart."
     },
@@ -373,7 +373,7 @@ collectionData = {
     {
         "type": "visual",
         "title": "Caduceus",
-        "image": "./assets/visual/pharmacy.png",
+        "image": "./assets/visual/caduceus.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "The caduceus, a staff with two snakes coiled around it, is the official insignia of the United States Medical Corps. It is displayed on medical alert bracelets for various diseases, now it is also used to communicate the covid vaccination."
     },
@@ -382,7 +382,7 @@ collectionData = {
     {
         "type": "visual",
         "title": "Red cross",
-        "image": "./assets/visual/redCross.png",
+        "image": "./assets/visual/red_cross.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "The international red cross symbol is associated worldwide with the health field. It appears also in the vaccination campaign gadgets all around the world."
     },
@@ -391,7 +391,7 @@ collectionData = {
     {
         "type": "visual",
         "title": "Prohibition symbol",
-        "image": "./assets/visual/prohibition.png",
+        "image": "./assets/visual/prohibition_symbol.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "The prohibition symbol is widely associated with the syringe to convey anti vax messages, while sometimes is used with the virus representation to state the vaccination."
     },
@@ -418,7 +418,7 @@ collectionData = {
     {
         "type": "visual",
         "title": "Checkmark",
-        "image": "./assets/visual/checkbox.png",
+        "image": "./assets/visual/checkmark.png",
         "coverImage": "https://m.media-amazon.com/images/I/71cZ-gPZk+S._AC_UL320_.jpg",
         "text": "Vaccine is on everyone’s to do list for 2021, on objects of the vaccination campaign it is common to see a check mark to state that the vaccine has been done."
     },
@@ -427,7 +427,7 @@ collectionData = {
     {
         "type": "visual",
         "title": "We can do it",
-        "image": "./assets/visual/weCanDoIt.png",
+        "image": "./assets/visual/we_can_do_it.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "The iconic figure of a strong female war production worker from the famous American wartime poster “We can do it!” is used, in different versions, as a mascot, sometimes synthetized just with an arm."
     },
@@ -445,7 +445,7 @@ collectionData = {
     {
         "type": "visual",
         "title": "flags",
-        "image": "./assets/visual/animals.png",
+        "image": "./assets/visual/flags.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
         "text": "Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated to vaccine certificates in puns."
     },
