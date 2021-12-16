@@ -105,7 +105,7 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
     countCountries.pop();
 
     countryList = coverContainer.append('div')
-        .classed("row countries", true);
+        .classed("countries", true);
 
     for (var i = 0; i < countCountries.length; i++) {
 
