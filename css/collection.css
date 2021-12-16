@@ -85,6 +85,8 @@
   max-height: 70%;
 }
 
+/*______________________________________________________annotation*/
+
 .annotationContainer {
   height: 0;
   width: 100%;
@@ -129,7 +131,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  font-family: 'Noto sans', 'sans-serif';
+  font-family: 'Inter', sans-serif;
   color: white;
   font-weight: bold;
   font-size: 30px;
