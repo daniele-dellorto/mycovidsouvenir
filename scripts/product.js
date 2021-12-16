@@ -56,6 +56,8 @@ d3.json("data/souvenirs.json").then(function (data) {
 
             semTags.forEach(function (semTag) {
 
+                if(semTag != ""){
+
                 var linkTag = "collection.html" + "?collection=" + semTag;
 
                 semContainer.append('a')
@@ -63,9 +65,18 @@ d3.json("data/souvenirs.json").then(function (data) {
                     .attr("href", linkTag)
                     .html(semTag)
 
+                } else {
+
+                semContainer.append('a')
+                    .classed("tag blank", true)
+                    .html("-")
+                }
+
             })
 
             visTags.forEach(function (visTag) {
+
+                if(visTag != ""){
 
                 var linkTag = "collection.html" + "?collection=" + visTag;
 
@@ -73,6 +84,13 @@ d3.json("data/souvenirs.json").then(function (data) {
                     .classed("tag", true)
                     .attr("href", linkTag)
                     .html(visTag)
+
+                } else {
+    
+                    visContainer.append('a')
+                        .classed("tag blank", true)
+                        .html("-")
+                    }
 
             })
 
@@ -101,4 +119,47 @@ d3.json("data/souvenirs.json").then(function (data) {
 
     }
 
+    annotationCreate();
+
 })
+
+function annotationCreate() {
+
+    annotations.forEach(function (annotation) {
+
+        if (annotation.id == id) {
+
+            var annotationContainer = textContainer.append("div")
+                .classed("annotationContainer", true);
+
+            var annotationPin = annotationContainer.append("div")
+                .classed("annotation", true);
+
+            annotationPin.append("div");
+
+            annotationPin.append("p").html("!");
+
+            annotationContainer.append("div")
+                .classed("annotationText  hideAnnotation", true)
+                .html(annotation.text)
+
+            annotationPin.on("mouseover", handleMouseOver)
+                .on("mouseout", handleMouseOut);
+
+        }
+
+    })
+}
+
+function handleMouseOver(e) {
+    popUp = this.nextElementSibling;
+    popUp.classList.remove('hideAnnotation')
+    popUp.classList.add('displayAnnotation')
+
+}
+
+function handleMouseOut(e) {
+    popUp = this.nextElementSibling;
+    popUp.classList.remove('displayAnnotation')
+    popUp.classList.add('hideAnnotation')
+}

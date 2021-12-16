@@ -1,128 +1,258 @@
-#container{
-    height:84vh;
-    padding:0;
+#container {
+  height: 84vh;
+  padding: 0;
 }
 
-#prodContainer{
-    margin:5vh;
-    border: 4px solid red;
-    border-radius: 10px;
-    height: 100%;
-    overflow:hidden;
-    color:white;
+#prodContainer {
+  margin: 5vh 5vh 5vh 10vh;
+  border: 4px solid red;
+  border-radius: 10px;
+  height: 100%;
+  overflow: hidden;
+  color: white;
 }
 
-#prodContainer .col-7{
-    background-color: red;;
+#prodContainer .col-7 {
+  background-color: red;
+  ;
 }
 
-#prodContainer .col-5{
-    background-color: white;;
+#prodContainer .col-5 {
+  background-color: white;
+  ;
 }
 
-.product-image{    
-    object-fit: contain;
-    max-width: 100%;
-    max-height: 100%;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.product-image {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.flag{
-    height:1.5rem;
-    border: 2px solid white;
-    background-color: white;
-    border-radius:6px;
-    overflow:hidden;
+.flag {
+  height: 1.5rem;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 6px;
+  overflow: hidden;
 }
 
-.amazon-link{
-    position:absolute;
-    top:10px;
-    right:18px;
+.amazon-link {
+  position: absolute;
+  top: 10px;
+  right: 18px;
 }
 
-#prodImg{
-    background-color:white;
+#prodImg {
+  background-color: white;
 }
 
-.tag{
-    font-family: 'Noto Sans mono', 'monospace';
-    font-weight: 600;
-    padding:5px;
-    border: 2px solid white;
-    border-radius:10px;
-    color:white;
-    margin:0 1rem 1rem 0;
+.tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  padding: 5px;
+  border: 3px solid white;
+  border-radius: 10px;
+  color: white;
+  margin: 0 1rem 1rem 0;
+  display: inline-block;
+  font-size: 1rem;
 }
 
-.tag:hover{
-    border: 2px solid black;
-    color:black;
-    text-decoration: none;
+.tag:hover {
+  border: 3px solid black;
+  color: black;
+  text-decoration: none;
 }
 
-.tag{
-    display:inline-block;
+.blank:hover {
+  border: 3px solid white !important;
+  text-decoration: none;
 }
 
-.tag-title{
-    display:block;
-    margin-bottom:1rem;
-    width:100%;
+.tag-title {
+  display: block;
+  margin-bottom: 1rem;
+  width: 100%;
 }
 
-.domain{
-    margin-left:.2rem;
-    font-family: 'Noto Sans mono', 'monospace';
-    font-weight: 600;
-    font-size:1rem;
+.domain {
+  margin-left: .2rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
-.marketplace{
-    display:flex;
-    align-items: baseline;
-    margin:0 1rem 1rem 0;
+.marketplace {
+  display: flex;
+  align-items: baseline;
+  margin: 0 1rem 1rem 0;
 }
 
-.marketplace *{
-    display:inline-block;
+.marketplace * {
+  display: inline-block;
 }
 
-.product-tag{
-    margin-bottom:1rem;
+.product-tag {
+  margin-bottom: 1rem;
 }
 
-.product-name, .product-cat{
-    margin-bottom:1.2rem;
+.product-name {
+  margin-bottom: 1.2rem;
+  margin-top: 1rem;
 }
 
-.product-name{
-    margin-top:1rem;
-    font-size:1.8rem;
+@media only screen and (max-width: 1366px) {
+  .product-name {
+    font-size: 1.3rem;
+  }
 }
 
-.product-category{
-    margin-bottom:1.2rem;
-    font-size:1.2rem;
+@media only screen and (min-width: 1367px) {
+  .product-name {
+    font-size: 1.8rem;
+  }
 }
 
-#marketplace-container{
-    display:flex;
-    flex-wrap: wrap;
+
+
+.product-category {
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
 }
 
-.amazon-link{
-    font-family: 'Noto Sans mono', 'monospace';
-    font-weight:600;
-    color:black;
-    font-size:.8rem;
-    text-decoration: underline;
+#marketplace-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.amazon-link{
-    color:black;
-    font-size:.8rem;
+.amazon-link {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  color: black;
+  font-size: .8rem;
+  text-decoration: underline;
+}
+
+.amazon-link:hover {
+  color: red;
+}
+
+/*______________________________________________________annotation*/
+
+.annotationContainer {
+  height: 0;
+  width: 100%;
+  cursor:default;
+}
+
+.annotation {
+  width: 40px;
+  height: 40px;
+  color: red;
+  content: "";
+  background-color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.annotation:before {
+  width: 40px;
+  height: 40px;
+  color: red;
+  content: "";
+  background-color: white;
+  position: absolute;
+}
+
+.annotation:before {
+  transform: rotate(60deg);
+}
+
+.annotation div {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  position: absolute;
+  transform: rotate(-60deg);
+}
+
+.annotation p {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.annotationText {
+  max-width: 30vw;
+  border-radius: 10px;
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(-1rem, -5rem);
+  z-index: 1;
+  transition: .3s;
+  transition-delay: .1s;
+}
+
+.hideAnnotation {
+  width: 0px;
+  height: 0px;
+  min-width: 0px;
+  min-height: 0px;
+  opacity: 0;
+}
+
+.displayAnnotation {
+  width: auto;
+  height: auto;
+  min-width: 20vw;
+  min-height: 10vw;
+  opacity: 1;
+}
+
+/*______________________________________________________back button*/
+
+#goBack {
+  font-family: 'saint_regussemi_bold_expanded';
+  position: fixed;
+  height: 84vh;
+  top: 11vh;
+  left: 7vh;
+  transform: translate(-50%, 0);
+  width: 3rem;
+  border-radius: 10px;
+  border: 4px solid red;
+  background-color: white;
+  color: red;
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+}
+
+#goBack:hover {
+  border: 4px solid black;
+}
+
+#goBack:hover img {
+  filter: brightness(0%);
+}
+
+#goBack img {
+  height: 2rem;
 }

@@ -1,20 +1,85 @@
 /*______________________________________________________cover*/
 
 #coverContainer {
-  height: 70vh;
+  padding:0 6rem;
+  height:auto;
+  min-height: 75vh;
   background-color: red;
 }
 
 #coverContainer .col-6 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: left;
-  color:white;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
 }
 
-.col-6 h3{
+.col-6 h3 {
+  font-size: 1.2rem;
+  font-weight:600;
+  margin-bottom:3rem;
+}
+
+.col-6 p{
+  font-size: 1rem;
+}
+
+
+.col-6 h1, .col-6 h3, .col-6 p{
+  width:100%;
+}
+
+.collectionTitle{
+  margin:3rem 0 2rem 0;
+}
+
+.img-cover{
+  margin-top:3rem;
+}
+
+.overview{
+  font-weight:600;
+  margin-bottom:1rem;
+}
+
+.countries{
+  display:flex;
+  flex-wrap:wrap;
+  margin: 2rem 15px 0 15px;
+  align-content:flex-start;
+}
+
+.countries h3{
   font-size: 1.6rem;
+  margin-bottom:.8rem;
+}
+
+.flag{
+  height:1.2rem;
+  border: 2px solid white;
+  background-color: white;
+  border-radius:4px;
+  overflow:hidden;
+}
+
+.domain{
+  color:white;
+  margin-left:.2rem;
+  margin-right:.2rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  font-size:.8rem;
+}
+
+.marketplace{
+  display:flex;
+  align-items: baseline;
+  margin:0 2rem .8rem 0;
+}
+
+.marketplace *{
+  display:inline-block;
 }
 
 /*______________________________________________________grid*/
@@ -23,12 +88,12 @@
   padding: 0px;
 }
 
-.categoryName{
+.categoryName {
   border-top: 3px solid black;
   padding: 20px 0 60px 0
 }
 
-.categoryName h3{
+.categoryName h3 {
   margin-left: 15px;
   font-size: 2rem;
 }
@@ -42,12 +107,16 @@
   margin-bottom: 200px;
 }
 
-.collCard{
-    background-color: #fff;
-    border-radius: 10px;
-    border: 3px solid rgb(0, 0, 0);
-    padding: 10px;
-    cursor:pointer;
+.collCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 3px solid rgb(0, 0, 0);
+  padding: 10px;
+  cursor: pointer;
 }
 
 .productSize {
@@ -60,8 +129,6 @@
   max-width: 100%;
   max-height: 100%;
   position: relative;
-  align-self: center;
-  -webkit-align-self: center; 
 }
 
 .img-container {
@@ -83,12 +150,15 @@
   max-height: 70%;
 }
 
-.annotationContainer{
+/*______________________________________________________annotation*/
+
+.annotationContainer {
   height: 0;
   width: 100%;
+  cursor:default;
 }
 
-.annotation{
+.annotation {
   width: 40px;
   height: 40px;
   color: white;
@@ -100,7 +170,7 @@
   z-index: 2;
 }
 
-.annotation:before{
+.annotation:before {
   width: 40px;
   height: 40px;
   color: white;
@@ -110,8 +180,9 @@
 }
 
 .annotation:before {
-   transform: rotate(60deg);
+  transform: rotate(60deg);
 }
+
 .annotation div {
   width: 40px;
   height: 40px;
@@ -120,19 +191,19 @@
   transform: rotate(-60deg);
 }
 
-.annotation p{
+.annotation p {
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  font-family: 'Noto sans', 'sans-serif';
-  color:white;
+  font-family: 'Inter', sans-serif;
+  color: white;
   font-weight: bold;
   font-size: 30px;
 }
 
-.annotationText{
+.annotationText {
   max-width: 30vw;
   border-radius: 10px;
   padding: 10px 15px;
@@ -147,7 +218,7 @@
   transition-delay: .1s;
 }
 
-.hideAnnotation{
+.hideAnnotation {
   width: 0px;
   height: 0px;
   min-width: 0px;
@@ -155,10 +226,14 @@
   opacity: 0;
 }
 
-.displayAnnotation{
+.displayAnnotation {
   width: auto;
   height: auto;
   min-width: 20vw;
   min-height: 10vw;
   opacity: 1;
+}
+
+.whitespace{
+  height:0;
 }
