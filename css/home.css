@@ -16,11 +16,11 @@ body {
   overflow-y: scroll;
 }
 
-p {
+#main p {
   font-size: 1.5rem;
 }
 
-b{
+#main b{
   font-family: 'saint_regussemi_bold';
 }
 
