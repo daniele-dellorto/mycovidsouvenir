@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/product.css">
+  <link rel="stylesheet" href="css/catalog.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,9 +18,9 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;600;700&family=Noto+Sans:wght@400;700&display=swap"
       rel="stylesheet">
 
-      <link rel="shortcut icon" type="image/x-icon" href="favicon.svg">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.svg">
 
-  <title></title>
+  <title>My covid souvenir</title>
 </head>
 
 <body>
@@ -43,11 +43,37 @@
 
   <!-- HEADER END -->
 
-  <div class="container-fluid" id="container">
-    <div class="row" id="prodContainer">
-      <div class="col-7" id="prodText"></div>
-      <div class="col-5" id="prodImg"></div>
+  <div class="row" id="collections">
+
+    <div class="col-6 scrollBarStyle">
+
+      <div class="container-fluid homeTitle">
+        <h2>Messages</h2>
+      </div>
+
+      <div id="message-grid" class="souvenir-grid"></div>
+
     </div>
+
+    <div class="col-6 scrollBarStyle">
+
+      <div class="container-fluid homeTitle">
+        <h2>Visuals</h2>
+      </div>
+
+      <div id="visual-grid" class="souvenir-grid"></div>
+
+    </div>
+
+    <a href="collection.html?collection=leftovers" class="col-12" id="leftovers">
+    <p class="marquee">
+      <span>Click here to see all the leftover products — Click here to see all the leftover products — Click here to see all the leftover products — Click here to see all the leftover products — Click here to see all the leftover products — Click here to see all the leftover products — Click here to see all the leftover products — Click here to see all the leftover products — Click here to see all the leftover products — Click here to see all the leftover products —&nbsp;</span>
+    </p>
+    <p class="marquee marquee2">
+      <span>Click here to see all the leftover products — Click here to see all the leftover products — Click here to see all the leftover products — Click here to see all the leftover products — Click here to see all the leftover products — Click here to see all the leftover products — Click here to see all the leftover products — Click here to see all the leftover products — Click here to see all the leftover products — Click here to see all the leftover products —&nbsp;</span>
+    </p>
+  </a>
+
   </div>
 
   <!-- ******************* Utilities ******************* -->
@@ -68,7 +94,7 @@
   </script>
   <!-- Your js file -->
   <script src="data/collections.json"></script>
-  <script src="scripts/product.js"></script>
+  <script src="scripts/catalog.js"></script>
 </body>
 
 </html>
