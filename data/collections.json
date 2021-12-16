@@ -6,7 +6,7 @@ collectionData = {
         "title": "Hugs and kisses",
         "image": "./assets/semantic/hugs_and_kisses.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",        
-        "section": "products with references to physical affection such as hugs, kisses, and being close/far from one another.",
+        "section": "59 products with references to physical affection such as hugs, kisses, and being close/far from one another.",
         "text": "All products convey a positive message about vaccines and some of them have ironic connotations. The category is entirely PRO-VAX."
     },
 
@@ -16,7 +16,7 @@ collectionData = {
         "title": "If you can read this",
         "image": "./assets/semantic/if_you_can_read_this.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section": "products that convey a message to the person that is reading the words printed on it.",
+        "section": "20 products that convey a message to the person that is reading the words printed on it.",
         "text": "The category is about social distancing. The majority of products have a message stating that if the text is readable to you, you are too close to the wearer/owner. There are no ANTI-VAX."
     },
 
@@ -26,7 +26,7 @@ collectionData = {
         "title": "Social distancing champion",
         "image": "./assets/semantic/social_distance_champion.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"products that state how good the wearer is at social distancing and/or that invite the reader to stay away from the wearer.",
+        "section":"67 products that state how good the wearer is at social distancing and/or that invite the reader to stay away from the wearer.",
         "text":"There are no ANTI-VAX products."
     },
 
@@ -36,7 +36,7 @@ collectionData = {
         "title": "Kinky COVID",
         "image": "./assets/semantic/kinky_covid.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":" products containing sexual references or innuendoes.",
+        "section":"29 products containing sexual references or innuendoes.",
         "text":"The products convey a message that has sexual underlining. The majority of them state that the wearer/owner is either ready to engage in sexual practices or that they are pregnant with a baby conceived during the pandemic. 14 out of 29 products come from the french marketplace."
     },
 
@@ -46,7 +46,7 @@ collectionData = {
         "title": "Look I'm vaccinated",
         "image": "./assets/semantic/look_im_vaccinated.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"products announcing that the wearer/owner has had either one or two doses of the COVID vaccine.",
+        "section":"992 products announcing that the wearer/owner has had either one or two doses of the COVID vaccine.",
         "text":"All products are PRO-VAX and state in both direct and subtle ways that the wearer is vaccinated."
     },
 
@@ -56,7 +56,7 @@ collectionData = {
         "title": "I got the shot",
         "image": "./assets/semantic/i_got_the_shot.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":" products containing the formula I GOT + THE SHOT or close variations intended as a vaccine shot.",
+        "section":"108 products containing the formula I GOT + THE SHOT or close variations intended as a vaccine shot.",
         "text":"All products are PRO-VAX and 37 out of 106 are from the Netherlands."
     },
 
@@ -66,7 +66,7 @@ collectionData = {
         "title": "Keep calm",
         "image": "./assets/semantic/keep_calm.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"products containing the English motto 'Keep calm and [...]', references to 'peace & love' or phrases from the same semantic area stating intention or urging the reader to relax.",
+        "section":"39 products containing the English motto 'Keep calm and [...]', references to 'peace & love' or phrases from the same semantic area stating intention or urging the reader to relax.",
         "text":"The majority of products reference the 'Keep calm and' British motivational poster. Only one item is ANTI-VAX, the rest are PRO-VAX."
     },
 
@@ -76,7 +76,7 @@ collectionData = {
         "title": "Vaccines cause adults",
         "image": "./assets/semantic/vaccines_cause_adults.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"products containing the claim 'Vaccines cause adults' or very close variations of the phrase.",
+        "section":"55 products containing the claim 'Vaccines cause adults' or very close variations of the phrase.",
         "text":"The general message of this category implies that the maturity of an adult is synonymous with the willingness to be vaccinated.  All the products are PRO-VAX."
     },
 
@@ -86,7 +86,7 @@ collectionData = {
         "title": "No vaccine against stupidity",
         "image": "./assets/semantic/no_vaccine_against_stupidity.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"products stating there is a link between being stupid and not wanting to be vaccinated.",
+        "section":"13 products stating there is a link between being stupid and not wanting to be vaccinated.",
         "text":"All products are PRO-VAX."
     },
 
@@ -96,7 +96,7 @@ collectionData = {
         "title": "Jesus is my vaccine",
         "image": "./assets/semantic/jesus_is_my_vaccine.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"products stating that the wearer/owner does not need a vaccine since they have Jesus.",
+        "section":"19 products stating that the wearer/owner does not need a vaccine since they have Jesus.",
         "text":"The majority of products claim 'Jesus is my vaccine', only a few state that Jesus was not vaccinated.  They are all ANTI-VAX and 13 out of 19 of them are from the US."
     },
 
@@ -106,7 +106,7 @@ collectionData = {
         "title": "Merry (COVID) Xmas",
         "image": "./assets/semantic/merry_covid_xmas.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"products about Christmas.",
+        "section":"27 products about Christmas.",
         "text":""
     },
 
@@ -116,7 +116,7 @@ collectionData = {
         "title": "Pandemic politics",
         "image": "./assets/semantic/pandemic_politics.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"products with messages linked to any kind of political ideology.",
+        "section":"22 products with messages linked to any kind of political ideology.",
         "text":"12 out of 22 products are PRO-MANDATES and/or VAX, and 10 are ANTI-MANDATES and/or VAX."
     },
 
@@ -126,7 +126,7 @@ collectionData = {
         "title": "My body my choice",
         "image": "./assets/semantic/my_body_my_choice.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"products containing the claim “MY BODY MY CHOICE” or very close semantic transpositions of the concept.",
+        "section":"38 products containing the claim “MY BODY MY CHOICE” or very close semantic transpositions of the concept.",
         "text":"The majority of products display a syringe with a prohibition symbol on top.All the collection is ANTI-VAX."
     },
 
