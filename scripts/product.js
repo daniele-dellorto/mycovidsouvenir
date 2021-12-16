@@ -27,7 +27,7 @@ d3.json("data/souvenirs.json").then(function (data) {
                 .classed("amazon-link", true)
                 .attr("href", data[i].link)
                 .attr("target", "_blank")
-                .html("link")
+                .html("Link to Amazon ↗")
 
             let semContainer = textContainer.append('div')
                 .classed("product-tag", true)

@@ -31,17 +31,17 @@
 }
 
 .flag{
-    height:2rem;
+    height:1.5rem;
     border: 2px solid white;
     background-color: white;
-    border-radius:8px;
+    border-radius:6px;
     overflow:hidden;
 }
 
 .amazon-link{
     position:absolute;
     top:10px;
-    right:10px;
+    right:18px;
 }
 
 #prodImg{
@@ -112,4 +112,17 @@
 #marketplace-container{
     display:flex;
     flex-wrap: wrap;
+}
+
+.amazon-link{
+    font-family: 'Noto Sans mono', 'monospace';
+    font-weight:600;
+    color:black;
+    font-size:.8rem;
+    text-decoration: underline;
+}
+
+.amazon-link{
+    color:black;
+    font-size:.8rem;
 }
