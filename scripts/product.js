@@ -56,6 +56,8 @@ d3.json("data/souvenirs.json").then(function (data) {
 
             semTags.forEach(function (semTag) {
 
+                if(semTag != ""){
+
                 var linkTag = "collection.html" + "?collection=" + semTag;
 
                 semContainer.append('a')
@@ -63,9 +65,18 @@ d3.json("data/souvenirs.json").then(function (data) {
                     .attr("href", linkTag)
                     .html(semTag)
 
+                } else {
+
+                semContainer.append('a')
+                    .classed("tag blank", true)
+                    .html("-")
+                }
+
             })
 
             visTags.forEach(function (visTag) {
+
+                if(visTag != ""){
 
                 var linkTag = "collection.html" + "?collection=" + visTag;
 
@@ -73,6 +84,13 @@ d3.json("data/souvenirs.json").then(function (data) {
                     .classed("tag", true)
                     .attr("href", linkTag)
                     .html(visTag)
+
+                } else {
+    
+                    visContainer.append('a')
+                        .classed("tag blank", true)
+                        .html("-")
+                    }
 
             })
 

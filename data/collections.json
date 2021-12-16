@@ -136,7 +136,7 @@ collectionData = {
         "title": "Fuck COVID",
         "image": "./assets/semantic/fuck_covid.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"products containing the claim “FUCK COVID” or very close semantic transpositions of the concept.",
+        "section":"16 products containing the claim “FUCK COVID” or very close semantic transpositions of the concept.",
         "text":"8 out of 16 products are PRO-VAX and/or PRO-MANDATE while the rest are NEUTRAL. Very few of them censor the word “FUCK”."
     },
 
@@ -146,7 +146,7 @@ collectionData = {
         "title": "Best doctor/nurse",
         "image": "./assets/semantic/best_doctor_nurse.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"products that contain references to healthcare jobs.",
+        "section":"37 products that contain references to healthcare jobs.",
         "text":" The products are either used to say that the wearer/owner has a healthcare profession or as a way to express gratitude to those that do. The majority of them are PRO-VAX, only 2 are ANTI-VAX while the rest are neutral."
     },
 
@@ -156,7 +156,7 @@ collectionData = {
         "title": "Best (COVID) teacher",
         "image": "./assets/semantic/best_covid_teacher.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"products stating that the wearer/owner is a teacher.",
+        "section":"14 products stating that the wearer/owner is a teacher.",
         "text":"9 out of 14 products are PRO-VAX and/or PRO-MASK, the rest are neutral. 12 out of 15 products are from Spain."
     },
 
@@ -166,7 +166,7 @@ collectionData = {
         "title": "Pandemic drinking",
         "image": "./assets/semantic/pandemic_drinking.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"products containing puns or references about alcohol or very close semantic transpositions of the concept.",
+        "section":"41 products containing puns or references about alcohol or very close semantic transpositions of the concept.",
         "text":"Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated with vaccine certificates in puns. All products are PRO-VAX and/or PRO-MANDATE, 15 out of 39 are from Italy."
     },
 
@@ -176,7 +176,7 @@ collectionData = {
         "title": "I have my immune system",
         "image": "./assets/semantic/i_have_my_immune_system.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"Objects stating that the wearer/owner does not need a vaccine because their immune system is already enough.",
+        "section":"15 products stating that the wearer/owner does not need a vaccine because their immune system is already enough.",
         "text":"The majority of products state 'NO VACCINE NEEDED I HAVE AN IMMUNE SYSTEM'.All products are ANTI-VAX and 10 out of 15 are from the US."
     },
 
@@ -186,7 +186,7 @@ collectionData = {
         "title": "No fear no vax",
         "image": "./assets/semantic/no_fear_no_vax.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"products with a message about fear and/or not being afraid.",
+        "section":"10 products with a message about fear and/or not being afraid.",
         "text":"Words are often used as or near US flag stripes.  All products are ANTI-VAX, as the title implies."
     },
 
@@ -196,7 +196,7 @@ collectionData = {
         "title": "Freedom fighters",
         "image": "./assets/semantic/freedom_fighters.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"products with messages related to freedom and the unwillingness to comply with COVID mandates.",
+        "section":"56 products with messages related to freedom and the unwillingness to comply with COVID mandates.",
         "text":"The message of these products aproaches COVID mandates as a freedom movement would against a totalitarian regime. 26 out of 56 products are from the US."
     },
 
@@ -206,7 +206,7 @@ collectionData = {
         "title": "No COVID passport",
         "image": "./assets/semantic/no_covid_passport.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":" products about the unwillingness to comply with any kind of 'COVID passport'.",
+        "section":"61 products about the unwillingness to comply with any kind of 'COVID passport'.",
         "text":"All products are t-shirts and are ANTI-MANDATE, as per title. 33 out of 61 of them are from Italy, 23 from Germany."
     },
 
@@ -216,7 +216,7 @@ collectionData = {
         "title": "Save lives",
         "image": "./assets/semantic/save_lives.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"products that contain 'save lives'",
+        "section":"22 products that contain 'save lives'",
         "text":"All products are PRO-VAX."
     },
 
@@ -226,7 +226,7 @@ collectionData = {
         "title": "Flatter than earth",
         "image": "./assets/semantic/flatter_than_earth.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"products containing the phrase “The only thing that is flatter than the earth is an anti-vax child's EKG.”",
+        "section":"10 products containing the phrase “The only thing that is flatter than the earth is an anti-vax child's EKG.”",
         "text":"In 6 of the products  there are spelling mistakes such as “The ONLYTHING that…”.The majority of this category's products are from the US."
     },
 
@@ -236,7 +236,7 @@ collectionData = {
         "title": "COVID conspiracy",
         "image": "./assets/semantic/covid_conspiracy.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"products with messages that are linked to one or more conspiracy theories, in both an ironic and in an un-ironic way.",
+        "section":"42 products with messages that are linked to one or more conspiracy theories, in both an ironic and in an un-ironic way.",
         "text":"References to conspiracy theories are used on objects to either support or mock that particular conspiracy. 13 products out of 41 are PRO-VAX, and the remaining 28 are ANTI-VAX and/or ANTI-MANDATE. The majority of products are from the US and Canada."
     },
 
@@ -246,7 +246,7 @@ collectionData = {
         "title": "Thanks science",
         "image": "./assets/semantic/thanks_science.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"products that contain references to science.",
+        "section":"64 products that contain references to science.",
         "text":"The majority of products convey messages about science in either an appreciative or thankful way. Only one item is ANTI-VAX, the rest are PRO-VAX."
     },
 
@@ -256,7 +256,7 @@ collectionData = {
         "title": "Look I'm ANTI-VAX",
         "image": "./assets/semantic/look_im_antivax.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"Products that convey the message that the wearer/owner is ANTI-VAX and ANTI-MANDATES.",
+        "section":"124 products that convey the message that the wearer/owner is ANTI-VAX and ANTI-MANDATES.",
         "text":""
     },
 
@@ -266,7 +266,7 @@ collectionData = {
         "title": "Happy (COVID) birthday",
         "image": "./assets/semantic/happy_covid_birthday.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"Products with references to birthdays.",
+        "section":"11 products with references to birthdays.",
         "text":""
     },
 
@@ -276,7 +276,7 @@ collectionData = {
         "title": "I survived",
         "image": "./assets/semantic/i_survived.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"Products depicting the negative impact of the pandemic on their 2020 birthday. Their picture is either a happy person or a sad person, next to a birthday cake.",
+        "section":"39 products depicting the negative impact of the pandemic on their 2020 birthday. Their picture is either a happy person or a sad person, next to a birthday cake.",
         "text":"All products are NEUTRAL, 5 out 11 of them are from Mexico."
     },
 
@@ -296,7 +296,7 @@ collectionData = {
         "title": "COVID palette",
         "image": "./assets/visual/covid_palette.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"Products containing the 'covid palette': a combination of red, yellow, and light blue.",
+        "section":"27 products containing the 'covid palette': a combination of red, yellow, and light blue.",
         "text":"The palette can be used in texts as well as in striped backgrounds. 14 out of 81 products are ANTI -VAX, the rest are PRO-VAX."
     },
 
@@ -306,7 +306,7 @@ collectionData = {
         "title": "Stars and stripes",
         "image": "./assets/visual/stars_and_stripes.png",
         "coverImage": "https://m.media-amazon.com/images/I/61jEDL1sNTL._AC_UL320_.jpg",
-        "section":"Products containing the stars and stripes motif or colors of the USA flag.",
+        "section":"182 products containing the stars and stripes motif or colors of the USA flag.",
         "text":"This symbol is used worldwide for polarized messages on both sides, promoting the PRO-VAX campaign as well as empowering ANTI-VAX slogans. ANTI-VAX products are prevalent and their main message deal with freedom, fear, and politics."
     },
 
@@ -316,7 +316,7 @@ collectionData = {
         "title": "QR",
         "image": "./assets/visual/qr.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"Products containing a QR CODE.",
+        "section":"40 products containing a QR CODE.",
         "text":"This category considers products with COVID-related QR codes and usually convey ANTI-MANDATE messages. Out of 40 products, only one is PRO-VAX. 15 products are from Italy and 19 of them are from Germany."
     },
 
@@ -326,7 +326,7 @@ collectionData = {
         "title": "Mask",
         "image": "./assets/visual/mask.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"Products containing representations of surgical masks.",
+        "section":"152 products containing representations of surgical masks.",
         "text":"The mask can be displayed worn by humanized figures, animals, emojis as well as in stand-alone. The majority of products in this category are PRO-MANDATE."
     },
 
@@ -336,7 +336,7 @@ collectionData = {
         "title": "Firearms",
         "image": "./assets/visual/firearms.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"Products containing visual references to firearms.",
+        "section":"8 products containing visual references to firearms.",
         "text":"Guns are used both as a symbol PRO-VAX and ANTI-VAX, but with a different connotation. ANTI-VAX products convey the firearm as a symbol of protection, whereas in PRO-VAX products guns mean danger."
     },
 
@@ -346,7 +346,7 @@ collectionData = {
         "title": "Skull",
         "image": "./assets/visual/skull.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"Products containing a skull or other skeletal parts.",
+        "section":"15 products containing a skull or other skeletal parts.",
         "text":"The skull is predominantly used to create a negative visual connection with the message enclosed.Most of the products in this section are from Germany and The Netherlands. The objects with german writings display ANTI-VAX messages and use the skull as a symbol of ANTI-MANDATE."
     },
 
@@ -356,7 +356,7 @@ collectionData = {
         "title": "Middle finger",
         "image": "./assets/visual/middle_finger.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"Products containing a hand doing the middle finger.",
+        "section":"38 products containing a hand doing the middle finger.",
         "text":"The middle finger is used on all products as a sign of strong opposition. While few products use this representation to convey an ANTI-MANDATE message, most of them display ANTI-VAX messages. The majority of products are sold on amazon.de. 24 out of 38 products also contain the QR code visual."
     },
 
@@ -366,7 +366,7 @@ collectionData = {
         "title": "Virus shape",
         "image": "./assets/visual/virus_shape.png",
         "coverImage": "https://m.media-amazon.com/images/I/81l0E8vu4FS._AC_UL320_.jpg",
-        "section":"Products containing the shape or silhouette of a virus, a spiked sphere.",
+        "section":"224 products containing the shape or silhouette of a virus, a spiked sphere.",
         "text":"It is mainly used as a decorative or background element. It can also be represented as an enemy to destroy, giving it a face and occasionally arms and legs, and pairing him with pro-vax slogans. Just three anti-vax products display this shape. The majority of products are PRO-VAX."
     },
 
@@ -376,7 +376,7 @@ collectionData = {
         "title": "Biohazard symbol",
         "image": "./assets/visual/biohazard_symbol.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"Products containing the biohazard symbol.",
+        "section":"25 products containing the biohazard symbol.",
         "text":"This symbol was developed in 1966 by Charles Baldwin, an environmental-health engineer, and is used in the labeling of biological materials that carry a significant health risk. 10 Out of 25 products are from the Netherlands, 8 from the UK, and 6 from Sweden. The majority of them are ANTI-VAX, the few that remain are NEUTRAL."
     },
 
@@ -386,7 +386,7 @@ collectionData = {
         "title": "Syringe",
         "image": "./assets/visual/syringe.png",
         "coverImage": "https://m.media-amazon.com/images/I/31iuQYRscuL._AC_UL320_.jpg",
-        "section":"Products containing any kind of syringe.",
+        "section":"702 products containing any kind of syringe.",
         "text":"It is widely used in the vaccine campaign as a synonym of hope while supporting ANTI-VAX messages when associated with the prohibition symbol. In this collection there is a good balance between PRO-VAX and ANTI-VAX products."
     },
 
@@ -396,7 +396,7 @@ collectionData = {
         "title": "Vaccine vial",
         "image": "./assets/visual/vaccine_vial.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"Products containing the representation of a vaccine vial.",
+        "section":"87 products containing the representation of a vaccine vial.",
         "text":"These containers are used as a symbol associated with the syringe on many products, both pro-vax and anti-vax. The majority of products are PRO-VAX, a few are ANTI-VAX and the rest are NEUTRAL."
     },
 
@@ -416,7 +416,7 @@ collectionData = {
         "title": "Caduceus",
         "image": "./assets/visual/caduceus.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"Products containing the caduceus.",
+        "section":"207 products containing the caduceus.",
         "text":"The caduceus, a staff with two snakes coiled around it, comes from Greek mythology and is often used as a symbol of healthcare organizations and medical practice, particularly in the US (it is the official insignia of the United States Medical Corps). The symbol is displayed on medical alert bracelets for various diseases and is mostly used to communicate that the wearer/owner is vaccinated. All products are PRO-VAX and the majority are from Germany."
     },
 
@@ -426,7 +426,7 @@ collectionData = {
         "title": "Red cross",
         "image": "./assets/visual/red_cross.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"Products containing the Red Cross symbol or any other visual element related to it.",
+        "section":"71 products containing the Red Cross symbol or any other visual element related to it.",
         "text":"The international red cross symbol is commonly associated with healthcare. It is mostly used with a positive connotation in vaccination campaigns around the globe. However, some products use it as something to fight against. Only 2 products are ANTI-VAX, the rest are all PRO-VAX."
     },
 
@@ -436,7 +436,7 @@ collectionData = {
         "title": "Prohibition symbol",
         "image": "./assets/visual/prohibition_symbol.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"Products containing the prohibition symbol, a circle with a backslash.",
+        "section":"119 products containing the prohibition symbol, a circle with a backslash.",
         "text":"The prohibition symbol is often used in combination with a syringe to convey ANTI-VAX messages, however, it is also used in combination with the virus symbol to state that the wearer/owner is vaccinated. The majority of products are ANTI-VAX."
     },
 
@@ -446,7 +446,7 @@ collectionData = {
         "title": "Animals",
         "image": "./assets/visual/animals.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"Products containing any kind of animal.",
+        "section":"100 products containing any kind of animal.",
         "text":" While animals, in general, can be used as a cheerful element in the vaccination campaign, some of them can have completely different meanings, such as lab rats or vaccinated sheep."
     },
 
@@ -456,7 +456,7 @@ collectionData = {
         "title": "People",
         "image": "./assets/visual/people.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"Products containing any kind of figure recognizable as a human.",
+        "section":"103 products containing any kind of figure recognizable as a human.",
         "text":"People pictured can be healthcare professionals, politicians, pop culture characters, stick figures, or emojis. The majority of products are PRO-VAX, some are NEUTRAL and a few are ANTI-VAX."
     },
 
@@ -466,7 +466,7 @@ collectionData = {
         "title": "Checkmark",
         "image": "./assets/visual/checkmark.png",
         "coverImage": "https://m.media-amazon.com/images/I/71cZ-gPZk+S._AC_UL320_.jpg",
-        "section":"Products containing a checkmark symbol or a checkbox.",
+        "section":"357 products containing a checkmark symbol or a checkbox.",
         "text":"The cherckmark and/or checkbox are used next to words such as 'VACCINATED' or 'UNVACCINATED'. They convey different messages based on the text and the status of the checkbox. The symbol is often used as a 'V' in 'VACCINATED', or associated to a band-aid. The majority of products are PRO-VAX."
     },
 
@@ -476,7 +476,7 @@ collectionData = {
         "title": "We can do it",
         "image": "./assets/visual/we_can_do_it.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"Products containing the 'we can do it' slogan or figures closely associated with it.",
+        "section":"27 products containing the 'we can do it' slogan or figures closely associated with it.",
         "text":"The iconic figure of a strong female war production worker from the famous American wartime poster “We can do it!” is used in different versions, sometimes summarised with an arm. The figure is used as a symbol of resistance against the virus, as a mascot for the vaccine but also as an emblem of the anti-vax opposition. The majority of products are PRO-VAX, but a few are ANTI-VAX."
     },
 
@@ -486,7 +486,7 @@ collectionData = {
         "title": "Heart",
         "image": "./assets/visual/heart.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"Products containing any kind of heart symbol.",
+        "section":"70 products containing any kind of heart symbol.",
         "text":" The heart is often used to add and convey affection to the message it comes with. There is only one ANTI-VAX item, the majority are PRO-VAX and the rest are NEUTRAL. 35 out of 72 them are pins."
     },
 
@@ -496,7 +496,7 @@ collectionData = {
         "title": "flags",
         "image": "./assets/visual/flags.png",
         "coverImage": "https://m.media-amazon.com/images/I/71c-9CMmZvL._AC_SL1500_.jpg",
-        "section":"Products containing national flags, except the US one.",
+        "section":"26 products containing national flags, except the US one.",
         "text":"The flag, in combination with any kind of message, gives the item patriotic and/or nationalistic connotations. The majority of products are ANTI-VAX, the rest are PRO-VAX and NEUTRAL.17 out of 26 are from Italy."
     },
 
@@ -506,7 +506,7 @@ collectionData = {
         "title": "leftovers",
         "image": "",
         "coverImage": "",
-        "section":"These are the products that did not fit either in visuals or messages collections",
+        "section":"These are the 43 products that did not fit either in visuals or messages collections",
         "text": ""
     }
 }
