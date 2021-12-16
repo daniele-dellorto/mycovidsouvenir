@@ -152,6 +152,7 @@
 .annotationContainer {
   height: 0;
   width: 100%;
+  cursor:default;
 }
 
 .annotation {
