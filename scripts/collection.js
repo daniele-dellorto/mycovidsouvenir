@@ -19,16 +19,16 @@ coverTxt.append("h1")
 let coverIntro = coverTxt.append("h3")
     .html(collectionData[collection].section)
 
-    if(collectionData[collection].text != ""){
+if (collectionData[collection].text != "") {
 
-coverTxt.append("p")
-    .classed("overview", true)
-    .html("Overview:")
+    coverTxt.append("p")
+        .classed("overview", true)
+        .html("Overview:")
 
-coverTxt.append("p")
-    .html(collectionData[collection].text)
+    coverTxt.append("p")
+        .html(collectionData[collection].text)
 
-    }
+}
 
 let coverImg = coverContainer.append('div')
     .classed("col-6", true);
@@ -106,6 +106,10 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
 
     countryList = coverContainer.append('div')
         .classed("countries", true);
+
+    countryList.append("p")
+        .classed("marketplace-title", true)
+        .html("Products in this collection sold on each Amazon marketplace:")
 
     for (var i = 0; i < countCountries.length; i++) {
 
