@@ -55,10 +55,40 @@
     border: 2px solid white;
     border-radius:10px;
     color:white;
+    margin:0 1rem 1rem 0;
 }
 
 .tag:hover{
     border: 2px solid black;
     color:black;
     text-decoration: none;
+}
+
+.tag{
+    display:inline-block;
+}
+
+.tag-title{
+    display:block;
+    margin-bottom:1rem;
+}
+
+.marketplace{
+    display:inline-block;
+}
+
+.marketplace *{
+    display:inline-block;
+}
+
+.product-tag{
+    margin-bottom:1rem;
+}
+
+.product-name, .product-cat{
+    margin-bottom:1.2rem;
+}
+
+.product-category{
+    margin-bottom:1.2rem;
 }
