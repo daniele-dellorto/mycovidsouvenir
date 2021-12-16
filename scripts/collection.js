@@ -150,6 +150,9 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
                     card.append("img")
                         .classed("thumbImg", true)
                         .attr("src", object.image)
+
+                    card.append("div")
+                        .classed("whitespace", true);
                 }
             }
         }
