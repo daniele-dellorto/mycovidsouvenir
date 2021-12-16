@@ -17,7 +17,7 @@ d3.json("data/souvenirs.json").then(function (data) {
 
             textContainer.append('h3')
                 .classed("product-category", true)
-                .html(data[i].category)
+                .html("Product category: " + data[i].category)
 
             imgContainer.append('img')
                 .classed("product-image", true)
@@ -34,40 +34,48 @@ d3.json("data/souvenirs.json").then(function (data) {
 
             semContainer.append("p")
                 .classed("tag-title", true)
-                .html("messages: ")
+                .html("Messages: ")
 
             let visContainer = textContainer.append('div')
                 .classed("product-tag", true)
-    
+
             visContainer.append("p")
                 .classed("tag-title", true)
-                .html("visuals: ")
+                .html("Visuals: ")
+
+            let marketplaceContainer = textContainer.append('div')
+                .classed("product-tag", true)
+                .attr("id", "marketplace-container")
+
+            marketplaceContainer.append("p")
+                .classed("tag-title", true)
+                .html("Amazon marketplaces: ")
 
             semTags = data[i].semantic.split(', ').map(s => s.toLowerCase());
             visTags = data[i].visual.split(', ').map(s => s.toLowerCase());
 
-            semTags.forEach(function (semTag) {                
+            semTags.forEach(function (semTag) {
 
                 var linkTag = "collection.html" + "?collection=" + semTag;
 
                 semContainer.append('a')
-                    .classed("tag", true)                    
+                    .classed("tag", true)
                     .attr("href", linkTag)
                     .html(semTag)
 
             })
 
-            visTags.forEach(function (visTag) {                
+            visTags.forEach(function (visTag) {
 
                 var linkTag = "collection.html" + "?collection=" + visTag;
 
                 visContainer.append('a')
-                    .classed("tag", true)                    
+                    .classed("tag", true)
                     .attr("href", linkTag)
                     .html(visTag)
 
             })
-            
+
             countries = data[i].country.split(', ').map(s => s.toLowerCase());
 
             countries.forEach(function (country) {
@@ -75,7 +83,7 @@ d3.json("data/souvenirs.json").then(function (data) {
                 noDots = country.split(".").join("");
                 flagLink = "./assets/svg/" + noDots + ".svg";
 
-                let marketplace = textContainer.append('div')
+                let marketplace = marketplaceContainer.append('div')
                     .classed("marketplace", true)
 
                 marketplace.append('img')
