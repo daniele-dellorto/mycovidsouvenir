@@ -16,8 +16,12 @@ coverTxt.append("h1")
     .classed("collectionTitle", true)
     .html(collectionData[collection].title)
 
-coverTxt.append("h3")
+let coverIntro = coverTxt.append("h3")
     .html(collectionData[collection].section)
+
+coverTxt.append("p")
+    .classed("overview", true)
+    .html("Overview:")
 
 coverTxt.append("p")
     .html(collectionData[collection].text)
@@ -97,12 +101,29 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
     countCountries.pop();
 
     countryList = coverContainer.append('div')
-        .classed("row", true);
+        .classed("row countries", true);
 
     for (var i = 0; i < countCountries.length; i++) {
+
         name = countCountries[i].name
         value = countCountries[i].value
-        countryList.append('p').html(name + ": " + value)
+        noDots = name.split(".").join("");
+        flagLink = "./assets/svg/" + noDots + ".svg";
+
+        let countryContainer = countryList.append('div')
+            .classed('marketplace', true)
+
+        countryContainer.append('h3')
+            .classed("domain", true)
+            .html(value)
+
+        countryContainer.append('img')
+            .classed("flag", true)
+            .attr("src", flagLink)
+
+        countryContainer.append('p')
+            .classed("domain", true)
+            .html(name)
     }
 
 
@@ -141,7 +162,7 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
 
                     var card = typeContainer.append('div')
                         .classed("collCard productSize", true)
-                        .attr('id','prod' + object.id)
+                        .attr('id', 'prod' + object.id)
                         .attr('onclick', "window.open('product.html?id=' + " + object.id + ", '_self')")
 
                     card.append("div")
@@ -172,26 +193,27 @@ function annotationCreate() {
         var annotationContainer = annotatedProduct.select(".annotationContainer");
 
         var annotationPin = annotationContainer.append("div")
-                                            .classed("annotation", true);
+            .classed("annotation", true);
         annotationPin.append("div");
         annotationPin.append("p").html("!");
         annotationContainer.append("div")
-                    .classed("annotationText  hideAnnotation",true)
-                    .html(annotation.text)
+            .classed("annotationText  hideAnnotation", true)
+            .html(annotation.text)
 
         annotationPin.on("mouseover", handleMouseOver)
-                  .on("mouseout", handleMouseOut);
+            .on("mouseout", handleMouseOut);
     })
 }
 
 function handleMouseOver(e) {
-  popUp = this.nextElementSibling;
-  popUp.classList.remove('hideAnnotation')
-  popUp.classList.add('displayAnnotation')
+    popUp = this.nextElementSibling;
+    popUp.classList.remove('hideAnnotation')
+    popUp.classList.add('displayAnnotation')
 
 }
+
 function handleMouseOut(e) {
-  popUp = this.nextElementSibling;
-  popUp.classList.remove('displayAnnotation')
-  popUp.classList.add('hideAnnotation')
+    popUp = this.nextElementSibling;
+    popUp.classList.remove('displayAnnotation')
+    popUp.classList.add('hideAnnotation')
 }
