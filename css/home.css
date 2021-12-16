@@ -1,0 +1,97 @@
+#cover {
+  height: 100vh;
+  background-color: red;
+}
+
+#logo_cover{
+  width: 25vw;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -75%);
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+b{
+  font-family: 'saint_regussemi_bold';
+}
+
+.spacer-small {
+  height: 4rem;
+  width: 100%;
+}
+
+.spacer-medium {
+  height: 10rem;
+  width: 100%;
+}
+
+.spacer-big {
+  height: 25rem;
+  width: 100%;
+}
+
+.products_stripe {
+  display: flex;
+}
+
+.collCard {
+  width: 20vw;
+  height: 20vw;
+  padding: 20px;
+}
+
+.thumbImg {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  align-self: center;
+  -webkit-align-self: center;
+}
+
+.souvenir-img {
+  width: 10rem;
+  position: absolute;
+}
+
+#italy {
+  left: 10vw;
+  top: 2vw;
+  transform: rotate(20deg);
+}
+
+#usa {
+  left: 20vw;
+  top: -15vw;
+  transform: rotate(10deg);
+}
+
+#carousel {
+  height: 400px;
+  overflow-y: hidden;
+  border: 3px black solid;
+  border-radius: 10px;
+}
+
+#surf_the_catalog button{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-family: 'saint_regussemi_bold';
+  font-size: 2rem;
+  border: none;
+}

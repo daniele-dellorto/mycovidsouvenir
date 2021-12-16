@@ -68,7 +68,7 @@ body{
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 3;
   height: 6vh;
   background-color: white;
   border-bottom: 3px solid black;
@@ -218,7 +218,7 @@ footer li {
     line-height: 1.5;
 }
 
-#contacts p{  
+#contacts p{
   margin-bottom: 2rem;
 }
 
