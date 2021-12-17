@@ -7,26 +7,18 @@
   background-color: red;
 }
 
-#coverContainer .col-6 {
+#coverContainer .col-5, #coverContainer .col-7 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   color: white;
+  height:fit-content;
 }
 
-.col-6 h3 {
-  font-size: 1.2rem;
-  font-weight:600;
-  margin-bottom:3rem;
-}
+/*text*/
 
-.col-6 p{
-  font-size: 1rem;
-}
-
-
-.col-6 h1, .col-6 h3, .col-6 p{
+.col-5 *{
   width:100%;
 }
 
@@ -34,8 +26,17 @@
   margin:3rem 0 2rem 0;
 }
 
-.img-cover{
-  margin-top:3rem;
+#coverContainer h3 {
+  font-size: 1.4rem;
+}
+
+.col-5 h3{  
+  font-weight:600;
+  margin-bottom:3rem;
+}
+
+#coverContainer p{
+  font-size: 1rem;
 }
 
 .overview{
@@ -43,9 +44,28 @@
   margin-bottom:1rem;
 }
 
+/*image*/
+
+.img-cover{
+  margin-top:3rem;
+  max-width:50vh;
+  height:auto;
+}
+
+/*marketplaces*/
+
+.marketplace{
+  display:flex;
+  align-items: baseline;
+  margin:0 2rem .8rem 0;
+}
+
+.marketplace *{
+  display:inline-block;
+}
+
 .marketplace-title{
   color:white;
-  font-size: 1rem;
   font-weight:600;
   margin-bottom:1.4rem;
   width:100%;
@@ -54,12 +74,11 @@
 .countries{
   display:flex;
   flex-wrap:wrap;
-  margin: 2rem 15px 0 15px;
+  margin: 4rem 15px 0 15px;
   align-content:flex-start;
 }
 
 .countries h3{
-  font-size: 1.4rem;
   margin-bottom:.8rem;
 }
 
@@ -77,17 +96,6 @@
   margin-right:.2rem;
   font-family: 'JetBrains Mono', monospace;
   font-weight: 500;
-  font-size:.8rem;
-}
-
-.marketplace{
-  display:flex;
-  align-items: baseline;
-  margin:0 2rem .8rem 0;
-}
-
-.marketplace *{
-  display:inline-block;
 }
 
 /*______________________________________________________grid*/
@@ -96,15 +104,20 @@
   padding: 0px;
 }
 
+/*title*/
+
 .categoryName {
   border-top: 3px solid black;
   padding: 20px 0 60px 0
 }
 
-.categoryName h3 {
+.categoryName h2 {
+  color:black;
   margin-left: 15px;
   font-size: 2rem;
 }
+
+/*cards*/
 
 .souvenir-grid {
   display: grid;
@@ -132,6 +145,8 @@
   grid-column: span 1;
 }
 
+/*image*/
+
 .thumbImg {
   object-fit: contain;
   max-width: 100%;
@@ -153,11 +168,6 @@
   max-width: 100%;
 }
 
-.img-cover {
-  max-width: 70%;
-  max-height: 70%;
-}
-
 /*______________________________________________________annotation*/
 
 .annotationContainer {
@@ -165,6 +175,8 @@
   width: 100%;
   cursor:default;
 }
+
+/*graphic element*/
 
 .annotation {
   width: 40px;
@@ -199,6 +211,12 @@
   transform: rotate(-60deg);
 }
 
+.whitespace{
+  height:0;
+}
+
+/*text*/
+
 .annotation p {
   position: relative;
   top: 50%;
@@ -226,6 +244,8 @@
   transition-delay: .1s;
 }
 
+/*hover*/
+
 .hideAnnotation {
   width: 0px;
   height: 0px;
@@ -240,8 +260,4 @@
   min-width: 20vw;
   min-height: 10vw;
   opacity: 1;
-}
-
-.whitespace{
-  height:0;
 }

@@ -1,3 +1,5 @@
+/*______________________________________________________structure*/
+
 #container {
   height: 84vh;
   padding: 0;
@@ -22,33 +24,7 @@
   ;
 }
 
-.product-image {
-  object-fit: contain;
-  max-width: 100%;
-  max-height: 100%;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.flag {
-  height: 1.5rem;
-  border: 2px solid white;
-  background-color: white;
-  border-radius: 6px;
-  overflow: hidden;
-}
-
-.amazon-link {
-  position: absolute;
-  top: 10px;
-  right: 18px;
-}
-
-#prodImg {
-  background-color: white;
-}
+/*______________________________________________________tags*/
 
 .tag {
   font-family: 'JetBrains Mono', monospace;
@@ -71,6 +47,65 @@
 .blank:hover {
   border: 3px solid white !important;
   text-decoration: none;
+}
+
+.product-tag {
+  margin-bottom: 1rem;
+}
+
+/*______________________________________________________text*/
+
+.product-name {
+  margin-bottom: 1.2rem;
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 1366px) {
+  .product-name {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 1367px) {
+  .product-name {
+    font-size: 1.8rem;
+  }
+}
+
+.product-category {
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+}
+
+/*______________________________________________________image*/
+
+.product-image {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*______________________________________________________marketplaces*/
+
+#marketplace-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flag {
+  height: 1.5rem;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+#prodImg {
+  background-color: white;
 }
 
 .tag-title {
@@ -96,40 +131,12 @@
   display: inline-block;
 }
 
-.product-tag {
-  margin-bottom: 1rem;
-}
-
-.product-name {
-  margin-bottom: 1.2rem;
-  margin-top: 1rem;
-}
-
-@media only screen and (max-width: 1366px) {
-  .product-name {
-    font-size: 1.3rem;
-  }
-}
-
-@media only screen and (min-width: 1367px) {
-  .product-name {
-    font-size: 1.8rem;
-  }
-}
-
-
-
-.product-category {
-  margin-bottom: 3rem;
-  font-size: 1.1rem;
-}
-
-#marketplace-container {
-  display: flex;
-  flex-wrap: wrap;
-}
+/*______________________________________________________link Amazon*/
 
 .amazon-link {
+  position: absolute;
+  top: 10px;
+  right: 18px;
   font-family: 'JetBrains Mono', monospace;
   font-weight: 500;
   color: black;
@@ -148,6 +155,8 @@
   width: 100%;
   cursor:default;
 }
+
+/*graphic element*/
 
 .annotation {
   width: 40px;
@@ -183,6 +192,8 @@
   transform: rotate(-60deg);
 }
 
+/*text*/
+
 .annotation p {
   position: relative;
   top: 50%;
@@ -209,6 +220,8 @@
   transition: .3s;
   transition-delay: .1s;
 }
+
+/*hover*/
 
 .hideAnnotation {
   width: 0px;

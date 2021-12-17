@@ -10,7 +10,7 @@ document.title = collectionData[collection].title + " - My Covid Souvenir";
 
 //draw cover
 let coverTxt = coverContainer.append('div')
-    .classed("col-6", true);
+    .classed("col-5", true);
 
 coverTxt.append("h1")
     .classed("collectionTitle", true)
@@ -31,7 +31,7 @@ if (collectionData[collection].text != "") {
 }
 
 let coverImg = coverContainer.append('div')
-    .classed("col-6", true);
+    .classed("col-7", true);
 
 coverImg.append("img")
     .classed("img-cover", true)
@@ -157,7 +157,7 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
 
             //display object name and count at the beginning of the section
             categoryName = souvenirContainer.append('div').classed('row categoryName', true)
-            categoryName.append('h3').html(product + ': ' + count)
+            categoryName.append('h2').html(product + ': ' + count)
 
             //create souvenirContainer container
             let typeContainer = souvenirContainer.append("div")
