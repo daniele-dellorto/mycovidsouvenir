@@ -109,7 +109,7 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
 
     countryList.append("p")
         .classed("marketplace-title", true)
-        .html("Products in this collection sold on each Amazon marketplace:")
+        .html("Products in this category are sold in the following Amazon marketplaces:")
 
     for (var i = 0; i < countCountries.length; i++) {
 
@@ -215,7 +215,7 @@ function annotationCreate() {
 
 function handleMouseOver(e) {
     popUp = this.nextElementSibling;
-    popUp.classList.remove('hideAnnotation')
+    .attr("src", "animatedImg.gif");
     popUp.classList.add('displayAnnotation')
 
 }

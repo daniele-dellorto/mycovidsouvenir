@@ -254,6 +254,10 @@
   opacity: 0;
 }
 
+.hideAnnotation p{
+  opacity:0;
+}
+
 .displayAnnotation {
   width: auto;
   height: auto;

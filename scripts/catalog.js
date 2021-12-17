@@ -66,21 +66,12 @@ for (var collection in collectionData) {
       .classed("count", true)
       .html(count + " products")
 
-    card.append("img")
+    let thumbnail = card.append("img")
       .classed("thumbImg static", true)
       .attr("src", collImg)
 
-    let video = card.append("video")
-      .attr("autoplay", "")
-      .attr("loop", "")
-      .attr("muted", "")
-      .classed("thumbImg active", true)
-      .attr("onmouseover", "this.play()")
-      .attr("onmouseout", "this.pause();this.currentTime=0;")
-
-      video.append("source")      
-        .attr("src", collGif)     
-        .attr("type", "video/ogg")
+    card.on("mouseover", function(){thumbnail.attr("src", collGif)})
+      .on("mouseout", function(){thumbnail.attr("src", collImg)});
 
     card.on("click", function () {
       window.open('collection.html' + '?collection=' + collId, "_self")
@@ -128,3 +119,18 @@ document.querySelectorAll('.scrollBarStyle').forEach(item => {
 
   })
 })
+
+function handleMouseOver(src) {
+  console.log(src);
+  // popUp = this.nextElementSibling;
+  // popUp.classList.remove('hideAnnotation')
+  // popUp.classList.add('displayAnnotation')
+
+}
+
+function handleMouseOut(src) {  
+  console.log(src);
+  // popUp = this.nextElementSibling;
+  // popUp.classList.remove('displayAnnotation')
+  // popUp.classList.add('hideAnnotation')
+}

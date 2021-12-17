@@ -23,6 +23,8 @@
 }
 
 .collCard{
+  display:flex;
+  flex-direction: column;  
     background-color: #fff;
     border-radius: 10px;
     border: 3px solid rgb(0, 0, 0);
@@ -50,29 +52,19 @@
 
 .thumbImg {
   object-fit: contain;
-  max-width: auto;
+  max-width: 100%;
   max-height: 100%;
   position: relative;
-  left: 50%;
+  bottom:0;
   transition: .3s;
   background-color: white;
 }
 
 .static{
-  transform: translateX(-50%);
-  z-index:1;
 }
 
-.active:hover{
-  opacity:1;
+.static:hover{
 }
-
-.active{
-  opacity:0;
-  transform:translate(-50%,-100%);
-  z-index:2;
-}
-
 
 
 /*______________________________________________________minified grid*/
@@ -95,18 +87,24 @@
 .homeTitle{
     background-color:red;
     padding:0;
-}
-
-.homeTitle{
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
   z-index:999;
+  color:white;
+}
+
+.homeTitle *{
+  display:inline-block
 }
 
 .homeTitle h2{
     margin:0;
     padding: 8px 15px;
+}
+
+.homeTitle p{
+  font-size:1rem;  
 }
 
 /*______________________________________________________leftovers*/
