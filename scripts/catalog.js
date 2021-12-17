@@ -72,6 +72,7 @@ for (var collection in collectionData) {
 
     let video = card.append("video")
       .attr("loop", "")
+      .attr("muted", "")
       .classed("thumbImg active", true)
       .attr("onmouseover", "this.play()")
       .attr("onmouseout", "this.pause();this.currentTime=0;")
