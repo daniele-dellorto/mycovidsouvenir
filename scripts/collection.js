@@ -10,7 +10,7 @@ document.title = collectionData[collection].title + " - My Covid Souvenir";
 
 //draw cover
 let coverTxt = coverContainer.append('div')
-    .classed("col-4", true);
+    .classed("col-5", true);
 
 coverTxt.append("h1")
     .classed("collectionTitle", true)
@@ -31,7 +31,7 @@ if (collectionData[collection].text != "") {
 }
 
 let coverImg = coverContainer.append('div')
-    .classed("col-8", true);
+    .classed("col-7", true);
 
 coverImg.append("img")
     .classed("img-cover", true)

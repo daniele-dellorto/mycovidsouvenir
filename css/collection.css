@@ -7,7 +7,7 @@
   background-color: red;
 }
 
-#coverContainer .col-4, #coverContainer .col-8 {
+#coverContainer .col-5, #coverContainer .col-7 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -16,18 +16,18 @@
   height:fit-content;
 }
 
-.col-4 h3 {
+.col-5 h3 {
   font-size: 1.4rem;
   font-weight:600;
   margin-bottom:3rem;
 }
 
-.col-4 p{
+.col-5 p{
   font-size: 1rem;
 }
 
 
-.col-4 h1, .col-4 h3, .col-4 p{
+.col-5 h1, .col-5 h3, .col-5 p{
   width:100%;
 }
 
