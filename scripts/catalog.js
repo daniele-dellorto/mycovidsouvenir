@@ -71,6 +71,7 @@ for (var collection in collectionData) {
       .attr("src", collImg)
 
     let video = card.append("video")
+      .attr("autoplay", "")
       .attr("loop", "")
       .attr("muted", "")
       .classed("thumbImg active", true)
