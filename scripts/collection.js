@@ -215,7 +215,7 @@ function annotationCreate() {
 
 function handleMouseOver(e) {
     popUp = this.nextElementSibling;
-    .attr("src", "animatedImg.gif");
+    popUp.classList.remove('hideAnnotation')
     popUp.classList.add('displayAnnotation')
 
 }

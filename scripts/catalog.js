@@ -119,18 +119,3 @@ document.querySelectorAll('.scrollBarStyle').forEach(item => {
 
   })
 })
-
-function handleMouseOver(src) {
-  console.log(src);
-  // popUp = this.nextElementSibling;
-  // popUp.classList.remove('hideAnnotation')
-  // popUp.classList.add('displayAnnotation')
-
-}
-
-function handleMouseOut(src) {  
-  console.log(src);
-  // popUp = this.nextElementSibling;
-  // popUp.classList.remove('displayAnnotation')
-  // popUp.classList.add('hideAnnotation')
-}
