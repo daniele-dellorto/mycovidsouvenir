@@ -1,3 +1,5 @@
+/*______________________________________________________structure*/
+
 #container {
   height: 84vh;
   padding: 0;
@@ -22,33 +24,7 @@
   ;
 }
 
-.product-image {
-  object-fit: contain;
-  max-width: 100%;
-  max-height: 100%;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.flag {
-  height: 1.5rem;
-  border: 2px solid white;
-  background-color: white;
-  border-radius: 6px;
-  overflow: hidden;
-}
-
-.amazon-link {
-  position: absolute;
-  top: 10px;
-  right: 18px;
-}
-
-#prodImg {
-  background-color: white;
-}
+/*______________________________________________________tags*/
 
 .tag {
   font-family: 'JetBrains Mono', monospace;
@@ -72,6 +48,53 @@
   border: 3px solid white !important;
   text-decoration: none;
 }
+
+/*______________________________________________________text*/
+
+
+
+
+/*______________________________________________________image*/
+
+.product-image {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*______________________________________________________marketplaces*/
+
+.flag {
+  height: 1.5rem;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+#prodImg {
+  background-color: white;
+}
+
+
+
+
+.amazon-link {
+  position: absolute;
+  top: 10px;
+  right: 18px;
+}
+
+
+
+
+
+
+
 
 .tag-title {
   display: block;
@@ -140,6 +163,14 @@
 .amazon-link:hover {
   color: red;
 }
+
+
+
+
+
+
+
+
 
 /*______________________________________________________annotation*/
 

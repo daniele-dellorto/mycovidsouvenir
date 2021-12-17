@@ -25,7 +25,7 @@ collectionData = {
         "type": "semantic",
         "title": "Social distancing champion",
         "image": "./assets/semantic/social_distance_champion.png",
-        "coverImage": "./assets/semantic/social_distance_champion_cover.png",
+        "coverImage": "./assets/semantic/social_distancing_champion_cover.png",
         "section":"67 products that state how good the wearer is at social distancing and/or that invite the reader to stay away from the wearer.",
         "text":"There are no ANTI-VAX products."
     },
@@ -505,7 +505,7 @@ collectionData = {
         "type": "",
         "title": "leftovers",
         "image": "",
-        "coverImage": "",
+        "coverImage": "./assets/leftovers_cover.png",
         "section":"These are the 43 products that did not fit either in visuals or messages collections",
         "text": ""
     }

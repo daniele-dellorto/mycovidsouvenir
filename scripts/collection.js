@@ -157,7 +157,7 @@ d3.json("data/souvenirs.json").then(function (myDataRaw) {
 
             //display object name and count at the beginning of the section
             categoryName = souvenirContainer.append('div').classed('row categoryName', true)
-            categoryName.append('h3').html(product + ': ' + count)
+            categoryName.append('h2').html(product + ': ' + count)
 
             //create souvenirContainer container
             let typeContainer = souvenirContainer.append("div")
