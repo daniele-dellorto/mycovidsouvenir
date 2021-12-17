@@ -11,7 +11,7 @@
   transform: translate(-50%, -75%);
 }
 
-body {
+html {
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -34,6 +34,10 @@ body {
   width: 100%;
 }
 
+.col-3{
+  z-index: -1;
+}
+
 .spacer-big {
   height: 25rem;
   width: 100%;
@@ -47,6 +51,8 @@ body {
   width: 20vw;
   height: 20vw;
   padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .thumbImg {
@@ -58,20 +64,131 @@ body {
   -webkit-align-self: center;
 }
 
-.souvenir-img {
-  width: 10rem;
-  position: absolute;
+/* souvenirs positions */
+.souvenir-container{
+  display: flex;
+  height: 20vw;
 }
 
-#italy {
-  left: 10vw;
-  top: 2vw;
-  transform: rotate(20deg);
+.souvenir-container .collCard{
+  position: absolute;
+  padding: 4vw;;
+}
+
+.souvenir-img {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  align-self: center;
+  -webkit-align-self: center;
+  transform: scale(1) rotate(0deg);
+  transition: .3s;
+}
+
+.souvenir-img:hover{
+  transform: scale(1.1) rotate(5deg);
+}
+
+
+#netherlands {
+  left: 0vw;
+  top: 10vw;
+  transform: rotate(-8deg);
 }
 
 #usa {
-  left: 20vw;
+  left: 15vw;
+  top: 3vw;
+  transform: rotate(10deg);
+}
+
+#italy {
+  left: 35vw;
+  top: -5vw;
+  transform: rotate(-6deg);
+}
+
+#japan {
+  left: 60vw;
+  top: 0vw;
+  transform: rotate(-4deg);
+}
+
+#germany {
+  left: 80vw;
+  top: 12vw;
+  transform: rotate(7deg);
+}
+
+#india {
+  left: 3vw;
+  top: -10vw;
+  transform: rotate(-12deg);
+}
+
+#australia {
+  left: 19vw;
+  top: -16vw;
+  transform: rotate(7deg);
+}
+
+#brazil {
+  left: 50vw;
   top: -15vw;
+  transform: rotate(10deg);
+}
+
+#emirates {
+  left: 73vw;
+  top: -10vw;
+  transform: rotate(5deg);
+}
+
+#canada {
+  left: -1vw;
+  top: -2vw;
+  transform: rotate(-10deg);
+}
+
+#france {
+  left: 17vw;
+  top: 2vw;
+  transform: rotate(-8deg);
+}
+
+#mexico {
+  left: 37vw;
+  top: -1vw;
+  transform: rotate(-3deg);
+}
+
+#saudi {
+  left: 56vw;
+  top: 4vw;
+  transform: rotate(-14deg);
+}
+
+#singapore {
+  left: 72vw;
+  top: -4vw;
+  transform: rotate(5deg);
+}
+
+#spain {
+  left: 7vw;
+  top: 13vw;
+}
+
+#sweden {
+  left: 30vw;
+  top: 17vw;
+  transform: rotate(7deg);
+}
+
+#uk {
+  left: 78vw;
+  top: 12vw;
   transform: rotate(10deg);
 }
 
