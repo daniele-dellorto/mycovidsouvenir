@@ -102,7 +102,7 @@ document.querySelectorAll('.scrollBarStyle').forEach(item => {
       let subtitle = item.getElementsByClassName("subtitle");
       subtitle[0].classList.add("displayText");
       subtitle[0].classList.remove("hideText"); 
-   }, 100);   
+   }, 200);   
     
     document.querySelectorAll('.souvenir-grid').forEach(card => {
       card.classList.add('minifiedGrid');
