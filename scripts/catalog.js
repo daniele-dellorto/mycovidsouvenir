@@ -88,11 +88,22 @@ document.querySelectorAll('.scrollBarStyle').forEach(item => {
       item.classList.remove("col-6");
       item.classList.remove("col-10");
       item.classList.add("col-2");
+
+      let subtitle = item.getElementsByClassName("subtitle");
+      subtitle[0].classList.remove("displayText");
+      subtitle[0].classList.add("hideText");
     });
+    
     //set the hovered section to max dimension
     item.classList.remove("col-2");
     item.classList.add("col-10");
 
+    setTimeout(function(){
+      let subtitle = item.getElementsByClassName("subtitle");
+      subtitle[0].classList.add("displayText");
+      subtitle[0].classList.remove("hideText"); 
+   }, 100);   
+    
     document.querySelectorAll('.souvenir-grid').forEach(card => {
       card.classList.add('minifiedGrid');
     });

@@ -88,7 +88,15 @@
 }
 
 .homeTitle *{
-  display:inline-block
+  display:inline-block;
+}
+
+.displayText{
+  display:inline-block;
+}
+
+.hideText{
+  display:none;
 }
 
 .homeTitle h2{
@@ -97,7 +105,8 @@
 }
 
 .homeTitle p{
-  font-size:1rem;  
+  font-size:1rem;
+  margin-left:1rem;  
 }
 
 /*______________________________________________________leftovers*/
