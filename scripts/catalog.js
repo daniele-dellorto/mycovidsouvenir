@@ -70,9 +70,15 @@ for (var collection in collectionData) {
       .classed("thumbImg static", true)
       .attr("src", collImg)
 
-    card.append("img")
+    let video = card.append("video")
+      .attr("loop", "")
       .classed("thumbImg active", true)
-      .attr("src", collGif)
+      .attr("onmouseover", "this.play()")
+      .attr("onmouseout", "this.pause();this.currentTime=0;")
+
+      video.append("source")      
+        .attr("src", collGif)     
+        .attr("type", "video/ogg")
 
     card.on("click", function () {
       window.open('collection.html' + '?collection=' + collId, "_self")

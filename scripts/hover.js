@@ -1,26 +1,9 @@
-const hover = d3.select(".collCard");
+// var figure = $(".video").hover( hoverVideo, hideVideo );
 
-hover.onmouseover="this.src='img/newsHover.png'" 
+// function hoverVideo(e) {  
+//     $('video', this).get(0).play(); 
+// }
 
-document.querySelectorAll('.collCard').forEach(item => {
-    item.addEventListener('mouseenter', event => {
-
-        var time = 1000;
-
-        for (var i = 0; i < 3; i++){
-            setInterval(myTimer, time);
-        }
-    })
-  })
-
-
-  
-
-  function myTimer(i) {
-    console.log(i);
-  } 
-
-
-  
-
- 
+// function hideVideo(e) {
+//     $('video', this).get(0).pause(); 
+// }
