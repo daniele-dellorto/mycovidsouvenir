@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64.05 64.05">
+  <g id="Livello_2" data-name="Livello 2">
+    <g id="Graphics">
+      <g>
+        <g>
+          <line x1="21.91367" y1="31.99448" x2="45.40317" y2="31.775" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.01235"/>
+          <polygon points="32.01 44.221 34.044 41.995 23.07 31.987 33.855 21.772 31.78 19.585 18.647 32.028 32.01 44.221"/>
+        </g>
+        <circle cx="32.025" cy="32.025" r="30.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.05"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -24,6 +24,13 @@ html {
   font-family: 'saint_regussemi_bold';
 }
 
+.caption{
+  font-family: 'Inter', sans-serif;
+  font-size: .8rem;
+  text-align: center;
+  transform: translateY(-150%);
+}
+
 .spacer-small {
   height: 4rem;
   width: 100%;
@@ -62,6 +69,11 @@ html {
   position: relative;
   align-self: center;
   -webkit-align-self: center;
+  transition: .3s;
+}
+
+.thumbImg:hover{
+  transform: scale(1.1);
 }
 
 /* souvenirs positions */
@@ -194,16 +206,38 @@ html {
 
 #carousel {
   height: 400px;
+  padding: 0 15%;
   overflow-y: hidden;
   border: 3px black solid;
   border-radius: 10px;
   display: flex;
   align-items: center;
+  background-color: white;
+}
+
+.carousel-control-prev-icon{
+  background-image: url("../assets/landing/arrowleft.svg");
+  width: 40px;
+  height: 40px;
+}
+
+.carousel-control-next-icon{
+  background-image: url("../assets/landing/arrowright.svg");
+  width: 40px;
+  height: 40px;
+}
+
+.carousel-control-prev, .carousel-control-next{
+  opacity: 1;
 }
 
 .carousel-row{
   display: flex;
   justify-content: space-around;
+}
+
+.carousel-item{
+  padding: 50px 0;
 }
 
 .carousel-row .collCard{
@@ -215,6 +249,12 @@ html {
 .carousel-row p{
   padding-bottom: 15px;
   font-family: 'saint_regussemi_bold';
+  color: black;
+  text-decoration: none;
+}
+
+.carousel-row a:hover{
+  text-decoration: none;
 }
 
 #surf_the_catalog button{
