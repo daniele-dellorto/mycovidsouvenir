@@ -61,22 +61,22 @@
 }
 
 #cover .scroll.text1{
-  transform:rotate(15deg) translateY(500px);
+  transform:rotate(15deg) translate(-200px, 500px);
   transform-origin: center;
 }
 
 #cover .scroll.text2{
-  transform:rotate(-8deg) translateY(-500px);
+  transform:rotate(-8deg) translate(-200px,-500px);
   transform-origin: center;
 }
 
 #cover .scroll.text3{
-  transform:rotate(20deg) translateY(1100px);
+  transform:rotate(20deg) translate(-200px,1100px);
   transform-origin: center;
 }
 
 #cover .scroll.text4{
-  transform:rotate(-8deg) translateY(-200px);
+  transform:rotate(-8deg) translate(-200px,-200px);
   transform-origin: center;
 }
 
@@ -87,16 +87,20 @@
   display:flex;
 }
 
-.products-row .scroll div{  
-  display:inline-block;
+.imgs1, .imgs2{  
+  display:flex;
+  flex-wrap: nowrap;
   white-space: nowrap;
-  animation:obj-scroll1 30s linear infinite;
-  animation-delay:-30s;
 }
 
-.products-row .scroll div:nth-child(2){
-  animation:obj-scroll2 30s linear infinite;
-  animation-delay:-15s
+.imgs1{
+  animation:obj-scroll1 20s linear infinite;
+  animation-delay:-20s;
+}
+
+.imgs2{
+  animation:obj-scroll2 20s linear infinite;
+  animation-delay:-10s
 }
 
 @keyframes obj-scroll1{
