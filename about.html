@@ -48,12 +48,14 @@
       <div class="row">
         <div class="col-3"></div>
         <div class="col-6">
-          <h2>Introduction</h2>
+          <h2>About the project</h2>
           <p>
             Lockdown and quarantines made online shopping the preferred method over buying in stores or at the supermarket. In less than a few weeks, Amazon globally became our favourite lockdown companion. The pandemic introduced a new set of
             objects into our lives: test kits, bread mixers, handcrafted masks, and many more guided the mapping of a new materiality. However, while scraping the surfaces of various online marketplaces a new focus arose from the research. We started
             to think, not only about those objects useful to face the pandemic, but also how some of these came to life thanks to the message they enclosed. These products are souvenirs of the past two years, their meaning describes opinions, trends,
-            and ideas about this (post?) pandemic world. My Covid Souvenir is a catalogue you can surf to find the perfect gift to remember the Covid 19 and all that came with it.
+            and ideas about this (post?) pandemic world.
+            <br><br>
+            My Covid Souvenir is a catalogue you can surf to find the perfect gift to remember the Covid 19 and all that came with it.
           </p>
 
           <h3>Starting point</h3>
@@ -75,7 +77,8 @@
 
           <h3>Context definition</h3>
           <p>
-            Starting from the research question: “Which are the covid related objects sold online worldwide?”, we analysed major online marketplaces such as Aliexpress, Amazon, or Shopee. Many of these platforms block queries connected to covid-19 or show non-related products, making our research harder.
+            Starting from the research question: “Which are the covid related objects sold online worldwide?”, we analysed major online marketplaces such as Aliexpress, Amazon, or Shopee. Many of these platforms block queries connected to covid-19 or
+            show non-related products, making our research harder.
           </p>
         </div>
 
@@ -87,15 +90,75 @@
           <div class="col-2"></div>
         </div>
 
-        <div class="col-3"></div>
+        <div class="row">
+          <div class="col-3"></div>
+          <div class="col-6">
+            <p>
+              We focused on Amazon since it’s a worldwide platform with country-specific marketplaces, in which covid-related queries are not blocked and it doesn’t require an account to surf the website (as it is on Wish.com or Taobao.com).
+              <br><br>
+              For all the countries, in which amazon has operational e-commerce platforms, we searched for the most popular e-commerces, and we excluded those countries in which Amazon wasn’t actively used by the population, those platforms are
+              Amazon.com.tr (Turkey), Amazon.cn (China), Amazon.pl (Poland).
+            </p>
+
+            <h3>Data extraction</h3>
+            <p>
+              The data was extracted from the seventeen selected Amazon marketplaces using a list of queries and saving, for each of them, the first page of results. The selected marketplaces are:
+            </p>
+            <ul>
+              <li>amazon.sg (Singapore)</li>
+              <li>amazon.sa (Saudi Arabia)</li>
+              <li>amazon.it (Italy)</li>
+              <li>amazon.au (Australia)</li>
+              <li>amazon.com (USA)</li>
+              <li>amazon.co.uk (UK)</li>
+              <li>amazon.nl (the Netherlands)</li>
+              <li>amazon.ae (United Arab Emirates)</li>
+              <li>amazon.ca (Canada)</li>
+              <li>amazon.com.mx (Mexico)</li>
+              <li>amazon.se (Sweden)</li>
+              <li>amazon.jp (Japan)</li>
+              <li>amazon.fr (France)</li>
+              <li>amazon.br (Brazil)</li>
+              <li>amazon.de (Germany)</li>
+              <li>amazon.es (Spain)</li>
+              <li>and amazon.in (India)</li>
+            </ul>
+
+            <h4>Queries definition</h4>
+            <p>
+              For each country and language, we formulated specific queries (check the list here) to search for covid-related products, looked for news about the pandemic and searched for the most used words about covid.
+              <br><br>
+              We used a VPN service to switch IP and fake our location to visualize for each country the corresponding news, in which we identified the most used terms in relation to covid. These terms then became queries, which we tested
+              on each marketplace, checking if they corresponded to Covid related products.
+            </p>
+            <h4>Marketplace scraping</h4>
+            <p>
+              For each query in each marketplace we saved all the products, shown in the first page of results, using a scraper written in Python (<a href="https://medium.datadriveninvestor.com/introduction-to-scraping-in-python-with-beautifulsoup-and-requests-ab7b1c9bc113" target="_blank">learn more about Python scraping</a>) For every product, we saved: Name, Image, Link, Marketplace, Query, Amazon tag (amazon tags books, amazon prime video products, DVD, etc) You can see the dataset we obtained during this phase <a href="https://docs.google.com/spreadsheets/d/1AF-00OoQaLJtkccGRha_VwfT1H5DiN0Sdj67_H6PBm8/edit?usp=sharing">here</a>.
+            </p>
+          </div>
+          <div class="col-3"></div>
+        </div>
+
       </div>
 
       <div class="row">
         <div class="col-2"></div>
         <div class="col-8">
+          <p>Python scraper code <a href="assets/about/amazon_scraper.py">download the file</a></p>
           <script type="text/javascript" src="assets/about/python_scraper.js"></script>
         </div>
         <div class="col-2"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+          <h3>Cleaning and tagging</h3>
+          <p>
+            
+          </p>
+        </div>
+        <div class="col-3"></div>
       </div>
     </div>
 
