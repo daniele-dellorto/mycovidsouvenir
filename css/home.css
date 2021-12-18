@@ -189,7 +189,8 @@
   width: 100%;
 }
 
-/* souvenirs positions */
+/*______________________________________________________souvenirs*/
+
 .souvenir-container{
   display: flex;
   height: 20vw;
@@ -317,6 +318,8 @@
   transform: rotate(10deg);
 }
 
+/*______________________________________________________carousel*/
+
 #carousel {
   height: 400px;
   padding: 0 15%;
@@ -370,6 +373,8 @@
   text-decoration: none;
 }
 
+/*______________________________________________________surf the catalog*/
+
 #surf_the_catalog button{
   position: relative;
   left: 50%;
@@ -383,3 +388,51 @@
   font-size: 2rem;
   border: none;
 }
+
+.cards-container{  
+  height: 20rem;
+  width: auto;
+  overflow:hidden;
+}
+
+.card-img{
+  height:28rem;
+  width:auto;
+  position:absolute;
+  z-index:-2;
+}
+
+#cardbiohazard{
+  left:80vw;
+  transform:rotate(-15deg) translateY(6%);
+}
+
+#cardbirthday{
+  left:44vw;
+  transform:rotate(12deg) translateY(24%);  
+}
+
+#cardanimals{
+  left:16vw;
+  transform:rotate(-12deg) translateY(22%);
+  z-index:-1;
+  
+}
+
+#cardfuck{
+  left:-2vw;
+  transform:rotate(12deg) translateY(8%);
+  
+}
+
+#cardsurvivor{
+  left:60vw;
+  transform:rotate(-6deg) translateY(30%);  
+}
+
+#cardscience{
+  left:30vw;
+  transform:rotate(5deg) translateY(50%);    
+}
+
+
