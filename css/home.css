@@ -61,23 +61,96 @@
 }
 
 #cover .scroll.text1{
-  transform:rotate(15deg) translateY(500px);
+  transform:rotate(15deg) translate(-200px, 500px);
   transform-origin: center;
 }
 
 #cover .scroll.text2{
-  transform:rotate(-8deg) translateY(-500px);
+  transform:rotate(-8deg) translate(-200px,-500px);
   transform-origin: center;
 }
 
 #cover .scroll.text3{
-  transform:rotate(20deg) translateY(1100px);
+  transform:rotate(20deg) translate(-200px,1100px);
   transform-origin: center;
 }
 
 #cover .scroll.text4{
-  transform:rotate(-8deg) translateY(-200px);
+  transform:rotate(-8deg) translate(-200px,-200px);
   transform-origin: center;
+}
+
+/*______________________________________________________products scrolling*/
+
+.products-row .scroll{
+  width:100%;
+  display:flex;
+}
+
+.imgs1, .imgs2{  
+  display:flex;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.imgs1{
+  animation:obj-scroll1 20s linear infinite;
+  animation-delay:-20s;
+}
+
+.imgs2{
+  animation:obj-scroll2 20s linear infinite;
+  animation-delay:-10s
+}
+
+@keyframes obj-scroll1{
+  0%
+  {
+    transform:translateX(100%);
+  }
+  
+  100%
+  {
+    transform:translateX(-100%);
+  }
+}
+
+@keyframes obj-scroll2{
+  0%
+  {
+    transform:translateX(0);
+  }
+  
+  100%
+  {
+    transform:translateX(-200%);
+  }
+}
+
+.products_stripe {
+  display: flex;
+}
+
+.collCard {
+  width: 20vw;
+  height: 20vw;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.thumbImg {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  align-self: center;
+  -webkit-align-self: center;
+  transition: .3s;
+}
+
+.thumbImg:hover{
+  transform: scale(1.1);
 }
 
 /*______________________________________________________main*/
@@ -116,33 +189,8 @@
   width: 100%;
 }
 
-.products_stripe {
-  display: flex;
-}
+/*______________________________________________________souvenirs*/
 
-.collCard {
-  width: 20vw;
-  height: 20vw;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-}
-
-.thumbImg {
-  object-fit: contain;
-  max-width: 100%;
-  max-height: 100%;
-  position: relative;
-  align-self: center;
-  -webkit-align-self: center;
-  transition: .3s;
-}
-
-.thumbImg:hover{
-  transform: scale(1.1);
-}
-
-/* souvenirs positions */
 .souvenir-container{
   display: flex;
   height: 20vw;
@@ -270,6 +318,8 @@
   transform: rotate(10deg);
 }
 
+/*______________________________________________________carousel*/
+
 #carousel {
   height: 400px;
   padding: 0 15%;
@@ -323,6 +373,8 @@
   text-decoration: none;
 }
 
+/*______________________________________________________surf the catalog*/
+
 #surf_the_catalog button{
   position: relative;
   left: 50%;
@@ -336,3 +388,51 @@
   font-size: 2rem;
   border: none;
 }
+
+.cards-container{  
+  height: 20rem;
+  width: auto;
+  overflow:hidden;
+}
+
+.card-img{
+  height:28rem;
+  width:auto;
+  position:absolute;
+  z-index:-2;
+}
+
+#cardbiohazard{
+  left:80vw;
+  transform:rotate(-15deg) translateY(6%);
+}
+
+#cardbirthday{
+  left:44vw;
+  transform:rotate(12deg) translateY(24%);  
+}
+
+#cardanimals{
+  left:16vw;
+  transform:rotate(-12deg) translateY(22%);
+  z-index:-1;
+  
+}
+
+#cardfuck{
+  left:-2vw;
+  transform:rotate(12deg) translateY(8%);
+  
+}
+
+#cardsurvivor{
+  left:60vw;
+  transform:rotate(-6deg) translateY(30%);  
+}
+
+#cardscience{
+  left:30vw;
+  transform:rotate(5deg) translateY(50%);    
+}
+
+
