@@ -135,8 +135,8 @@ body{
   transition: .3s;
 }
 
-body{
-  overflow:hidden;
+html{
+  overflow-x:hidden;
 }
 
 main{
