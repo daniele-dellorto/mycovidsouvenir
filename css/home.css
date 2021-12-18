@@ -80,6 +80,75 @@
   transform-origin: center;
 }
 
+/*______________________________________________________products scrolling*/
+
+.products-row .scroll{
+  width:100%;
+  display:flex;
+}
+
+.products-row .scroll div{  
+  display:inline-block;
+  white-space: nowrap;
+  animation:obj-scroll1 30s linear infinite;
+  animation-delay:-30s;
+}
+
+.products-row .scroll div:nth-child(2){
+  animation:obj-scroll2 30s linear infinite;
+  animation-delay:-15s
+}
+
+@keyframes obj-scroll1{
+  0%
+  {
+    transform:translateX(100%);
+  }
+  
+  100%
+  {
+    transform:translateX(-100%);
+  }
+}
+
+@keyframes obj-scroll2{
+  0%
+  {
+    transform:translateX(0);
+  }
+  
+  100%
+  {
+    transform:translateX(-200%);
+  }
+}
+
+.products_stripe {
+  display: flex;
+}
+
+.collCard {
+  width: 20vw;
+  height: 20vw;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.thumbImg {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  align-self: center;
+  -webkit-align-self: center;
+  transition: .3s;
+}
+
+.thumbImg:hover{
+  transform: scale(1.1);
+}
+
 /*______________________________________________________main*/
 
 #main p {
@@ -114,32 +183,6 @@
 .spacer-big {
   height: 25rem;
   width: 100%;
-}
-
-.products_stripe {
-  display: flex;
-}
-
-.collCard {
-  width: 20vw;
-  height: 20vw;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-}
-
-.thumbImg {
-  object-fit: contain;
-  max-width: 100%;
-  max-height: 100%;
-  position: relative;
-  align-self: center;
-  -webkit-align-self: center;
-  transition: .3s;
-}
-
-.thumbImg:hover{
-  transform: scale(1.1);
 }
 
 /* souvenirs positions */
