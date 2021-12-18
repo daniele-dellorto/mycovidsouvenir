@@ -10,218 +10,235 @@ document.title = collectionData[collection].title + " - My Covid Souvenir";
 
 //draw cover
 let coverTxt = coverContainer.append('div')
-    .classed("col-5", true);
+  .classed("col-5", true);
 
 coverTxt.append("h1")
-    .classed("collectionTitle", true)
-    .html(collectionData[collection].title)
+  .classed("collectionTitle", true)
+  .html(collectionData[collection].title)
 
 let coverIntro = coverTxt.append("h3")
-    .html(collectionData[collection].section)
+  .html(collectionData[collection].section)
 
 if (collectionData[collection].text != "") {
 
-    coverTxt.append("p")
-        .classed("overview", true)
-        .html("Overview:")
+  coverTxt.append("p")
+    .classed("overview", true)
+    .html("Overview:")
 
-    coverTxt.append("p")
-        .html(collectionData[collection].text)
+  coverTxt.append("p")
+    .html(collectionData[collection].text)
 
 }
 
 let coverImg = coverContainer.append('div')
-    .classed("col-7", true);
+  .classed("col-7", true);
 
 coverImg.append("img")
-    .classed("img-cover", true)
-    .attr("src", collectionData[collection].coverImage)
+  .classed("img-cover", true)
+  .attr("src", collectionData[collection].coverImage)
 
 myData = [];
 
 //load json data
-d3.json("data/souvenirs.json").then(function (myDataRaw) {
+d3.json("data/souvenirs.json").then(function(myDataRaw) {
 
-    allCountries = [];
+  allCountries = [];
 
-    //FOR EACH row verify if the product fits into the category
-    myDataRaw.forEach(function (product) {
+  //FOR EACH row verify if the product fits into the category
+  myDataRaw.forEach(function(product) {
 
-        //array with product categories
-        dataSemantics = product.semantic.split(', ').map(s => s.toLowerCase());
-        dataVisuals = product.visual.split(', ').map(s => s.toLowerCase());
+    //array with product categories
+    dataSemantics = product.semantic.split(', ').map(s => s.toLowerCase());
+    dataVisuals = product.visual.split(', ').map(s => s.toLowerCase());
 
-        //IF product includes the category -> add its data to myData (array with all products fitting)
-        if (dataSemantics.includes(collection) || dataVisuals.includes(collection)) {
+    //IF product includes the category -> add its data to myData (array with all products fitting)
+    if (dataSemantics.includes(collection) || dataVisuals.includes(collection)) {
 
-            myData.push(product)
+      myData.push(product)
 
-            countries = product.country.split(', ').map(s => s.toLowerCase());
-            allCountries = allCountries.concat(countries);
+      countries = product.country.split(', ').map(s => s.toLowerCase());
+      allCountries = allCountries.concat(countries);
 
-        } else if (collection == "leftovers" && dataSemantics == "" && dataVisuals == "") {
+    } else if (collection == "leftovers" && dataSemantics == "" && dataVisuals == "") {
 
-            myData.push(product)
+      myData.push(product)
 
-            countries = product.country.split(', ').map(s => s.toLowerCase());
-            allCountries = allCountries.concat(countries);
+      countries = product.country.split(', ').map(s => s.toLowerCase());
+      allCountries = allCountries.concat(countries);
 
-        }
-
-    })
-
-    setCountries = [...new Set(allCountries)];
-
-    var countCountries = [{
-        name: 'none',
-        value: 0
-    }];
-
-    setCountries.forEach(function (country) {
-
-        var count = 0;
-
-        allCountries.forEach(function (newCountry) {
-
-            if (newCountry == country) {
-                count++
-            }
-
-        })
-
-        thisCountry = {
-            'name': country,
-            'value': count
-        }
-
-        for (var i = 0; i < countCountries.length; i++) {
-            if (thisCountry.value > countCountries[i].value) {
-                countCountries.splice(i, 0, thisCountry)
-                break
-            }
-        }
-    })
-
-    countCountries.pop();
-
-    countryList = coverContainer.append('div')
-        .classed("countries", true);
-
-    countryList.append("p")
-        .classed("marketplace-title", true)
-        .html("Products in this category are sold in the following Amazon marketplaces:")
-
-    for (var i = 0; i < countCountries.length; i++) {
-
-        name = countCountries[i].name
-        value = countCountries[i].value
-        noDots = name.split(".").join("");
-        flagLink = "./assets/svg/" + noDots + ".svg";
-
-        let countryContainer = countryList.append('div')
-            .classed('marketplace', true)
-
-        countryContainer.append('h3')
-            .classed("domain", true)
-            .html(value)
-
-        countryContainer.append('img')
-            .classed("flag", true)
-            .attr("src", flagLink)
-
-        countryContainer.append('p')
-            .classed("domain", true)
-            .html(name)
     }
 
+  })
 
-    console.log(countCountries);
+  setCountries = [...new Set(allCountries)];
 
-    //object type
-    const productType = ['bracelets', 'caps', 'flags', 'masks', 'mugs', 'patches', 'pins', 'socks', 'stickers', 't-shirts', 'others']
+  var countCountries = [{
+    name: 'none',
+    value: 0
+  }];
 
-    //display objects FOR EACH kind in myData
-    productType.forEach(function (product) {
+  setCountries.forEach(function(country) {
 
-        let count = 0;
+    var count = 0;
 
-        //add 1 to count FOR each object of this kind in myData
-        for (var object of myData) {
-            if (object.category.toLowerCase() == product.toLowerCase()) {
-                count++;
-            }
+    allCountries.forEach(function(newCountry) {
+
+      if (newCountry == country) {
+        count++
+      }
+
+    })
+
+    thisCountry = {
+      'name': country,
+      'value': count
+    }
+
+    for (var i = 0; i < countCountries.length; i++) {
+      if (thisCountry.value > countCountries[i].value) {
+        countCountries.splice(i, 0, thisCountry)
+        break
+      }
+    }
+  })
+
+  countCountries.pop();
+
+  countryList = coverContainer.append('div')
+    .classed("countries", true);
+
+  countryList.append("p")
+    .classed("marketplace-title", true)
+    .html("Products in this category are sold in the following Amazon marketplaces:")
+
+  for (var i = 0; i < countCountries.length; i++) {
+
+    name = countCountries[i].name
+    value = countCountries[i].value
+    noDots = name.split(".").join("");
+    flagLink = "./assets/svg/" + noDots + ".svg";
+
+    let countryContainer = countryList.append('div')
+      .classed('marketplace', true)
+
+    countryContainer.append('h3')
+      .classed("domain", true)
+      .html(value)
+
+    countryContainer.append('img')
+      .classed("flag", true)
+      .attr("src", flagLink)
+
+    countryContainer.append('p')
+      .classed("domain", true)
+      .html(name)
+  }
+
+
+  console.log(countCountries);
+
+  //object type
+  const productType = ['bracelets', 'caps', 'flags', 'masks', 'mugs', 'patches', 'pins', 'socks', 'stickers', 't-shirts', 'others']
+
+  //display objects FOR EACH kind in myData
+  productType.forEach(function(product) {
+
+    let count = 0;
+
+    //add 1 to count FOR each object of this kind in myData
+    for (var object of myData) {
+      if (object.category.toLowerCase() == product.toLowerCase()) {
+        count++;
+      }
+    }
+
+    //don't show object sections with 0 objects
+    if (count > 0) {
+
+      //display object name and count at the beginning of the section
+      categoryName = souvenirContainer.append('div').classed('row categoryName', true)
+      categoryName.append('h2').html(product + ': ' + count)
+
+      //create souvenirContainer container
+      let typeContainer = souvenirContainer.append("div")
+        .classed("souvenir-grid", true);
+
+      //FOR each object of this kind in my data show image
+      for (var object of myData) {
+
+        if (object.category.toLowerCase() == product.toLowerCase()) {
+
+          var card = typeContainer.append('div')
+            .classed("collCard productSize", true)
+            .attr('id', 'prod' + object.id)
+            .attr('onclick', "window.open('product.html?id=' + " + object.id + ", '_self')")
+
+          card.append("div")
+            .classed("annotationContainer", true);
+
+          card.append("img")
+            .classed("thumbImg", true)
+            .attr("src", object.image)
+
+          card.append("div")
+            .classed("whitespace", true);
         }
+      }
+    }
 
-        //don't show object sections with 0 objects
-        if (count > 0) {
+  });
 
-            //display object name and count at the beginning of the section
-            categoryName = souvenirContainer.append('div').classed('row categoryName', true)
-            categoryName.append('h2').html(product + ': ' + count)
-
-            //create souvenirContainer container
-            let typeContainer = souvenirContainer.append("div")
-                .classed("souvenir-grid", true);
-
-            //FOR each object of this kind in my data show image
-            for (var object of myData) {
-
-                if (object.category.toLowerCase() == product.toLowerCase()) {
-
-                    var card = typeContainer.append('div')
-                        .classed("collCard productSize", true)
-                        .attr('id', 'prod' + object.id)
-                        .attr('onclick', "window.open('product.html?id=' + " + object.id + ", '_self')")
-
-                    card.append("div")
-                        .classed("annotationContainer", true);
-
-                    card.append("img")
-                        .classed("thumbImg", true)
-                        .attr("src", object.image)
-
-                    card.append("div")
-                        .classed("whitespace", true);
-                }
-            }
-        }
-
-    });
-
-    annotationCreate();
+  annotationCreate();
 
 })
 
 function annotationCreate() {
 
-    annotations.forEach(function (annotation) {
+  annotations.forEach(function(annotation) {
 
-        annotatedProduct = d3.select('#prod' + annotation.id);
+    var annotatedProduct = d3.select('#prod' + annotation.id);
+    var annotationContainer = annotatedProduct.select(".annotationContainer");
 
-        var annotationContainer = annotatedProduct.select(".annotationContainer");
+    var annotationPin = annotationContainer.append("div")
+      .classed("annotation", true);
 
-        var annotationPin = annotationContainer.append("div")
-            .classed("annotation", true);
-        annotationPin.append("div");
-        annotationPin.append("p").html("!");
+    annotationPin.append("div");
+    annotationPin.append("p").html("!");
+
+    el = document.getElementById('prod' + annotation.id);
+
+    if (el != null) {
+      xPos = el.getBoundingClientRect().x;
+      fullWidth = window.innerWidth;
+      offsetPos = fullWidth - xPos;
+
+      if (offsetPos < window.innerWidth/5) {
+        console.log(offsetPos);
         annotationContainer.append("div")
-            .classed("annotationText  hideAnnotation", true)
-            .html(annotation.text)
+          .classed("annotationText right  hideAnnotation", true)
+          .html(annotation.text)
 
-        annotationPin.on("mouseover", handleMouseOver)
-            .on("mouseout", handleMouseOut);
-    })
+      }else {
+        annotationContainer.append("div")
+          .classed("annotationText center hideAnnotation", true)
+          .html(annotation.text);
+      }
+    }
+
+    annotationPin.on("mouseover", handleMouseOver)
+      .on("mouseout", handleMouseOut);
+  })
 }
 
 function handleMouseOver(e) {
-    popUp = this.nextElementSibling;
-    popUp.classList.remove('hideAnnotation')
-    popUp.classList.add('displayAnnotation')
+  popUp = this.nextElementSibling;
+  popUp.classList.remove('hideAnnotation')
+  popUp.classList.add('displayAnnotation')
 
 }
 
 function handleMouseOut(e) {
-    popUp = this.nextElementSibling;
-    popUp.classList.remove('displayAnnotation')
-    popUp.classList.add('hideAnnotation')
+  popUp = this.nextElementSibling;
+  popUp.classList.remove('displayAnnotation')
+  popUp.classList.add('hideAnnotation')
 }

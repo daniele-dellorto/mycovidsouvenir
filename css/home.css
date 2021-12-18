@@ -197,6 +197,24 @@ html {
   overflow-y: hidden;
   border: 3px black solid;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.carousel-row{
+  display: flex;
+  justify-content: space-around;
+}
+
+.carousel-row .collCard{
+  width: auto;
+  flex-direction: column;
+  text-align: center;
+}
+
+.carousel-row p{
+  padding-bottom: 15px;
+  font-family: 'saint_regussemi_bold';
 }
 
 #surf_the_catalog button{

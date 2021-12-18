@@ -30,7 +30,7 @@
   font-size: 1.4rem;
 }
 
-.col-5 h3{  
+.col-5 h3{
   font-weight:600;
   margin-bottom:3rem;
 }
@@ -261,7 +261,7 @@
 }
 
 .annotationText {
-  max-width: 30vw;
+  min-width: 25vw;
   border-radius: 10px;
   padding: 10px 15px;
   background-color: black;
@@ -269,30 +269,33 @@
   position: relative;
   left: 100%;
   bottom: 70px;
-  transform: translate(-50%, -100%);
   z-index: 1;
   transition: .3s;
   transition-delay: .1s;
 }
 
+.center{
+  transform: translate(-50%, -100%);
+}
+.right{
+  transform: translate(-100%, -100%);
+}
+
 /*hover*/
 
 .hideAnnotation {
-  width: 0px;
-  height: 0px;
-  min-width: 0px;
-  min-height: 0px;
+  transform: translate(-50%, -50%) scale(0);
   opacity: 0;
 }
 
-.hideAnnotation p{
-  opacity:0;
+.displayAnnotation {
+  opacity: 1;
 }
 
-.displayAnnotation {
-  width: auto;
-  height: auto;
-  min-width: 20vw;
-  min-height: 10vw;
-  opacity: 1;
+.displayAnnotation.right{
+  transform: translate(-100%, -100%) scale(1);
+}
+
+.displayAnnotation.center{
+  transform: translate(-50%, -100%) scale(1);
 }
