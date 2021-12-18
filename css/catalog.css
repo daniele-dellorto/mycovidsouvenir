@@ -24,7 +24,7 @@
 
 .collCard{
   display:flex;
-  flex-direction: column;  
+  flex-direction: column;
     background-color: #fff;
     border-radius: 10px;
     border: 3px solid rgb(0, 0, 0);
@@ -85,6 +85,9 @@
   top: 0;
   z-index:2;
   color:white;
+
+  overflow: hidden;
+  height: 3rem;
 }
 
 .homeTitle *{
@@ -106,7 +109,7 @@
 
 .homeTitle p{
   font-size:1rem;
-  margin-left:1rem;  
+  margin-left:1rem;
 }
 
 /*______________________________________________________leftovers*/

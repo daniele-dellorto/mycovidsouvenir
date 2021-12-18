@@ -10,11 +10,11 @@ for (var collection in collectionData) {
   let collImg = collectionData[collection].image;
   let collGif = collectionData[collection].gif;
 
-  d3.json("data/souvenirs.json").then(function (data) {
+  d3.json("data/souvenirs.json").then(function(data) {
 
     var count = 0;
 
-    data.forEach(function (d) {
+    data.forEach(function(d) {
 
       dataValueMes = d.semantic.split(', ').map(s => s.toLowerCase());
       dataValueVis = d.visual.split(', ').map(s => s.toLowerCase());
@@ -70,10 +70,14 @@ for (var collection in collectionData) {
       .classed("thumbImg static", true)
       .attr("src", collImg)
 
-    card.on("mouseover", function(){thumbnail.attr("src", collGif)})
-      .on("mouseout", function(){thumbnail.attr("src", collImg)});
+    card.on("mouseover", function() {
+        thumbnail.attr("src", collGif)
+      })
+      .on("mouseout", function() {
+        thumbnail.attr("src", collImg)
+      });
 
-    card.on("click", function () {
+    card.on("click", function() {
       window.open('collection.html' + '?collection=' + collId, "_self")
     });
 
@@ -93,17 +97,18 @@ document.querySelectorAll('.scrollBarStyle').forEach(item => {
       subtitle[0].classList.remove("displayText");
       subtitle[0].classList.add("hideText");
     });
-    
+
+    console.log(event.srcElement);
+
     //set the hovered section to max dimension
     item.classList.remove("col-2");
     item.classList.add("col-10");
 
-    setTimeout(function(){
-      let subtitle = item.getElementsByClassName("subtitle");
-      subtitle[0].classList.add("displayText");
-      subtitle[0].classList.remove("hideText"); 
-   }, 200);   
-    
+    let subtitle = item.getElementsByClassName("subtitle");
+    subtitle[0].classList.add("displayText");
+    subtitle[0].classList.remove("hideText");
+
+
     document.querySelectorAll('.souvenir-grid').forEach(card => {
       card.classList.add('minifiedGrid');
     });
@@ -130,3 +135,67 @@ document.querySelectorAll('.scrollBarStyle').forEach(item => {
 
   })
 })
+
+
+
+
+
+// document.querySelectorAll('.scrollBarStyle').forEach(item => {
+//   item.addEventListener('mouseenter', event => {
+//
+//     startingElement = event.relatedTarget.classList[0];
+//     console.log(startingElement);
+//
+//     if (startingElement == "scrollBarStyle" || startingElement == "souvenir-grid" || startingElement == "collCard" || startingElement == "thumbImg") {
+//
+//
+//
+//     //reset sections to minimum dimension
+//     document.querySelectorAll('.scrollBarStyle').forEach(item => {
+//       item.classList.remove("col-6");
+//       item.classList.remove("col-10");
+//       item.classList.add("col-2");
+//
+//       let subtitle = item.getElementsByClassName("subtitle");
+//       subtitle[0].classList.remove("displayText");
+//       subtitle[0].classList.add("hideText");
+//     });
+//
+//     //set the hovered section to max dimension
+//     item.classList.remove("col-2");
+//     item.classList.add("col-10");
+//
+//     setTimeout(function(){
+//       let subtitle = item.getElementsByClassName("subtitle");
+//       subtitle[0].classList.add("displayText");
+//       subtitle[0].classList.remove("hideText");
+//    }, 200);
+//
+//     document.querySelectorAll('.souvenir-grid').forEach(card => {
+//       card.classList.add('minifiedGrid');
+//     });
+//
+//     item.querySelectorAll('.souvenir-grid').forEach(card => {
+//       card.classList.remove('minifiedGrid');
+//     });
+//
+//     document.querySelectorAll('.collCard').forEach(card => {
+//       card.classList.add('minified');
+//     });
+//
+//     item.querySelectorAll('.collCard').forEach(card => {
+//       card.classList.remove('minified');
+//     });
+//
+//     document.querySelectorAll('.souvenir-grid').forEach(card => {
+//       card.classList.add('minifiedDarken');
+//     });
+//
+//     item.querySelectorAll('.souvenir-grid').forEach(card => {
+//       card.classList.remove('minifiedDarken');
+//     });
+//
+//   }
+//
+//   })
+// })
