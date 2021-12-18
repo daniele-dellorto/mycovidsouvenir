@@ -141,6 +141,7 @@ html{
 
 main{
   position: absolute;
+  width:100%;
   top: 6vh;
   bottom: 0;
   overflow-y: scroll;

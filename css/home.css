@@ -7,15 +7,15 @@
 }
 
 #logo_cover{
-  width: 25vw;
+  width: 40vw;
   position: relative;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -75%);
 }
 
 #cover .scroll{
-  width:100%;
+  width:fit-content;
   display:flex;
   border:4px solid red;
 }
@@ -25,7 +25,7 @@
   background-color: white;
   white-space: nowrap;
   font-family: saint_regussemi_bold;
-  font-size:4em;
+  font-size:3rem;
   text-transform: uppercase;
   animation:scrolling1 40s linear infinite;
   animation-delay:-40s;
@@ -61,7 +61,23 @@
 }
 
 #cover .scroll.text1{
-  transform:rotate(30deg);
+  transform:rotate(15deg) translateY(500px);
+  transform-origin: center;
+}
+
+#cover .scroll.text2{
+  transform:rotate(-8deg) translateY(-500px);
+  transform-origin: center;
+}
+
+#cover .scroll.text3{
+  transform:rotate(20deg) translateY(1100px);
+  transform-origin: center;
+}
+
+#cover .scroll.text4{
+  transform:rotate(-8deg) translateY(-200px);
+  transform-origin: center;
 }
 
 /*______________________________________________________main*/
@@ -98,10 +114,6 @@
 .spacer-big {
   height: 25rem;
   width: 100%;
-}
-
-.products-row{
-  width:99vw;
 }
 
 .products_stripe {
