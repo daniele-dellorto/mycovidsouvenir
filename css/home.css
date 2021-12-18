@@ -1,6 +1,9 @@
+/*______________________________________________________cover*/
+
 #cover {
   height: 100vh;
   background-color: red;
+  overflow:hidden;
 }
 
 #logo_cover{
@@ -10,6 +13,58 @@
   left: 50%;
   transform: translate(-50%, -75%);
 }
+
+#cover .scroll{
+  width:100%;
+  display:flex;
+  border:4px solid red;
+}
+
+#cover .scroll div{
+  color:red;
+  background-color: white;
+  white-space: nowrap;
+  font-family: saint_regussemi_bold;
+  font-size:4em;
+  text-transform: uppercase;
+  animation:scrolling1 40s linear infinite;
+  animation-delay:-40s;
+}
+
+#cover .scroll div:nth-child(2){
+  animation:scrolling2 40s linear infinite;
+  animation-delay:-20s
+}
+
+@keyframes scrolling1{
+  0%
+  {
+    transform:translateX(100%);
+  }
+  
+  100%
+  {
+    transform:translateX(-100%);
+  }
+}
+
+@keyframes scrolling2{
+  0%
+  {
+    transform:translateX(0);
+  }
+  
+  100%
+  {
+    transform:translateX(-200%);
+  }
+}
+
+#cover .scroll.text1{
+  transform:rotate(30deg);
+}
+
+/*______________________________________________________main*/
 
 #main p {
   font-size: 1.5rem;
