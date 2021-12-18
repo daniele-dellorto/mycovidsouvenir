@@ -9,7 +9,7 @@
 #logo_cover{
   width: 40vw;
   position: relative;
-  top: 60%;
+  top: 58%;
   left: 50%;
   transform: translate(-50%, -75%);
 }
@@ -94,13 +94,13 @@
 }
 
 .imgs1{
-  animation:obj-scroll1 20s linear infinite;
-  animation-delay:-20s;
+  animation:obj-scroll1 40s linear infinite;
+  animation-delay:-40s;
 }
 
 .imgs2{
-  animation:obj-scroll2 20s linear infinite;
-  animation-delay:-10s
+  animation:obj-scroll2 40s linear infinite;
+  animation-delay:-20s
 }
 
 @keyframes obj-scroll1{
@@ -379,7 +379,6 @@
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-
   background-color: red;
   color: white;
   padding: 5px 10px;
