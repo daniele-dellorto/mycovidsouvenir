@@ -132,6 +132,12 @@ a.collCard{
   overflow: hidden;
 }
 
+#leftovers:hover{
+  background-color:white;
+  color:red;
+  border-top:3px solid red;
+}
+
 .marquee {
   font-family: 'saint_regusSBdCn', 'sans-serif';
   font-weight: bold;
