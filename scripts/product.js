@@ -1,5 +1,8 @@
 const id = new URLSearchParams(window.location.search).get('id');
 
+//page title
+document.title = "Product " + id + " - My Covid Souvenir";
+
 //containers as a const -> append later
 const imgContainer = d3.select("#prodImg");
 const textContainer = d3.select("#prodText");
