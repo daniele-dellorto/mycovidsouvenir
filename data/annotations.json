@@ -1,4 +1,4 @@
-annotations = 
+annotations =
 
 [{
         "id": "1525",
@@ -10,7 +10,7 @@ annotations =
       },
       {
         "id": "303",
-        "text": "<b>Bigfoot</b> is used as the perfect example of social distancing.",
+        "text": "<b>Bigfoot</b>, being a solitary creature, is used as the perfect example of social distancing.",
       },
       {
         "id": "1668",
@@ -185,5 +185,3 @@ annotations =
         "text": "This product contains the US flag, a claim about freedom and a <b>reference to the bible</b>.",
       },
     ]
-
-    
