@@ -17,7 +17,7 @@
 
   <link rel="shortcut icon" type="image/x-icon" href="favicon.svg">
 
-  <title></title>
+  <title>About - My Covid Souvenir</title>
 </head>
 
 <body>
@@ -55,12 +55,12 @@
             to think, not only about those objects useful to face the pandemic, but also how some of these came to life thanks to the message they enclosed. These products are souvenirs of the past two years, their meaning describes opinions, trends,
             and ideas about this (post?) pandemic world.
             <br><br>
-            My Covid Souvenir is a catalogue you can surf to find the perfect gift to remember the Covid 19 and all that came with it.
+            My Covid Souvenir is a catalogue you can surf to find the perfect gift to remember the COVID 19 and all that came with it.
           </p>
 
           <h3>Starting point</h3>
           <p>
-            Our project begins with a focus on all objects generally related to the Covid-19 pandemic. The aim was to find and highlight critical aspects of this topic and draw relevant insights to be communicated.
+            Our project begins with a focus on all objects generally related to the COVID-19 pandemic. The aim was to find and highlight critical aspects of this topic and draw relevant insights to be communicated.
           </p>
           <h3>Aim and focus</h3>
           <p>
@@ -69,97 +69,277 @@
             comparison system for these objects, their visual elements, and their conveyed messages.
           </p>
 
-          <h2>Process</h2>
-          <p>
-            In the first part of the research, we started by asking ourselves which are the covid-related objects sold online. We found out that a big portion of these products are essentially objects that convey a message through text. In this
-            context the meaning attributed to the object seems to be more relevant than the actual functionality.
-          </p>
+        </div>
+        <div class="col-3"></div>
+      </div>
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
 
+          <h2>Process</h2>
           <h3>Context definition</h3>
           <p>
-            Starting from the research question: “Which are the covid related objects sold online worldwide?”, we analysed major online marketplaces such as Aliexpress, Amazon, or Shopee. Many of these platforms block queries connected to covid-19 or
+            Starting from the research question “Which are the COVID related objects sold online worldwide?”, we analysed major online marketplaces such as Aliexpress, Amazon, or Alibaba. Many of these platforms block queries connected to COVID-19 or
             show non-related products, making our research harder.
           </p>
-        </div>
+          <img src="assets/about/alibaba.png" alt="">
+          <div class="caption">Result for "covid" query on Alibaba.com</div>
 
-        <div class="row">
-          <div class="col-2"></div>
-          <div class="col-8">
-            <img src="assets/about/alibaba.png" alt="">
+          <p>
+            We focused on Amazon since it’s a worldwide platform with country-specific marketplaces, in which COVID-related queries are not blocked and it doesn’t require an account to surf the website (as it is on Wish.com or Taobao.com).
+            <br><br>
+            For each country, in which Amazon has an operational marketplace, we searched for its most popular e-commerces on Google using the query "top e-commerces + [country]". We excluded those countries in which Amazon wasn’t one of its most popular platforms. The marketplaces exluded are
+            Amazon.com.tr (Turkey), Amazon.cn (China), Amazon.pl (Poland).
+          </p>
+
+          <h3>Data extraction</h3>
+          <p>
+            The data was extracted from the seventeen selected Amazon marketplaces using a list of queries and saving, for each of them, the first page of results.
+          </p>
+          <p><b>Selected Amazon marketplaces</b></p>
+          <ul class="list_col-3">
+            <li>amazon.sg (Singapore)</li>
+            <li>amazon.sa (Saudi Arabia)</li>
+            <li>amazon.it (Italy)</li>
+            <li>amazon.au (Australia)</li>
+            <li>amazon.com (USA)</li>
+            <li>amazon.co.uk (UK)</li>
+            <li>amazon.nl (the Netherlands)</li>
+            <li>amazon.ae (United Arab Emirates)</li>
+            <li>amazon.ca (Canada)</li>
+            <li>amazon.com.mx (Mexico)</li>
+            <li>amazon.se (Sweden)</li>
+            <li>amazon.jp (Japan)</li>
+            <li>amazon.fr (France)</li>
+            <li>amazon.br (Brazil)</li>
+            <li>amazon.de (Germany)</li>
+            <li>amazon.es (Spain)</li>
+            <li>and amazon.in (India)</li>
+          </ul>
+
+          <h4>Queries definition</h4>
+          <p>
+            For each country and language, we formulated specific queries. We used a VPN service to switch IP and fake our location to view the corresponding news about pandemic for each country, in which we identified the most used terms in relation
+            to COVID. These terms then became queries, which we tested on each marketplace, checking if they corresponded to COVID related products. (<a
+              href="https://docs.google.com/spreadsheets/d/1Q_pJs5Y-NC-zdz2UVvrR49PyJOGZezbTpwCrNNSTa-o/edit?usp=sharing" target="_blank">check all the queries</a>)
+          </p>
+          <h4>Marketplace scraping</h4>
+          <p>
+            For each query in each marketplace, we saved all the products shown in the first page of results. To do so we used a scraper written in Python (<a
+              href="https://medium.datadriveninvestor.com/introduction-to-scraping-in-python-with-beautifulsoup-and-requests-ab7b1c9bc113" target="_blank">learn more about scraping</a>)
+          </p>
+          <div class="code" id="scraper">
+            <script type="text/javascript" src="assets/about/python_scraper.js"></script>
           </div>
-          <div class="col-2"></div>
-        </div>
+          <div>Python scraper code <a href="assets/about/amazon_scraper.py">download the file</a></div>
 
-        <div class="row">
-          <div class="col-3"></div>
-          <div class="col-6">
-            <p>
-              We focused on Amazon since it’s a worldwide platform with country-specific marketplaces, in which covid-related queries are not blocked and it doesn’t require an account to surf the website (as it is on Wish.com or Taobao.com).
-              <br><br>
-              For all the countries, in which amazon has operational e-commerce platforms, we searched for the most popular e-commerces, and we excluded those countries in which Amazon wasn’t actively used by the population, those platforms are
-              Amazon.com.tr (Turkey), Amazon.cn (China), Amazon.pl (Poland).
-            </p>
-
-            <h3>Data extraction</h3>
-            <p>
-              The data was extracted from the seventeen selected Amazon marketplaces using a list of queries and saving, for each of them, the first page of results. The selected marketplaces are:
+          <p>
+            <b>For each product, we saved</b>
+          </p>
+          <ul class="list_col-1">
+            <li>Name</li>
+            <li>Link</li>
+            <li>Marketplace</li>
+            <li>Query</li>
+            <li>Image</li>
+            <li>Amazon tag (tags used to divide some products into categories)</li>
+          </ul>
+          <p><b>Amazon tags encountered during the research</b></p>
+          <ul class="list_col-1">
+            <li>Book</li>
+            <li>e-Book</li>
+            <li>Video disk</li>
+            <li>Audio disk</li>
+            <li>App</li>
+            <li>Mp3 file</li>
+            <li>Prime video product</li>
+          </ul>
+          <p>
+            We filtered our dataset by deleting all the products presenting an Amazon tag, focusing on the objects that weren’t tagged, such as masks, gloves, or gadgets about COVID-19.
+          </p>
+          <img src="assets/about/amazon_tags.png" alt="">
+          <p>
+            Then we removed by hand products that weren’t related to
+            COVID-19, following these criterias:
             </p>
             <ul>
-              <li>amazon.sg (Singapore)</li>
-              <li>amazon.sa (Saudi Arabia)</li>
-              <li>amazon.it (Italy)</li>
-              <li>amazon.au (Australia)</li>
-              <li>amazon.com (USA)</li>
-              <li>amazon.co.uk (UK)</li>
-              <li>amazon.nl (the Netherlands)</li>
-              <li>amazon.ae (United Arab Emirates)</li>
-              <li>amazon.ca (Canada)</li>
-              <li>amazon.com.mx (Mexico)</li>
-              <li>amazon.se (Sweden)</li>
-              <li>amazon.jp (Japan)</li>
-              <li>amazon.fr (France)</li>
-              <li>amazon.br (Brazil)</li>
-              <li>amazon.de (Germany)</li>
-              <li>amazon.es (Spain)</li>
-              <li>and amazon.in (India)</li>
+              <li>Products that didn’t mention COVID or pandemic effects in their image, title or shape.</li>
+              <li>Products that weren’t used against the virus during the pandemic.</li>
             </ul>
+            <p>
+            <a href="https://docs.google.com/spreadsheets/d/1AF-00OoQaLJtkccGRha_VwfT1H5DiN0Sdj67_H6PBm8/edit?usp=sharing" target="_blank">See the dataset</a> we obtained during this phase.
+          </p>
 
-            <h4>Queries definition</h4>
-            <p>
-              For each country and language, we formulated specific queries (check the list here) to search for covid-related products, looked for news about the pandemic and searched for the most used words about covid.
-              <br><br>
-              We used a VPN service to switch IP and fake our location to visualize for each country the corresponding news, in which we identified the most used terms in relation to covid. These terms then became queries, which we tested
-              on each marketplace, checking if they corresponded to Covid related products.
-            </p>
-            <h4>Marketplace scraping</h4>
-            <p>
-              For each query in each marketplace we saved all the products, shown in the first page of results, using a scraper written in Python (<a href="https://medium.datadriveninvestor.com/introduction-to-scraping-in-python-with-beautifulsoup-and-requests-ab7b1c9bc113" target="_blank">learn more about Python scraping</a>) For every product, we saved: Name, Image, Link, Marketplace, Query, Amazon tag (amazon tags books, amazon prime video products, DVD, etc) You can see the dataset we obtained during this phase <a href="https://docs.google.com/spreadsheets/d/1AF-00OoQaLJtkccGRha_VwfT1H5DiN0Sdj67_H6PBm8/edit?usp=sharing">here</a>.
-            </p>
+          <h3>Dataset expansion</h3>
+          <p>
+            Afterwards, we focused on products we defined as COVID souvenirs, those products in which the main characteristic is that they weren’t created to be functional in facing the pandemic. Instead, their main goal is
+            to communicate opinions about various aspects of the pandemic discussion. Therefore we decided to expand our dataset collecting more of these products.
+          </p>
+          <h4>Queries definition</h4>
+          <p>
+            We identified recurrent products categories and topics:
+          </p>
+          <p id="product_categories"><b>Product categories</b></p>
+          <ul class="list_col-1">
+            <li>Bracelets</li>
+            <li>T-shirts</li>
+            <li>Flags</li>
+            <li>Mugs</li>
+            <li>Socks</li>
+            <li>Caps</li>
+            <li>Patches</li>
+            <li>Stikers</li>
+          </ul>
+          <p><b>Topics</b></p>
+          <ul class="list_col-1">
+            <li>COVID</li>
+            <li>Vaccine</li>
+            <li>COVID pass</li>
+            <li>Social distancing</li>
+          </ul>
+          <p>
+            These categories were obtained through the analysis of the starting dataset, however some of them were included afterwards during the manual testing of the queries. For example while searching for shirts and pins, there were many patches
+            showing up, so we decided to include the Patches category. Sometimes we also used positions about the topic when it produced relevant results (e.g. “pro distanciamento social”).
+            <br><br>
+            We formulated new queries derived from product categories combined with topics.
+            <br><br>
+            <b>Query = [category] + [topic]</b>
+            <br>
+            E.g. in Amazon.es (Spain): “camiseta” + “vacuna”
+            <br><br>
+            Each query was formulated in the local language of each country of the selected amazon marketplaces and then each query was tested by hand in the corresponding platform to see if it was functional to our purpose of finding new COVID
+            souvenirs. (<a href="https://docs.google.com/spreadsheets/d/1fdZSJ7gzpe5Mh49euMjJyJdTBuAuXaP9VGKu1nFWq-M/edit?usp=sharing" target="_blank">Check all the queries</a>)
+          </p>
+          <h4>Scraping</h4>
+          <p>
+            Using the same <a href="#scraper">scraper</a> mentioned before we scraped again the 17 Amazon marketplaces, keeping only the products without an amazon tag.
+          </p>
+          <p>
+            <a href="https://docs.google.com/spreadsheets/d/1DUf9Us1aQlwlmvBdG0c9udrUi_D_1fb_3VkQublEg2Q/edit?usp=sharing">Chek the expanded dataset</a>
+          </p>
+          <h4>Cleaning</h4>
+          <p>
+            The resulting pool consisted of more than 6000 products, therefore, for each <a href="#products_category">product category</a>, we tagged 50 products manually, and used them to train a custom model on <a href="https://www.clarifai.com/">Clarifai</a>, an image
+            recognition service. Finally, we used the Clarifai python API to automatically tag the whole dataset.
+          </p>
+          <p>Clarifai API code <a href="assets/about/amazon_scraper.py">download the file</a></p>
+          <div class="code">
+            <script type="text/javascript" src="assets/about/python_scraper.js"></script>
           </div>
-          <div class="col-3"></div>
+          <p>
+            The custom model was built on the Clarifai template “context-based classifier”, so it didn’t need too many examples to be trained properly.
+          </p>
+          <img style="width: 60%" src="assets/about/clarifai.png" alt="">
+          <p>Sometimes the same product was sold in multiple amazon marketplaces. We identified the duplicates and then deleted them, keeping only the information about the country in which they were sold. Then we did further cleaning by removing by
+            hand products that didn’t mention COVID or pandemic effects in their image, title or shape.
+            <br><br>
+            As we concluded the cleaning process, the number of products was reduced from more than 6000 to about 2000.
+          </p>
+          <h4>Tagging</h4>
+          <p>
+            After polishing the dataset, among the products we noticed the presence of recurring messages and visual elements. We turned these recurrent elements into tags and, through a manual process, we tagged all the products in the dataset.
+          </p>
+          <p>
+            To set the tags we followed three main criterias:
+          </p>
+          <ul>
+            <li>Tags describing objects containing the same visual element</li>
+            <li>Tags describing objects containing the same slogan or variations of it</li>
+            <li>Tags describing objects referring to the same semantic field</li>
+          </ul>
+          <p>
+          Here’s a list of all the tags emerged and then used to tag the objects:
+          </p>
+            <p><b>Messages conveyed</b></p>
+            <ul class="list_col-3">
+              <li>I got the shot</li>
+              <li>Social distancing champion</li>
+              <li>Kinky COVID</li>
+              <li>Look I’m vaccinated</li>
+              <li>Keep calm</li>
+              <li>Vaccines cause adults</li>
+              <li>No vaccine against stupidity</li>
+              <li>If you can read this</li>
+              <li>Hugs and kisses</li>
+              <li>Jesus is my vaccine</li>
+              <li>Merry (COVID) Xmas</li>
+              <li>Pandemic politics</li>
+              <li>My body my choice</li>
+              <li>Fuck COVID</li>
+              <li>Best doctor/nurse</li>
+              <li>Best (COVID) teacher</li>
+              <li>Pandemic drinking</li>
+              <li>I have my immune system</li>
+              <li>No fear no vax</li>
+              <li>Freedom fighters</li>
+              <li>No COVID passport</li>
+              <li>Save lives</li>
+              <li>Flatter than Earth</li>
+              <li>COVID conspiracy</li>
+              <li>Thanks science</li>
+              <li>Look I’m anti-vax</li>
+              <li>Happy (COVID) birthday</li>
+              <li>I survived</li>
+              <li>Get vaccinated y’all</li>
+          </ul>
+            <p><b>Visual elements</b></p>
+            <ul class="list_col-3">
+              <li>COVID palette</li>
+              <li>Stars and Stripes</li>
+              <li>QR</li>
+              <li>Mask</li>
+              <li>Firearms</li>
+              <li>Skull</li>
+              <li>Middle finger</li>
+              <li>Biohazard symbol</li>
+              <li>Virus shape</li>
+              <li>Syringe</li>
+              <li>Vaccine vial</li>
+              <li>Caduceus</li>
+              <li>Band aid</li>
+              <li>Red cross</li>
+              <li>Prohibition symbol</li>
+              <li>Animals</li>
+              <li>We can do it</li>
+              <li>People</li>
+              <li>Checkmark</li>
+              <li>Heart</li>
+              <li>Flags</li>
+            </ul>
+            <p>
+              <a href="https://docs.google.com/spreadsheets/d/1DUf9Us1aQlwlmvBdG0c9udrUi_D_1fb_3VkQublEg2Q/edit?usp=sharing" target="_blank">Chek the final dataset</a>
+            </p>
         </div>
-
-      </div>
-
-      <div class="row">
-        <div class="col-2"></div>
-        <div class="col-8">
-          <p>Python scraper code <a href="assets/about/amazon_scraper.py">download the file</a></p>
-          <script type="text/javascript" src="assets/about/python_scraper.js"></script>
-        </div>
-        <div class="col-2"></div>
+        <div class="col-3"></div>
       </div>
 
       <div class="row">
         <div class="col-3"></div>
         <div class="col-6">
-          <h3>Cleaning and tagging</h3>
+          <h2>Publishing</h2>
           <p>
-
+            We organized our dataset into a virtual catalogue containing collections divided in two main areas, one regarding the conveyed messages and one regarding the visual elements. Each collection provides a brief introduction to the
+            content, an overview of the trends within the collection, and the list of Amazon marketplaces where the products are sold.
+            <br><br>
+            We added annotations to products which needed a further explanation. Annotations explain memes, pop culture references, cultural references and give translations.
+            <br><br>
+            Every product has its own page, with the full name of the product, its category, its tags and the indication of the Amazon marketplaces where the product is sold. We decided to include in the product page the link to its Amazon page to see the product in its native context.
+            <br><br>
+            We named this project “My Covid Souvenir”. It presents a total of 50 collections, in which we organized 2167 products selected and collected across 17 different Amazon marketplaces.
           </p>
         </div>
         <div class="col-3"></div>
       </div>
+
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+          <h2>Credits</h2>
+
+        </div>
+        <div class="col-3"></div>
+      </div>
+
     </div>
 
     <!-- FOOTER START -->
