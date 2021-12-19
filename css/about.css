@@ -54,6 +54,7 @@ pre{
 .caption{
   font-size: .8rem;
   margin: 1rem 0 2rem 0;
+  color: black;
 }
 
 .content a{
@@ -72,6 +73,7 @@ pre{
 
 .content li{
   font-size: .9rem;
+  color: black;
 }
 
 .list_col-3{
@@ -87,5 +89,5 @@ pre{
 }
 
 .code{
-  margin: 2rem 0 2rem 0;
+  margin-top: 2rem;
 }

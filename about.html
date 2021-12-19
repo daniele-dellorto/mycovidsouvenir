@@ -58,10 +58,6 @@
             My Covid Souvenir is a catalogue you can surf to find the perfect gift to remember the COVID 19 and all that came with it.
           </p>
 
-          <h3>Starting point</h3>
-          <p>
-            Our project begins with a focus on all objects generally related to the COVID-19 pandemic. The aim was to find and highlight critical aspects of this topic and draw relevant insights to be communicated.
-          </p>
           <h3>Aim and focus</h3>
           <p>
             The catalogue aims to showcase a large variety of communication patterns used to express ideas related to the global pandemic. The messages conveyed are often polarised on opposite sides regarding the government interventions about the
@@ -125,16 +121,16 @@
           </p>
           <h4>Marketplace scraping</h4>
           <p>
-            For each query in each marketplace, we saved all the products shown in the first page of results. To do so we used a scraper written in Python (<a
+            For each query in each marketplace we saved all the products shown in the first page of results. To do so we used a scraper written in Python (<a
               href="https://medium.datadriveninvestor.com/introduction-to-scraping-in-python-with-beautifulsoup-and-requests-ab7b1c9bc113" target="_blank">learn more about scraping</a>)
           </p>
           <div class="code" id="scraper">
             <script type="text/javascript" src="assets/about/python_scraper.js"></script>
           </div>
-          <div>Python scraper code <a href="assets/about/amazon_scraper.py">download the file</a></div>
+          <div class="caption">Python scraper code <a href="assets/about/amazon_scraper.py">download the file</a></div>
 
           <p>
-            <b>For each product, we saved</b>
+            <b>For each product we saved</b>
           </p>
           <ul class="list_col-1">
             <li>Name</li>
@@ -158,6 +154,7 @@
             We filtered our dataset by deleting all the products presenting an Amazon tag, focusing on the objects that weren’t tagged, such as masks, gloves, or gadgets about COVID-19.
           </p>
           <img src="assets/about/amazon_tags.png" alt="">
+          <div class="caption">Visual difference between an Amazon product with and without a tag</div>
           <p>
             Then we removed by hand products that weren’t related to
             COVID-19, following these criterias:
@@ -179,7 +176,7 @@
           <p>
             We identified recurrent products categories and topics:
           </p>
-          <p id="product_categories"><b>Product categories</b></p>
+          <p id="products_categories"><b>Product categories</b></p>
           <ul class="list_col-1">
             <li>Bracelets</li>
             <li>T-shirts</li>
@@ -208,28 +205,31 @@
             E.g. in Amazon.es (Spain): “camiseta” + “vacuna”
             <br><br>
             Each query was formulated in the local language of each country of the selected amazon marketplaces and then each query was tested by hand in the corresponding platform to see if it was functional to our purpose of finding new COVID
-            souvenirs. (<a href="https://docs.google.com/spreadsheets/d/1fdZSJ7gzpe5Mh49euMjJyJdTBuAuXaP9VGKu1nFWq-M/edit?usp=sharing" target="_blank">Check all the queries</a>)
+            souvenirs.
+            <br><br>
+            <a href="https://docs.google.com/spreadsheets/d/1fdZSJ7gzpe5Mh49euMjJyJdTBuAuXaP9VGKu1nFWq-M/edit?usp=sharing" target="_blank">Check all the queries</a>
           </p>
           <h4>Scraping</h4>
           <p>
             Using the same <a href="#scraper">scraper</a> mentioned before we scraped again the 17 Amazon marketplaces, keeping only the products without an amazon tag.
           </p>
           <p>
-            <a href="https://docs.google.com/spreadsheets/d/1DUf9Us1aQlwlmvBdG0c9udrUi_D_1fb_3VkQublEg2Q/edit?usp=sharing">Chek the expanded dataset</a>
+            <a href="https://docs.google.com/spreadsheets/d/1DUf9Us1aQlwlmvBdG0c9udrUi_D_1fb_3VkQublEg2Q/edit?usp=sharing" target="_blank">Check the expanded dataset</a>
           </p>
           <h4>Cleaning</h4>
           <p>
-            The resulting pool consisted of more than 6000 products, therefore, for each <a href="#products_category">product category</a>, we tagged 50 products manually, and used them to train a custom model on <a href="https://www.clarifai.com/">Clarifai</a>, an image
-            recognition service. Finally, we used the Clarifai python API to automatically tag the whole dataset.
+            The resulting pool consisted of more than 6000 products, therefore, for each <a href="#products_categories">product category</a>, we tagged 50 products manually, and used them to train a custom model on <a href="https://www.clarifai.com/" target="_blank">Clarifai</a>, an image
+            recognition service (<a href="https://docs.clarifai.com/portal-guide/model/pcustom-model-walkthrough" target="_blank">create a custom model in Clarifai</a>). Finally, we used the Clarifai python API to automatically tag the whole dataset.
           </p>
-          <p>Clarifai API code <a href="assets/about/amazon_scraper.py">download the file</a></p>
           <div class="code">
             <script type="text/javascript" src="assets/about/python_scraper.js"></script>
           </div>
+          <div class="caption">Automate tagging code <a href="assets/about/amazon_scraper.py">download the file</a></div>
           <p>
             The custom model was built on the Clarifai template “context-based classifier”, so it didn’t need too many examples to be trained properly.
           </p>
           <img style="width: 60%" src="assets/about/clarifai.png" alt="">
+          <div class="caption">The "context-based classifier" template's description on the Clarifai app</div>
           <p>Sometimes the same product was sold in multiple amazon marketplaces. We identified the duplicates and then deleted them, keeping only the information about the country in which they were sold. Then we did further cleaning by removing by
             hand products that didn’t mention COVID or pandemic effects in their image, title or shape.
             <br><br>
@@ -307,7 +307,7 @@
               <li>Flags</li>
             </ul>
             <p>
-              <a href="https://docs.google.com/spreadsheets/d/1DUf9Us1aQlwlmvBdG0c9udrUi_D_1fb_3VkQublEg2Q/edit?usp=sharing" target="_blank">Chek the final dataset</a>
+              <a href="https://docs.google.com/spreadsheets/d/1DUf9Us1aQlwlmvBdG0c9udrUi_D_1fb_3VkQublEg2Q/edit?usp=sharing" target="_blank">Check the final dataset</a>
             </p>
         </div>
         <div class="col-3"></div>
