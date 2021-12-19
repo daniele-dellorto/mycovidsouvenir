@@ -5,6 +5,8 @@
   height:auto;
   min-height: 75vh;
   background-color: red;
+  position:relative;
+  z-index:2;
 }
 
 #coverContainer .col-5, #coverContainer .col-7 {
@@ -76,6 +78,7 @@
   flex-wrap:wrap;
   margin: 4rem 15px 0 15px;
   align-content:flex-start;
+  padding-bottom:4rem;
 }
 
 .countries h3{
@@ -104,14 +107,15 @@
   padding: 0px;
   position:relative;
   transform:translateY(-3px);
-  z-index:-1;
 }
 
 /*title*/
 
 .categoryName {
   border-top: 3px solid black;
-  padding: 20px 0 60px 0
+  padding: 20px 0 60px 0;
+  position:relative;
+  z-index:1;
 }
 
 .categoryName h2 {
