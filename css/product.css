@@ -239,7 +239,6 @@
 /*______________________________________________________back button*/
 
 #goBack {
-  font-family: 'saint_regussemi_bold_expanded';
   position: fixed;
   height: 84vh;
   top: 11vh;
@@ -248,21 +247,24 @@
   width: 3rem;
   border-radius: 10px;
   border: 4px solid red;
-  background-color: white;
-  color: red;
-  z-index: 100;
+  background-color: red;
   align-items: center;
   justify-content: center;
 }
 
+
 #goBack:hover {
-  border: 4px solid black;
+  border: 4px solid red;
+  background-color: white;
 }
 
-#goBack:hover img {
-  filter: brightness(0%);
+.st1{fill:none;stroke:#FFFFFF;stroke-width:3.5629;stroke-linecap:round;stroke-linejoin:round;}
+.st2{fill:#FFFFFF;}
+
+#goBack:hover .st1 {
+  stroke:#ff0000;
 }
 
-#goBack img {
-  height: 2rem;
+#goBack:hover .st2 {
+  fill:#ff0000;
 }
