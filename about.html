@@ -222,14 +222,14 @@
             recognition service (<a href="https://docs.clarifai.com/portal-guide/model/pcustom-model-walkthrough" target="_blank">create a custom model in Clarifai</a>). Finally, we used the Clarifai python API to automatically tag the whole dataset.
           </p>
           <div class="code">
-            <script type="text/javascript" src="assets/about/python_scraper.js"></script>
+            <script type="text/javascript" src="assets/about/clarifai_tagging.js"></script>
           </div>
-          <div class="caption">Automate tagging code <a href="assets/about/amazon_scraper.py">download the file</a></div>
+          <div class="caption">Automate tagging code <a href="assets/about/clarifai_tagging.py">download the file</a></div>
           <p>
             The custom model was built on the Clarifai template “context-based classifier”, so it didn’t need too many examples to be trained properly.
           </p>
           <img style="width: 60%" src="assets/about/clarifai.png" alt="">
-          <div class="caption">The "context-based classifier" template's description on the Clarifai app</div>
+          <div class="caption">The "context-based classifier" template's description in the Clarifai app</div>
           <p>Sometimes the same product was sold in multiple amazon marketplaces. We identified the duplicates and then deleted them, keeping only the information about the country in which they were sold. Then we did further cleaning by removing by
             hand products that didn’t mention COVID or pandemic effects in their image, title or shape.
             <br><br>
@@ -335,6 +335,7 @@
         <div class="col-3"></div>
         <div class="col-6">
           <h2>Credits</h2>
+
 
         </div>
         <div class="col-3"></div>
