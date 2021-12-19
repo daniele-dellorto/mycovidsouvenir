@@ -8,7 +8,7 @@ collectionData = {
         "gif": "./assets/semantic/hugs_and_kisses.gif",
         "coverImage": "./assets/semantic/hugs_and_kisses_cover.png",
         "section": "59 products with references to physical affection such as hugs, kisses, and being close/far from one another.",
-        "text": "All products convey a positive message about <b>vaccines</b> and <b>social distancing</b>. The majority of them have ironic connotations"
+        "text": "Hugs and kisses are described in two ways: as something desiderable and made possible again thanks to <b>vaccines</b>, or as something unpleasant in general, even if vaccinated."
     },
 
     "if you can read this":
@@ -18,8 +18,8 @@ collectionData = {
         "image": "./assets/semantic/if_you_can_read_this.png",
         "gif": "./assets/semantic/if_you_can_read_this.gif",
         "coverImage": "./assets/semantic/if_you_can_read_this_cover.png",
-        "section": "20 products that convey a message to the person that is reading the words printed on it.",
-        "text": "The category is about social distancing. The majority of products have a message stating that if the text is readable to you, you are too close to the wearer/owner. There are no ANTI-VAX."
+        "section": "20 products that address a message to the people around the owner using text.",
+        "text": "The reading distance is used as a measure for <b>social distancing</b>: the majority of products have a message stating that if the text is readable to you, you are too close to the owner."
     },
 
     "social distancing champion":
@@ -29,8 +29,8 @@ collectionData = {
         "image": "./assets/semantic/social_distancing_champion.png",
         "gif": "./assets/semantic/social_distancing_champion.gif",
         "coverImage": "./assets/semantic/social_distancing_champion_cover.png",
-        "section":"67 products that state how good the wearer is at social distancing and/or that invite the reader to stay away from the wearer.",
-        "text":"There are no ANTI-VAX products."
+        "section":"67 products stating how good the wearer is at social distancing.",
+        "text":"Claims such as \"social distancing champion\" or \"I was social distancing before it was cool\" are mainly used on <b>apparel</b>, and represent <b>social distancing</b> in an ironic way."
     },
 
     "kinky covid":
@@ -41,7 +41,7 @@ collectionData = {
         "gif": "./assets/semantic/kinky_covid.gif",
         "coverImage": "./assets/semantic/kinky_covid_cover.png",
         "section":"29 products containing sexual references or innuendoes.",
-        "text":"The products convey a message that has sexual underlining. The majority of them state that the wearer/owner is either ready to engage in sexual practices or that they are pregnant with a baby conceived during the pandemic. 14 out of 29 products come from the french marketplace."
+        "text":"Sexual innuendos are used in relation with <b>vaccination</b> and <b>quarantine</b>: the majority of the products state that the wearer is either ready to engage in sexual practices or that they are pregnant with a baby conceived during the pandemic.</br></br> 14 out of 29 products come from the <b>French marketplace</b>."
     },
 
     "look i'm vaccinated":
@@ -51,8 +51,8 @@ collectionData = {
         "image": "./assets/semantic/look_im_vaccinated.png",
         "gif": "./assets/semantic/look_im_vaccinated.gif",
         "coverImage": "./assets/semantic/look_im_vaccinated_cover.png",
-        "section":"992 products announcing that the wearer/owner has had either one or two doses of the COVID vaccine.",
-        "text":"All products are PRO-VAX and state in both direct and subtle ways that the wearer is vaccinated."
+        "section":"992 products stating that the owner has had either one or two doses of the COVID vaccine.",
+        "text":"\"I'm vaccinated\" statements are used to support the <b>vaccination campaign</b>. This is the <b>biggest collection</b> in the website, with almost half of the total products."
     },
 
     "i got the shot":
@@ -62,8 +62,8 @@ collectionData = {
         "image": "./assets/semantic/i_got_the_shot.png",
         "gif": "./assets/semantic/i_got_the_shot.gif",
         "coverImage": "./assets/semantic/i_got_the_shot_cover.png",
-        "section":"108 products containing the formula I GOT + THE SHOT or close variations intended as a vaccine shot.",
-        "text":"All products are PRO-VAX and 37 out of 106 are from the Netherlands."
+        "section":"108 products containing the claim \"I got the shot\" or close variations, referring to the vaccine shot.",
+        "text":"The claim is used to support the <b>vaccination campaign</b>. In some products the claim has <b>ironic connotations</b>, such as allusions to drink shots."
     },
 
     "keep calm":
@@ -73,8 +73,8 @@ collectionData = {
         "image": "./assets/semantic/keep_calm.png",
         "gif": "./assets/semantic/keep_calm.gif",
         "coverImage": "./assets/semantic/keep_calm_cover.png",
-        "section":"39 products containing the English motto 'Keep calm and [...]', references to 'peace & love' or phrases from the same semantic area stating intention or urging the reader to relax.",
-        "text":"The majority of products reference the 'Keep calm and' British motivational poster. Only one item is ANTI-VAX, the rest are PRO-VAX."
+        "section":"39 products containing the English motto \"Keep calm and …\", references to \"peace & love\" or other phrases stating intention or encouraging the reader to relax.",
+        "text":"The \"Keep calm and\" motto comes from a British motivational poster, and is referenced in many products. Only one item is explicitly <b>anti-vax</b>, while the others convey positive messages on <b>vaccines</b> and <b>quarantine</b>."
     },
 
     "vaccines cause adults":
@@ -84,8 +84,8 @@ collectionData = {
         "image": "./assets/semantic/vaccines_cause_adults.png",
         "gif": "./assets/semantic/vaccines_cause_adults.gif",
         "coverImage": "./assets/semantic/vaccines_cause_adults_cover.png",
-        "section":"55 products containing the claim 'Vaccines cause adults' or very close variations of the phrase.",
-        "text":"The general message of this category implies that the maturity of an adult is synonymous with the willingness to be vaccinated.  All the products are PRO-VAX."
+        "section":"55 products containing the claim \"Vaccines cause adults\" or close variations.",
+        "text":"The claim refers to the \"vaccine cause…\" statements from <b>anti-vaxxers</b>, overturning their meaning: \"Vaccines cause adults\" implies that the willingness to be <b>vaccinated</b> is synonymous with maturity."
     },
 
     "no vaccine against stupidity":
@@ -95,8 +95,8 @@ collectionData = {
         "image": "./assets/semantic/no_vaccine_against_stupidity.png",
         "gif": "./assets/semantic/no_vaccine_against_stupidity.gif",
         "coverImage": "./assets/semantic/no_vaccine_against_stupidity_cover.png",
-        "section":"13 products stating there is a link between being stupid and not wanting to be vaccinated.",
-        "text":"All products are PRO-VAX."
+        "section":"12 products containing the claim \"There's no vaccine against stupidity\" or close variations.",
+        "text":"The claim mocks <b>anti-vaxxers</b>: it implies there there is a link between being stupid and not wanting to be vaccinated."
     },
 
     "jesus is my vaccine":
@@ -106,8 +106,8 @@ collectionData = {
         "image": "./assets/semantic/jesus_is_my_vaccine.png",
         "gif": "./assets/semantic/jesus_is_my_vaccine.gif",
         "coverImage": "./assets/semantic/jesus_is_my_vaccine_cover.png",
-        "section":"19 products stating that the wearer/owner does not need a vaccine since they have Jesus.",
-        "text":"The majority of products claim 'Jesus is my vaccine', only a few state that Jesus was not vaccinated.  They are all ANTI-VAX and 13 out of 19 of them are from the US."
+        "section":"19 products stating that the owner does not need a vaccine since they have Jesus.",
+        "text":"Religion is used to strengthen <b>anti-vax</b> messages: the claim \"Jesus is my vaccine\" is used on the majority of the products, while a few state that \"Jesus was not vaccinated\". </br></br>13 out of 19 products come from from the <b>US marketplace</b>."
     },
 
     "merry (covid) xmas":
@@ -117,8 +117,8 @@ collectionData = {
         "image": "./assets/semantic/merry_covid_xmas.png",
         "gif": "./assets/semantic/merry_covid_xmas.gif",
         "coverImage": "./assets/semantic/merry_covid_xmas_cover.png",
-        "section":"27 products about Christmas.",
-        "text":""
+        "section":"27 products containing references to Christmas.",
+        "text":"Christmas is represented as a moment that changed a lot due to the <b>pandemic</b>: these products display symbols such as Santa Claus or pine trees next to masks, vials and syringes. </br></br>The majority of the products are <b>Christmas decorations</b>."
     },
 
     "pandemic politics":
@@ -129,7 +129,7 @@ collectionData = {
         "gif": "./assets/semantic/pandemic_politics.gif",
         "coverImage": "./assets/semantic/pandemic_politics_cover.png",
         "section":"22 products with messages linked to any kind of political ideology.",
-        "text":"12 out of 22 products are PRO-MANDATES and/or VAX, and 10 are ANTI-MANDATES and/or VAX."
+        "text":"Political ideologies are mainly linked to polarized positions on the <b>vaccine</b>, on both sides. The majority of products refer to US political figures and parties."
     },
 
     "my body my choice":
@@ -139,8 +139,8 @@ collectionData = {
         "image": "./assets/semantic/my_body_my_choice.png",
         "gif": "./assets/semantic/my_body_my_choice.gif",
         "coverImage": "./assets/semantic/my_body_my_choice_cover.png",
-        "section":"38 products containing the claim “MY BODY MY CHOICE” or very close semantic transpositions of the concept.",
-        "text":"The majority of products display a syringe with a prohibition symbol on top.All the collection is ANTI-VAX."
+        "section":"38 products containing the claim \"My body my choice\" or close variations.",
+        "text":"The claim is a feminist slogan regarding bodily autonomy and abortion, but it is used in these products as an <b>anti-vax</b> slogan. </br></br>The majority of products display a <b>syringe</b> crossed by a <b>prohibition symbol</b> on top."
     },
 
     "fuck covid":
@@ -150,8 +150,8 @@ collectionData = {
         "image": "./assets/semantic/fuck_covid.png",
         "gif": "./assets/semantic/fuck_covid.gif",
         "coverImage": "./assets/semantic/fuck_covid_cover.png",
-        "section":"16 products containing the claim “FUCK COVID” or very close semantic transpositions of the concept.",
-        "text":"8 out of 16 products are PRO-VAX and/or PRO-MANDATE while the rest are NEUTRAL. Very few of them censor the word “FUCK”."
+        "section":"16 products containing the claim \"Fuck covid\" or close variations.",
+        "text":"The claim expresses <b>anger</b> for the pandemic in general. Very few of them censor the word \"fuck\"."
     },
 
     "best doctor/nurse":
@@ -161,8 +161,8 @@ collectionData = {
         "image": "./assets/semantic/best_doctor_nurse.png",
         "gif": "./assets/semantic/best_doctor_nurse.gif",
         "coverImage": "./assets/semantic/best_doctor_nurse_cover.png",
-        "section":"37 products that contain references to healthcare jobs.",
-        "text":" The products are either used to say that the wearer/owner has a healthcare profession or as a way to express gratitude to those that do. The majority of them are PRO-VAX, only 2 are ANTI-VAX while the rest are neutral."
+        "section":"37 products containing references to healthcare jobs.",
+        "text":"The claims of these products either state that the owner has a healthcare profession or express gratitude to those that do."
     },
 
     "best (covid) teacher":
@@ -172,8 +172,8 @@ collectionData = {
         "image": "./assets/semantic/best_covid_teacher.png",
         "gif": "./assets/semantic/best_covid_teacher.gif",
         "coverImage": "./assets/semantic/best_covid_teacher_cover.png",
-        "section":"14 products stating that the wearer/owner is a teacher.",
-        "text":"9 out of 14 products are PRO-VAX and/or PRO-MASK, the rest are neutral. 12 out of 15 products are from Spain."
+        "section":"14 products stating that the owner is a teacher.",
+        "text":"Teachers are mainly represented and figures that had to overcome many issues because of the pandemic, in particular related to <b>distance learning</b>. </br></br>12 out of 15 products come from the <b>spanish marketplace</b>."
     },
 
     "pandemic drinking":
@@ -183,8 +183,8 @@ collectionData = {
         "image": "./assets/semantic/pandemic_drinking.png",
         "gif": "./assets/semantic/pandemic_drinking.gif",
         "coverImage": "./assets/semantic/pandemic_drinking_cover.png",
-        "section":"41 products containing puns or references about alcohol or very close semantic transpositions of the concept.",
-        "text":"Alcohol is used in relation to vaccines and mandates in an ironic way. The vaccine shots are compared to drink shots, and the name of alcoholic beverages in Europe (mainly Italy) is associated with vaccine certificates in puns. All products are PRO-VAX and/or PRO-MANDATE, 15 out of 39 are from Italy."
+        "section":"41 products containing puns or references about alcohol.",
+        "text":"Alcohol is used in relation to <b>vaccines</b>: the vaccine shots are compared to drink shots, and the name of alcoholic beverages is associated with vaccine certificates in puns. </br></br> 14 out of 41 products come from the <b>italian marketplace</b>."
     },
 
     "i have my immune system":
@@ -194,8 +194,8 @@ collectionData = {
         "image": "./assets/semantic/i_have_my_immune_system.png",
         "gif": "./assets/semantic/i_have_my_immune_system.gif",
         "coverImage": "./assets/semantic/i_have_my_immune_system_cover.png",
-        "section":"15 products stating that the wearer/owner does not need a vaccine because their immune system is already enough.",
-        "text":"The majority of products state 'NO VACCINE NEEDED I HAVE AN IMMUNE SYSTEM'.All products are ANTI-VAX and 10 out of 15 are from the US."
+        "section":"15 products containing the claim \"No vaccine needed, i have an immune system\" or close variations.",
+        "text":"The claim is used as an <b>anti-vax</b> slogan, mainly in association with the representation of a syringe. </br></br>10 out of 15 products come from the <b>US marketplace</b>, and two <span style=\"white-space: nowrap;\">t-shirts</span> display the US flag."
     },
 
     "no fear no vax":
@@ -205,8 +205,8 @@ collectionData = {
         "image": "./assets/semantic/no_fear_no_vax.png",
         "gif": "./assets/semantic/no_fear_no_vax.gif",
         "coverImage": "./assets/semantic/no_fear_no_vax_cover.png",
-        "section":"10 products with a message about fear and/or not being afraid.",
-        "text":"Words are often used as or near US flag stripes.  All products are ANTI-VAX, as the title implies."
+        "section":"10 products with messages about fear and/or not being afraid.",
+        "text":"The word \"Fear\" is used in <b>anti-vax</b> claims: it is represented as an irrational reaction to the pandemic, that pushes people to vaccinate and be cautious. </br></br>The majority of products display <b>US flags</b>."
     },
 
     "freedom fighters":
@@ -216,8 +216,8 @@ collectionData = {
         "image": "./assets/semantic/freedom_fighters.png",
         "gif": "./assets/semantic/freedom_fighters.gif",
         "coverImage": "./assets/semantic/freedom_fighters_cover.png",
-        "section":"56 products with messages related to freedom and the unwillingness to comply with COVID mandates.",
-        "text":"The message of these products aproaches COVID mandates as a freedom movement would against a totalitarian regime. 26 out of 56 products are from the US."
+        "section":"56 products with messages related to freedom.",
+        "text":"The messages of these products approach <b>mask, vaccination and social distancing mandates</b> as a freedom movement would against a totalitarian regime. </br></br>26 out of 56 products come from the <b>US marketplace</b>, and many of them display the <b>US flag</b>."
     },
 
     "no covid passport":
@@ -227,8 +227,8 @@ collectionData = {
         "image": "./assets/semantic/no_covid_passport.png",
         "gif": "./assets/semantic/no_covid_passport.gif",
         "coverImage": "./assets/semantic/no_covid_passport_cover.png",
-        "section":"61 products about the unwillingness to comply with any kind of 'COVID passport'.",
-        "text":"All products are t-shirts and are ANTI-MANDATE, as per title. 33 out of 61 of them are from Italy, 23 from Germany."
+        "section":"61 products stating the unwillingness to comply with any kind of \"COVID passport\".",
+        "text":"The claims are displayed on <b>t-shirts</b>, often in association with representations of <b>QR codes</b>, <b>flags</b> and <b>middle fingers</b>. </br></br>33 out of 61 products come from the <b>italian marketplace</b>, 23 from the <b>german</b> one."
     },
 
     "save lives":
@@ -238,8 +238,8 @@ collectionData = {
         "image": "./assets/semantic/save_lives.png",
         "gif": "./assets/semantic/save_lives.gif",
         "coverImage": "./assets/semantic/save_lives_cover.png",
-        "section":"22 products that contain 'save lives'",
-        "text":"All products are PRO-VAX."
+        "section":"22 products containing the claim \"Save lives\"",
+        "text":"\"Save lives\" is used either in the claim \"Stay home save lives\" or in the claim \"vaccines save lives\"."
     },
 
     "flatter than earth":
@@ -249,8 +249,8 @@ collectionData = {
         "image": "./assets/semantic/flatter_than_earth.png",
         "gif": "./assets/semantic/flatter_than_earth.gif",
         "coverImage": "./assets/semantic/flatter_than_earth_cover.png",
-        "section":"10 products containing the phrase “The only thing that is flatter than the earth is an anti-vax child's EKG.”",
-        "text":"In 6 of the products  there are spelling mistakes such as “The ONLYTHING that…”.The majority of this category's products are from the US."
+        "section":"10 products containing the claim \"The only thing that is flatter than the earth is an anti-vax child's EKG\".",
+        "text":"The claim, displayed on mugs, is a violent message in opposition to <b>anti-vaxxers</b>. In 6 products there are spelling mistakes such as \"The <b>onlything</b> that…\". </br></br>7 out of 10 products come from the <b>US marketplace</b>."
     },
 
     "covid conspiracy":
@@ -260,8 +260,8 @@ collectionData = {
         "image": "./assets/semantic/covid_conspiracy.png",
         "gif": "./assets/semantic/covid_conspiracy.gif",
         "coverImage": "./assets/semantic/covid_conspiracy_cover.png",
-        "section":"42 products with messages that are linked to one or more conspiracy theories, in both an ironic and in an un-ironic way.",
-        "text":"References to conspiracy theories are used on objects to either support or mock that particular conspiracy. 13 products out of 41 are PRO-VAX, and the remaining 28 are ANTI-VAX and/or ANTI-MANDATE. The majority of products are from the US and Canada."
+        "section":"42 products with messages related to one or more conspiracy theories.",
+        "text":"References to <b>conspiracy theories</b> are used on these products to either support or mock that particular theory. </br></br>The majority of conspiracy theories mentioned are linked to <b>vaccines</b>."
     },
 
     "thanks science":
@@ -271,19 +271,19 @@ collectionData = {
         "image": "./assets/semantic/thanks_science.png",
         "gif": "./assets/semantic/thanks_science.gif",
         "coverImage": "./assets/semantic/thanks_science_cover.png",
-        "section":"64 products that contain references to science.",
-        "text":"The majority of products convey messages about science in either an appreciative or thankful way. Only one item is ANTI-VAX, the rest are PRO-VAX."
+        "section":"63 products containing references to science.",
+        "text":"Science is always represented as a synonym of <b>progress</b> and <b>objective truth</b>. The majority of products convey <b>appreciative or thankful messages</b>.</br></br> Only 1 out of 63 products display an <b>anti-vax</b> message."
     },
 
     "look i'm anti-vax":
     {
         "type": "semantic",
-        "title": "Look I'm ANTI-VAX",
+        "title": "Look I'm anti-vax",
         "image": "./assets/semantic/look_im_antivax.png",
         "gif": "./assets/semantic/look_im_antivax.gif",
         "coverImage": "./assets/semantic/look_im_antivax_cover.png",
-        "section":"124 products that convey the message that the wearer/owner is ANTI-VAX and ANTI-MANDATES.",
-        "text":""
+        "section":"124 products stating the message that the owner is anti-vax.",
+        "text":"<b>Anti-vax</b> statements are used to express dissent against the vaccination campaign. The majority of products are <b>caps</b> and <b>t-shirts</b>."
     },
 
     "happy (covid) birthday":
@@ -293,8 +293,8 @@ collectionData = {
         "image": "./assets/semantic/happy_covid_birthday.png",
         "gif": "./assets/semantic/happy_covid_birthday.gif",
         "coverImage": "./assets/semantic/happy_covid_birthday_cover.png",
-        "section":"11 products with references to birthdays.",
-        "text":""
+        "section":"11 products containing references to birthdays.",
+        "text":"Birthday is represented as a moment that changed a lot due to the <b>pandemic</b>: the majority of products display the message \"COVID ruined my birthday\"."
     },
 
     "i survived":
@@ -304,8 +304,8 @@ collectionData = {
         "image": "./assets/semantic/i_survived.png",
         "gif": "./assets/semantic/i_survived.gif",
         "coverImage": "./assets/semantic/i_survived_cover.png",
-        "section":"39 products depicting the negative impact of the pandemic on their 2020 birthday. Their picture is either a happy person or a sad person, next to a birthday cake.",
-        "text":"All products are NEUTRAL, 5 out 11 of them are from Mexico."
+        "section":"39 products containing references to war and fightings.",
+        "text":"War is used as a metaphor describing the <b>pandemic</b>: products in this collection represent people as warriors and survivers in a <b>tough context</b>, while the COVID is the  <b>enemy </b>."
     },
 
     "get vaccinated y'all":
@@ -315,8 +315,8 @@ collectionData = {
         "image": "./assets/semantic/get_vaccinated_yall.png",
         "gif": "./assets/semantic/get_vaccinated_yall.gif",
         "coverImage": "./assets/semantic/get_vaccinated_yall_cover.png",
-        "section":"Products that encourage people to get vaccinated.",
-        "text":"All products are PRO-VAX, as stated in the category name."
+        "section":"27 products with messages that encourage people to get vaccinated.",
+        "text":"\"Get vaccinated\" statements are used to support the <b>vaccination campaign</b>. Products in these collection use a wide variety of visual elements and claims to strengthen the message."
     },
 
     "covid palette":
@@ -326,8 +326,8 @@ collectionData = {
         "image": "./assets/visual/covid_palette.png",
         "gif": "./assets/visual/covid_palette.gif",
         "coverImage": "./assets/visual/covid_palette_cover.png",
-        "section":"27 products containing the 'covid palette': a combination of red, yellow, and light blue.",
-        "text":"The palette can be used in texts as well as in striped backgrounds. 14 out of 81 products are ANTI -VAX, the rest are PRO-VAX."
+        "section":"81 products containing the \"COVID palette\": a combination of red, yellow, and light blue.",
+        "text":"This palette can be used in texts as well as in striped backgrounds. It is displayed next to <b>various messages</b>, and the products containing it come from <b>12 different marketplaces</b>."
     },
 
     "stars and stripes":
@@ -337,8 +337,8 @@ collectionData = {
         "image": "./assets/visual/stars_and_stripes.png",
         "gif": "./assets/visual/stars_and_stripes.gif",
         "coverImage": "./assets/visual/stars_and_stripes_cover.png",
-        "section":"182 products containing the stars and stripes motif or colors of the USA flag.",
-        "text":"This symbol is used worldwide for polarized messages on both sides, promoting the PRO-VAX campaign as well as empowering ANTI-VAX slogans. ANTI-VAX products are prevalent and their main message deal with freedom, fear, and politics."
+        "section":"182 products containing the stars and stripes motif or colors of the US flag.",
+        "text":"Stars and stripes are used worldwide for <b>polarized messages</b>, promoting the <b>vaccination campaign</b> as well as empowering <b>anti-vax</b> slogans. </br></br>Anti-vax products are prevalent and their main message deal with <b>freedom, fear, and politics</b>."
     },
 
     "qr":
@@ -348,8 +348,8 @@ collectionData = {
         "image": "./assets/visual/qr.png",
         "gif": "./assets/visual/qr.gif",
         "coverImage": "./assets/visual/qr_cover.png",
-        "section":"40 products containing a QR CODE.",
-        "text":"This category considers products with COVID-related QR codes and usually convey ANTI-MANDATE messages. Out of 40 products, only one is PRO-VAX. 15 products are from Italy and 19 of them are from Germany."
+        "section":"40 products containing a QR code.",
+        "text":"QR codes in this collection are related to <b>COVID passports</b>. The majority of products convey messages <b>against the mandates</b> regarding those passports. </br></br>19 out of 40 products come from the <b>german marketplace</b>, 15 from the <b>italian</b> one."
     },
 
     "mask":
@@ -360,7 +360,7 @@ collectionData = {
         "gif": "./assets/visual/mask.gif",
         "coverImage": "./assets/visual/mask_cover.png",
         "section":"152 products containing representations of surgical masks.",
-        "text":"The mask can be displayed worn by humanized figures, animals, emojis as well as in stand-alone. The majority of products in this category are PRO-MANDATE."
+        "text":"The mask can be displayed worn by <b>humanized figures, animals, emojis</b> as well as in <b>stand-alone</b>. The majority of products in this category are PRO-MANDATE."
     },
 
     "firearms":
@@ -557,7 +557,7 @@ collectionData = {
         "image": "",
         "gif": "",
         "coverImage": "./assets/leftovers/leftovers_cover.png",
-        "section":"These are the 43 products that did not fit either in visuals or messages collections",
+        "section":"These are the 43 products that did not fit either in visuals or messages cobllections",
         "text": ""
     }
 }
