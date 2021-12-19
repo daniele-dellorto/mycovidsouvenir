@@ -60,9 +60,8 @@
 
           <h3>Aim and focus</h3>
           <p>
-            The catalogue aims to showcase a large variety of communication patterns used to express ideas related to the global pandemic. The messages conveyed are often polarised on opposite sides regarding the government interventions about the
-            global crisis. However, the objects and the visual elements with which these opposing opinions are sustained, usually tend to be the same. That’s why the catalogue focuses on providing the user a new visualisation and a meaningful
-            comparison system for these objects, their visual elements, and their conveyed messages.
+            The catalogue showcases a large variety of products created in reaction to the global pandemic. By extracting these products from their native context and by providing a different way to explore and navigate through them, the project aims
+            to highlight the recurring communication patterns used to express the concepts, opinions and emotions that have characterized the years influenced by the pandemic.
           </p>
 
         </div>
@@ -84,7 +83,8 @@
           <p>
             We focused on Amazon since it’s a worldwide platform with country-specific marketplaces, in which COVID-related queries are not blocked and it doesn’t require an account to surf the website (as it is on Wish.com or Taobao.com).
             <br><br>
-            For each country, in which Amazon has an operational marketplace, we searched for its most popular e-commerces on Google using the query "top e-commerces + [country]". We excluded those countries in which Amazon wasn’t one of its most popular platforms. The marketplaces exluded are
+            For each country, in which Amazon has an operational marketplace, we searched for its most popular e-commerces on Google using the query "top e-commerces + [country]". We excluded those countries in which Amazon wasn’t one of its most
+            popular platforms. The marketplaces exluded are
             Amazon.com.tr (Turkey), Amazon.cn (China), Amazon.pl (Poland).
           </p>
 
@@ -158,12 +158,12 @@
           <p>
             Then we removed by hand products that weren’t related to
             COVID-19, following these criterias:
-            </p>
-            <ul>
-              <li>Products that didn’t mention COVID or pandemic effects in their image, title or shape.</li>
-              <li>Products that weren’t used against the virus during the pandemic.</li>
-            </ul>
-            <p>
+          </p>
+          <ul>
+            <li>Products that didn’t mention COVID or pandemic effects in their image, title or shape.</li>
+            <li>Products that weren’t used against the virus during the pandemic.</li>
+          </ul>
+          <p>
             <a href="https://docs.google.com/spreadsheets/d/1AF-00OoQaLJtkccGRha_VwfT1H5DiN0Sdj67_H6PBm8/edit?usp=sharing" target="_blank">See the dataset</a> we obtained during this phase.
           </p>
 
@@ -211,14 +211,15 @@
           </p>
           <h4>Scraping</h4>
           <p>
-            Using the same <a href="#scraper">scraper</a> mentioned before we scraped again the 17 Amazon marketplaces, keeping only the products without an amazon tag.
+            Using these queries in the <a href="#scraper">scraper</a> mentioned before we scraped again the 17 Amazon marketplaces, keeping only the products without an amazon tag.
           </p>
           <p>
             <a href="https://docs.google.com/spreadsheets/d/1DUf9Us1aQlwlmvBdG0c9udrUi_D_1fb_3VkQublEg2Q/edit?usp=sharing" target="_blank">Check the expanded dataset</a>
           </p>
           <h4>Cleaning</h4>
           <p>
-            The resulting pool consisted of more than 6000 products, therefore, for each <a href="#products_categories">product category</a>, we tagged 50 products manually, and used them to train a custom model on <a href="https://www.clarifai.com/" target="_blank">Clarifai</a>, an image
+            The resulting pool consisted of more than 6000 products, therefore, for each <a href="#products_categories">product category</a>, we tagged 50 products manually, and used them to train a custom model on <a href="https://www.clarifai.com/"
+              target="_blank">Clarifai</a>, an image
             recognition service (<a href="https://docs.clarifai.com/portal-guide/model/pcustom-model-walkthrough" target="_blank">create a custom model in Clarifai</a>). Finally, we used the Clarifai python API to automatically tag the whole dataset.
           </p>
           <div class="code">
@@ -248,67 +249,67 @@
             <li>Tags describing objects referring to the same semantic field</li>
           </ul>
           <p>
-          Here’s a list of all the tags emerged and then used to tag the objects:
+            Here’s a list of all the tags emerged and then used to tag the objects:
           </p>
-            <p><b>Messages conveyed</b></p>
-            <ul class="list_col-3">
-              <li>I got the shot</li>
-              <li>Social distancing champion</li>
-              <li>Kinky COVID</li>
-              <li>Look I’m vaccinated</li>
-              <li>Keep calm</li>
-              <li>Vaccines cause adults</li>
-              <li>No vaccine against stupidity</li>
-              <li>If you can read this</li>
-              <li>Hugs and kisses</li>
-              <li>Jesus is my vaccine</li>
-              <li>Merry (COVID) Xmas</li>
-              <li>Pandemic politics</li>
-              <li>My body my choice</li>
-              <li>Fuck COVID</li>
-              <li>Best doctor/nurse</li>
-              <li>Best (COVID) teacher</li>
-              <li>Pandemic drinking</li>
-              <li>I have my immune system</li>
-              <li>No fear no vax</li>
-              <li>Freedom fighters</li>
-              <li>No COVID passport</li>
-              <li>Save lives</li>
-              <li>Flatter than Earth</li>
-              <li>COVID conspiracy</li>
-              <li>Thanks science</li>
-              <li>Look I’m anti-vax</li>
-              <li>Happy (COVID) birthday</li>
-              <li>I survived</li>
-              <li>Get vaccinated y’all</li>
+          <p><b>Messages conveyed</b></p>
+          <ul class="list_col-3">
+            <li>I got the shot</li>
+            <li>Social distancing champion</li>
+            <li>Kinky COVID</li>
+            <li>Look I’m vaccinated</li>
+            <li>Keep calm</li>
+            <li>Vaccines cause adults</li>
+            <li>No vaccine against stupidity</li>
+            <li>If you can read this</li>
+            <li>Hugs and kisses</li>
+            <li>Jesus is my vaccine</li>
+            <li>Merry (COVID) Xmas</li>
+            <li>Pandemic politics</li>
+            <li>My body my choice</li>
+            <li>Fuck COVID</li>
+            <li>Best doctor/nurse</li>
+            <li>Best (COVID) teacher</li>
+            <li>Pandemic drinking</li>
+            <li>I have my immune system</li>
+            <li>No fear no vax</li>
+            <li>Freedom fighters</li>
+            <li>No COVID passport</li>
+            <li>Save lives</li>
+            <li>Flatter than Earth</li>
+            <li>COVID conspiracy</li>
+            <li>Thanks science</li>
+            <li>Look I’m anti-vax</li>
+            <li>Happy (COVID) birthday</li>
+            <li>I survived</li>
+            <li>Get vaccinated y’all</li>
           </ul>
-            <p><b>Visual elements</b></p>
-            <ul class="list_col-3">
-              <li>COVID palette</li>
-              <li>Stars and Stripes</li>
-              <li>QR</li>
-              <li>Mask</li>
-              <li>Firearms</li>
-              <li>Skull</li>
-              <li>Middle finger</li>
-              <li>Biohazard symbol</li>
-              <li>Virus shape</li>
-              <li>Syringe</li>
-              <li>Vaccine vial</li>
-              <li>Caduceus</li>
-              <li>Band aid</li>
-              <li>Red cross</li>
-              <li>Prohibition symbol</li>
-              <li>Animals</li>
-              <li>We can do it</li>
-              <li>People</li>
-              <li>Checkmark</li>
-              <li>Heart</li>
-              <li>Flags</li>
-            </ul>
-            <p>
-              <a href="https://docs.google.com/spreadsheets/d/1DUf9Us1aQlwlmvBdG0c9udrUi_D_1fb_3VkQublEg2Q/edit?usp=sharing" target="_blank">Check the final dataset</a>
-            </p>
+          <p><b>Visual elements</b></p>
+          <ul class="list_col-3">
+            <li>COVID palette</li>
+            <li>Stars and Stripes</li>
+            <li>QR</li>
+            <li>Mask</li>
+            <li>Firearms</li>
+            <li>Skull</li>
+            <li>Middle finger</li>
+            <li>Biohazard symbol</li>
+            <li>Virus shape</li>
+            <li>Syringe</li>
+            <li>Vaccine vial</li>
+            <li>Caduceus</li>
+            <li>Band aid</li>
+            <li>Red cross</li>
+            <li>Prohibition symbol</li>
+            <li>Animals</li>
+            <li>We can do it</li>
+            <li>People</li>
+            <li>Checkmark</li>
+            <li>Heart</li>
+            <li>Flags</li>
+          </ul>
+          <p>
+            <a href="https://docs.google.com/spreadsheets/d/1DUf9Us1aQlwlmvBdG0c9udrUi_D_1fb_3VkQublEg2Q/edit?usp=sharing" target="_blank">Check the final dataset</a>
+          </p>
         </div>
         <div class="col-3"></div>
       </div>
@@ -318,12 +319,15 @@
         <div class="col-6">
           <h2>Publishing</h2>
           <p>
-            We organized our dataset into a virtual catalogue containing collections divided in two main areas, one regarding the conveyed messages and one regarding the visual elements. Each collection provides a brief introduction to the
+            We organized our dataset into a virtual catalogue, as we wanted to provide a different way to explore and navigate through the products.
+            The collections are divided in two main areas, one regarding the conveyed messages and one regarding the visual elements.
+             Each collection provides a brief introduction to the
             content, an overview of the trends within the collection, and the list of Amazon marketplaces where the products are sold.
             <br><br>
             We added annotations to products which needed a further explanation. Annotations explain memes, pop culture references, cultural references and give translations.
             <br><br>
-            Every product has its own page, with the full name of the product, its category, its tags and the indication of the Amazon marketplaces where the product is sold. We decided to include in the product page the link to its Amazon page to see the product in its native context.
+            Every product has its own page, with the full name of the product, its category, its tags and the indication of the Amazon marketplaces where the product is sold. We decided to include in the product page the link to its Amazon page to
+            see the product in its native context.
             <br><br>
             We named this project “My Covid Souvenir”. It presents a total of 50 collections, in which we organized 2167 products selected and collected across 17 different Amazon marketplaces.
           </p>
@@ -335,7 +339,36 @@
         <div class="col-3"></div>
         <div class="col-6">
           <h2>Credits</h2>
-
+            <p>
+              <b>My Covid Souvenir team:</b>
+            </p>
+            <div id="team" class="row">
+              <div class="team_mate">
+                <img src="assets/about/io.png" alt="">
+                <p>Alessandro Quets</p>
+              </div>
+              <div class="team_mate">
+                <img src="assets/about/io.png" alt="">
+                <p>Alessandro Quets</p>
+              </div>
+              <div class="team_mate">
+                <img src="assets/about/io.png" alt="">
+                <p>Alessandro Quets</p>
+              </div>
+              <div class="team_mate">
+                <img src="assets/about/io.png" alt="">
+                <p>Alessandro Quets</p>
+              </div>
+            </div>
+            <ul>
+              <li>Daniele Dell'Orto</li>
+              <li>Martina Francella</li>
+              <li>Octavian Husoschi</li>
+              <li>Shan Huang</li>
+              <li>Martina Melillo</li>
+              <li>Matteo Pini</li>
+              <li>Alessandro Quets</li>
+            </ul>
 
         </div>
         <div class="col-3"></div>

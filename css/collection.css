@@ -151,6 +151,10 @@
   border: 3px solid red;
 }
 
+a.collCard{
+  text-decoration: none;
+}
+
 .productSize {
   grid-row: span 1;
   grid-column: span 1;
