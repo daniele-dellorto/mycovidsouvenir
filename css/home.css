@@ -1,7 +1,7 @@
 /*______________________________________________________cover*/
 
 #cover {
-  height: 100vh;
+  height: 94vh;
   background-color: red;
   overflow:hidden;
 }
@@ -9,7 +9,7 @@
 #logo_cover{
   width: 40vw;
   position: relative;
-  top: 58%;
+  top: 53vh;
   left: 50%;
   transform: translate(-50%, -75%);
 }
@@ -61,12 +61,12 @@
 }
 
 #cover .scroll.text1{
-  transform:rotate(15deg) translate(-200px, 500px);
+  transform:rotate(15deg) translate(-200px, 400px);
   transform-origin: center;
 }
 
 #cover .scroll.text2{
-  transform:rotate(-8deg) translate(-200px,-500px);
+  transform:rotate(-8deg) translate(-200px,-600px);
   transform-origin: center;
 }
 
