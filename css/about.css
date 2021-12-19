@@ -94,6 +94,8 @@ pre{
 
 #team{
   margin-top: 2rem;
+  border: none;
+  justify-content: center;
 }
 
 .team_mate {
@@ -109,4 +111,9 @@ pre{
 
 .team_mate img{
   margin: 0;
+  padding: 1rem;
+}
+
+.team_mate p{
+  font-weight: 600;
 }
