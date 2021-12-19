@@ -74,7 +74,7 @@ collectionData = {
         "gif": "./assets/semantic/keep_calm.gif",
         "coverImage": "./assets/semantic/keep_calm_cover.png",
         "section":"39 products containing the English motto \"Keep calm and …\", references to \"peace & love\" or other phrases stating intention or encouraging the reader to relax.",
-        "text":"The \"Keep calm and\" motto comes from a British motivational poster, and is referenced in many products. Only one item is explicitly <b>anti-vax</b>, while the others convey positive messages on <b>vaccines</b> and <b>quarantine</b>."
+        "text":"The \"Keep calm and\" motto comes from a British motivational poster, and is referenced in many products. Only one product is explicitly <b>anti-vax</b>, while the others convey positive messages on <b>vaccines</b> and <b>quarantine</b>."
     },
 
     "vaccines cause adults":
@@ -128,7 +128,7 @@ collectionData = {
         "image": "./assets/semantic/pandemic_politics.png",
         "gif": "./assets/semantic/pandemic_politics.gif",
         "coverImage": "./assets/semantic/pandemic_politics_cover.png",
-        "section":"22 products with messages linked to any kind of political ideology.",
+        "section":"21 products with messages linked to any kind of political ideology.",
         "text":"Political ideologies are mainly linked to polarized positions on the <b>vaccine</b>, on both sides. The majority of products refer to US political figures and parties."
     },
 
@@ -227,8 +227,8 @@ collectionData = {
         "image": "./assets/semantic/no_covid_passport.png",
         "gif": "./assets/semantic/no_covid_passport.gif",
         "coverImage": "./assets/semantic/no_covid_passport_cover.png",
-        "section":"61 products stating the unwillingness to comply with any kind of \"COVID passport\".",
-        "text":"The claims are displayed on <b>t-shirts</b>, often in association with representations of <b>QR codes</b>, <b>flags</b> and <b>middle fingers</b>. </br></br>33 out of 61 products come from the <b>italian marketplace</b>, 23 from the <b>german</b> one."
+        "section":"62 products stating the unwillingness to comply with any kind of \"COVID passport\".",
+        "text":"The claims are displayed on <b>t-shirts</b>, often in association with representations of <b>QR codes</b>, <b>flags</b> and <b>middle fingers</b>. </br></br>34 out of 62 products come from the <b>italian marketplace</b>, 23 from the <b>german</b> one."
     },
 
     "save lives":
@@ -360,7 +360,7 @@ collectionData = {
         "gif": "./assets/visual/mask.gif",
         "coverImage": "./assets/visual/mask_cover.png",
         "section":"152 products containing representations of surgical masks.",
-        "text":"The mask can be displayed worn by <b>humanized figures, animals, emojis</b> as well as in <b>stand-alone</b>. The majority of products in this category are PRO-MANDATE."
+        "text":"The mask can be displayed worn by <b>humanized figures, animals, emojis</b> as well as in <b>stand-alone</b>. In the majority of products the mask has a <b>positive connotation</b>, but there are many exceptions."
     },
 
     "firearms":
@@ -370,8 +370,8 @@ collectionData = {
         "image": "./assets/visual/firearms.png",
         "gif": "./assets/visual/firearms.gif",
         "coverImage": "./assets/visual/firearms_cover.png",
-        "section":"8 products containing visual references to firearms.",
-        "text":"Guns are used both as a symbol PRO-VAX and ANTI-VAX, but with a different connotation. ANTI-VAX products convey the firearm as a symbol of protection, whereas in PRO-VAX products guns mean danger."
+        "section":"8 products containing representations of firearms.",
+        "text":"Firearms are used both as a symbol empowering <b>anti-vax</b> and <b>pro-vax</b> slogans, but with a different connotation. Anti-vax products represent the firearm as a symbol of <b>protection</b>, whereas in <b>pro-vax</b> products firearm mean danger."
     },
 
     "skull":
@@ -381,8 +381,8 @@ collectionData = {
         "image": "./assets/visual/skull.png",
         "gif": "./assets/visual/skull.gif",
         "coverImage": "./assets/visual/skull_cover.png",
-        "section":"15 products containing a skull or other skeletal parts.",
-        "text":"The skull is predominantly used to create a negative visual connection with the message enclosed.Most of the products in this section are from Germany and The Netherlands. The objects with german writings display ANTI-VAX messages and use the skull as a symbol of ANTI-MANDATE."
+        "section":"15 products containing representations of a skull or other skeletal parts.",
+        "text":"The skull is mainly used to create a <b>negative visual connection</b> with the various message enclosed, or to express toughness. </br></br>7 out of 15 products come from the <b>german marketplace</b>."
     },
 
     "middle finger":
@@ -392,8 +392,8 @@ collectionData = {
         "image": "./assets/visual/middle_finger.png",
         "gif": "./assets/visual/middle_finger.gif",
         "coverImage": "./assets/visual/middle_finger_cover.png",
-        "section":"38 products containing a hand doing the middle finger.",
-        "text":"The middle finger is used on all products as a sign of strong opposition. While few products use this representation to convey an ANTI-MANDATE message, most of them display ANTI-VAX messages. The majority of products are sold on amazon.de. 24 out of 38 products also contain the QR code visual."
+        "section":"38 products containing representations of a hand doing the middle finger.",
+        "text":"The middle finger is used as a sign of <b>strong opposition</b>: the majority of products in this collection display messages against <b>COVID passports</b>. </br></br>23 out of 38 products come from the <b>german marketplace</b>."
     },
 
     "virus shape":
@@ -403,8 +403,8 @@ collectionData = {
         "image": "./assets/visual/virus_shape.png",
         "gif": "./assets/visual/virus_shape.gif",
         "coverImage": "./assets/visual/virus_shape_cover.png",
-        "section":"224 products containing the shape or silhouette of a virus, a spiked sphere.",
-        "text":"It is mainly used as a decorative or background element. It can also be represented as an enemy to destroy, giving it a face and occasionally arms and legs, and pairing him with pro-vax slogans. Just three anti-vax products display this shape. The majority of products are PRO-VAX."
+        "section":"224 products containing the shape or silhouette of a virus, represented as a spiked sphere.",
+        "text":"The virus shape is mainly used as a <b>decorative or background element</b>. It can also be represented as an <b>enemy to destroy</b> through vaccination, giving it a face and occasionally arms and legs. </br></br>Just three <b>anti-vax</b> products display this shape."
     },
 
     "biohazard symbol":
@@ -415,7 +415,7 @@ collectionData = {
         "gif": "./assets/visual/biohazard_symbol.gif",
         "coverImage": "./assets/visual/biohazard_symbol_cover.png",
         "section":"25 products containing the biohazard symbol.",
-        "text":"This symbol was developed in 1966 by Charles Baldwin, an environmental-health engineer, and is used in the labeling of biological materials that carry a significant health risk. 10 Out of 25 products are from the Netherlands, 8 from the UK, and 6 from Sweden. The majority of them are ANTI-VAX, the few that remain are NEUTRAL."
+        "text":"The biohazard symbol is commonly used for biological materials that carry a significant <b>health risk</b>. The majority of the products display are <b>anti-vax messages</b>, representing the vaccine as dangerous for health."
     },
 
     "syringe":
@@ -425,8 +425,8 @@ collectionData = {
         "image": "./assets/visual/syringe.png",
         "gif": "./assets/visual/syringe.gif",
         "coverImage": "./assets/visual/syringe_cover.png",
-        "section":"702 products containing any kind of syringe.",
-        "text":"It is widely used in the vaccine campaign as a synonym of hope while supporting ANTI-VAX messages when associated with the prohibition symbol. In this collection there is a good balance between PRO-VAX and ANTI-VAX products."
+        "section":"702 products containing the representation of a syringe.",
+        "text":"The syringe is widely used in the <b>vaccine campaign</b> as a synonym of <b>hope</b>, while associated with the <b>prohibition symbol</b> supports <b>anti-vax messages</b> when."
     },
 
     "vaccine vial":
@@ -437,7 +437,7 @@ collectionData = {
         "gif": "./assets/visual/vaccine_vial.gif",
         "coverImage": "./assets/visual/vaccine_vial_cover.png",
         "section":"87 products containing the representation of a vaccine vial.",
-        "text":"These containers are used as a symbol associated with the syringe on many products, both pro-vax and anti-vax. The majority of products are PRO-VAX, a few are ANTI-VAX and the rest are NEUTRAL."
+        "text":"The vaccine vial is used as a symbol associated with the <b>syringe</b> on many products. The majority of the products support the <b>vaccination campaign</b>, but there are many exceptions."
     },
 
     "band aid":
@@ -447,8 +447,8 @@ collectionData = {
         "image": "./assets/visual/band_aid.png",
         "gif": "./assets/visual/band_aid.gif",
         "coverImage": "./assets/visual/band_aid_cover.png",
-        "section":"Products containing a band-aid.",
-        "text":"This symbol stands for the band-aid used after a vaccination.This element is used by the vaccination campaign, mainly on bracelets and pins, and is usually combined with a checkmark in the shape of a “V” referencing the initial of vaccine or a heart."
+        "section":"Products containing the representation of a band aid.",
+        "text":"The band aid stands for the patch used after a vaccination. This element is used to support the <b>vaccination campaign</b>, mainly on <b>bracelets and </b>pins. </br></br>It is usually combined with a <b>checkmark</b> in the shape of a “V” referencing the initial of vaccine or a heart."
     },
 
     "caduceus":
@@ -458,8 +458,8 @@ collectionData = {
         "image": "./assets/visual/caduceus.png",
         "gif": "./assets/visual/caduceus.gif",
         "coverImage": "./assets/visual/caduceus_cover.png",
-        "section":"207 products containing the caduceus.",
-        "text":"The caduceus, a staff with two snakes coiled around it, comes from Greek mythology and is often used as a symbol of healthcare organizations and medical practice, particularly in the US (it is the official insignia of the United States Medical Corps). The symbol is displayed on medical alert bracelets for various diseases and is mostly used to communicate that the wearer/owner is vaccinated. All products are PRO-VAX and the majority are from Germany."
+        "section":"207 products containing the representation of a caduceus.",
+        "text":"The caduceus, a staff with two snakes coiled around it, is a worldwide a symbol of <b>healthcare organizations</b> as well as the insignia of the United States Medical Corps. </br></br>The symbol is displayed on <b>medical alert bracelets</b>, mainly used to communicate that the owner is <b>vaccinated</b>."
     },
 
     "red cross":
@@ -469,8 +469,8 @@ collectionData = {
         "image": "./assets/visual/red_cross.png",
         "gif": "./assets/visual/red_cross.gif",
         "coverImage": "./assets/visual/red_cross_cover.png",
-        "section":"71 products containing the Red Cross symbol or any other visual element related to it.",
-        "text":"The international red cross symbol is commonly associated with healthcare. It is mostly used with a positive connotation in vaccination campaigns around the globe. However, some products use it as something to fight against. Only 2 products are ANTI-VAX, the rest are all PRO-VAX."
+        "section":"71 products containing the Red Cross symbol or any related visual element.",
+        "text":"The red cross symbol is internationally associated with <b>healthcare</b>. It is mainly used with a positive connotation in <b>vaccination campaigns</b> around the globe. </br></br>However, few products represent it as something to <b>fight against</b>."
     },
 
     "prohibition symbol":
@@ -480,8 +480,8 @@ collectionData = {
         "image": "./assets/visual/prohibition_symbol.png",
         "gif": "./assets/visual/prohibition_symbol.gif",
         "coverImage": "./assets/visual/prohibition_symbol_cover.png",
-        "section":"119 products containing the prohibition symbol, a circle with a backslash.",
-        "text":"The prohibition symbol is often used in combination with a syringe to convey ANTI-VAX messages, however, it is also used in combination with the virus symbol to state that the wearer/owner is vaccinated. The majority of products are ANTI-VAX."
+        "section":"119 products containing the prohibition symbol: a circle with a backslash.",
+        "text":"The prohibition symbol is often used in combination with a <b>syringe</b> to convey <b>anti-vax messages</b>. however, many other products display it in combination with the <b>virus symbol</b> to state that the owner is vaccinated."
     },
 
     "animals":
@@ -491,8 +491,8 @@ collectionData = {
         "image": "./assets/visual/animals.png",
         "gif": "./assets/visual/animals.gif",
         "coverImage": "./assets/visual/animals_cover.png",
-        "section":"100 products containing any kind of animal.",
-        "text":" While animals, in general, can be used as a cheerful element in the vaccination campaign, some of them can have completely different meanings, such as lab rats or vaccinated sheep."
+        "section":"100 products containing the representation of any kind of animal.",
+        "text":"Animals are mainly used as a <b>cheerful element</b> in the vaccination campaign. However, some of them can have completely different meanings, such as <b>lab rats</b> or <b>vaccinated sheeps</b>."
     },
 
     "people":
@@ -503,7 +503,7 @@ collectionData = {
         "gif": "./assets/visual/people.gif",
         "coverImage": "./assets/visual/people_cover.png",
         "section":"103 products containing any kind of figure recognizable as a human.",
-        "text":"People pictured can be healthcare professionals, politicians, pop culture characters, stick figures, or emojis. The majority of products are PRO-VAX, some are NEUTRAL and a few are ANTI-VAX."
+        "text":"People pictured can be <b>healthcare professionals, politicians, pop culture characters, stick figures, or emojis</b>. Products in this collection display <b>various messages</b>."
     },
 
     "checkmark":
@@ -514,7 +514,7 @@ collectionData = {
         "gif": "./assets/visual/checkmark.gif",
         "coverImage": "./assets/visual/checkmark_cover.png",
         "section":"357 products containing a checkmark symbol or a checkbox.",
-        "text":"The cherckmark and/or checkbox are used next to words such as 'VACCINATED' or 'UNVACCINATED'. They convey different messages based on the text and the status of the checkbox. The symbol is often used as a 'V' in 'VACCINATED', or associated to a band-aid. The majority of products are PRO-VAX."
+        "text":"The checkmark and/or checkbox convey different messages based on the <b>text</b> displayed next and the <b>status of the checkbox</b>. The majority of products have written \"vaccinated\" on them."
     },
 
     "we can do it":
@@ -524,8 +524,8 @@ collectionData = {
         "image": "./assets/visual/we_can_do_it.png",
         "gif": "./assets/visual/we_can_do_it.gif",
         "coverImage": "./assets/visual/we_can_do_it_cover.png",
-        "section":"27 products containing the 'we can do it' slogan or figures closely associated with it.",
-        "text":"The iconic figure of a strong female war production worker from the famous American wartime poster “We can do it!” is used in different versions, sometimes summarised with an arm. The figure is used as a symbol of resistance against the virus, as a mascot for the vaccine but also as an emblem of the anti-vax opposition. The majority of products are PRO-VAX, but a few are ANTI-VAX."
+        "section":"27 products containing the \"we can do it woman\".",
+        "text":"The symbol refers to the famous <b>American wartime poster</b> \"We can do it!\". It is used in different versions, sometimes summarised with an arm. </br></br>The figure is used as a symbol of <b>resistance against the virus</b>, as a mascot for the <b>vaccine</b> but also as an emblem of the <b>anti-vax</b> opposition."
     },
 
     "heart":
@@ -535,8 +535,8 @@ collectionData = {
         "image": "./assets/visual/heart.png",
         "gif": "./assets/visual/heart.gif",
         "coverImage": "./assets/visual/heart_cover.png",
-        "section":"70 products containing any kind of heart symbol.",
-        "text":" The heart is often used to add and convey affection to the message it comes with. There is only one ANTI-VAX item, the majority are PRO-VAX and the rest are NEUTRAL. 35 out of 72 them are pins."
+        "section":"70 products containing a heart symbol.",
+        "text":" The heart is mainly used to convey <b>affection</b> to the message it comes with: the majority of products display positive messages about the <b>vaccine</b>. Almost half of them are <b>pins</b>."
     },
 
     "flags":
@@ -547,7 +547,7 @@ collectionData = {
         "gif": "./assets/visual/flags.gif",
         "coverImage": "./assets/visual/flags_cover.png",
         "section":"26 products containing national flags, except the US one.",
-        "text":"The flag, in combination with any kind of message, gives the item patriotic and/or nationalistic connotations. The majority of products are ANTI-VAX, the rest are PRO-VAX and NEUTRAL.17 out of 26 are from Italy."
+        "text":"The flag, in combination with any kind of message, gives the product <b>patriotic</b> and/or <b>nationalistic</b> connotations. The majority of products are <b>t-shirts</b> displaying <b>anti-vax messages</b>. </br></br>17 out of 26 products come from the <b>italian marketplace</b>."
     },
 
     "leftovers":
@@ -557,7 +557,7 @@ collectionData = {
         "image": "",
         "gif": "",
         "coverImage": "./assets/leftovers/leftovers_cover.png",
-        "section":"These are the 43 products that did not fit either in visuals or messages cobllections",
+        "section":"These are the 43 products that did not fit either in visuals or messages collections",
         "text": ""
     }
 }
