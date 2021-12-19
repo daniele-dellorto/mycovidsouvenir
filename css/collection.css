@@ -78,6 +78,7 @@
   flex-wrap:wrap;
   margin: 4rem 15px 0 15px;
   align-content:flex-start;
+  padding-bottom:4rem;
 }
 
 .countries h3{
