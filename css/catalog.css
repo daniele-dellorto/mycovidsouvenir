@@ -33,6 +33,11 @@
     cursor:pointer;
 }
 
+a.collCard{
+  color: black;
+  text-decoration: none;
+}
+
 .collCard:hover{
   border: 3px solid red;
 }

@@ -168,10 +168,10 @@ d3.json("data/souvenirs.json").then(function(myDataRaw) {
 
         if (object.category.toLowerCase() == product.toLowerCase()) {
 
-          var card = typeContainer.append('div')
+          var card = typeContainer.append('a')
             .classed("collCard productSize", true)
             .attr('id', 'prod' + object.id)
-            .attr('onclick', "window.open('product.html?id=' + " + object.id + ", '_self')")
+            .attr('href', 'product.html?id=' + object.id)
 
           card.append("div")
             .classed("annotationContainer", true);

@@ -44,15 +44,17 @@ for (var collection in collectionData) {
 
     if (collType == "semantic") {
 
-      card = semCards.append('div')
+      card = semCards.append('a')
         .classed("collCard", true)
         .classed(sizeClass, true)
+        .attr('href', 'collection.html?collection=' + collId)
 
     } else if (collType == "visual") {
 
-      card = visCards.append('div')
+      card = visCards.append('a')
         .classed("collCard", true)
         .classed(sizeClass, true)
+        .attr('href', 'collection.html?collection=' + collId)
 
     } else {
 
@@ -76,10 +78,6 @@ for (var collection in collectionData) {
       .on("mouseout", function() {
         thumbnail.attr("src", collImg)
       });
-
-    card.on("click", function() {
-      window.open('collection.html' + '?collection=' + collId, "_self")
-    });
 
   });
 
