@@ -147,6 +147,10 @@
   cursor: pointer;
 }
 
+.collCard:hover{
+  border: 3px solid red;
+}
+
 .productSize {
   grid-row: span 1;
   grid-column: span 1;
