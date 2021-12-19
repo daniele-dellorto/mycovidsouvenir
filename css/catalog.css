@@ -33,6 +33,10 @@
     cursor:pointer;
 }
 
+.collCard:hover{
+  border: 3px solid red;
+}
+
 .small {
   grid-row: span 1;
   grid-column: span 1;

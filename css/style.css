@@ -115,6 +115,10 @@ body{
   font-size:1rem;
 }
 
+#navBar .col-4:hover p{
+  color:red;
+}
+
 #navBar a{
   text-decoration: none;
 }

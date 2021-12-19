@@ -492,7 +492,7 @@ collectionData = {
         "gif": "./assets/visual/animals.gif",
         "coverImage": "./assets/visual/animals_cover.png",
         "section":"100 products containing the representation of any kind of animal.",
-        "text":"Animals are mainly used as a <b>cheerful element</b> in the vaccination campaign. However, some of them can have completely different meanings, such as <b>lab rats</b> or <b>vaccinated sheeps</b>."
+        "text":"Animals are mainly used as a <b>cheerful element</b> in the vaccination campaign. However, some of them can have completely different meanings, such as <b>lab rats</b> or <b>vaccinated sheep</b>."
     },
 
     "people":

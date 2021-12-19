@@ -39,8 +39,9 @@
 }
 
 .tag:hover {
-  border: 3px solid black;
-  color: black;
+  border: 3px solid white;
+  background-color:white;
+  color: red;
   text-decoration: none;
 }
 

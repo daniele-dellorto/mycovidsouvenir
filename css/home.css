@@ -344,7 +344,12 @@
 }
 
 .carousel-control-prev, .carousel-control-next{
+  filter: brightness(0);
   opacity: 1;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover{
+  filter: brightness(1);
 }
 
 .carousel-row{
