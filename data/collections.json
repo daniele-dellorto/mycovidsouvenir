@@ -72,7 +72,7 @@ collectionData = {
         "title": "Keep calm",
         "image": "./assets/semantic/keep_calm.png",
         "gif": "./assets/semantic/keep_calm.gif",
-        "coverImage": "/assets/semantic/keep_calm_cover.png",
+        "coverImage": "./assets/semantic/keep_calm_cover.png",
         "section":"39 products containing the English motto 'Keep calm and [...]', references to 'peace & love' or phrases from the same semantic area stating intention or urging the reader to relax.",
         "text":"The majority of products reference the 'Keep calm and' British motivational poster. Only one item is ANTI-VAX, the rest are PRO-VAX."
     },
