@@ -109,7 +109,7 @@ d3.json("data/souvenirs.json").then(function(myDataRaw) {
 
   countryList.append("p")
     .classed("marketplace-title", true)
-    .html("Products in this category are sold in the following Amazon marketplaces:")
+    .html("Number of products in this category sold in the following Amazon marketplaces:")
 
   for (var i = 0; i < countCountries.length; i++) {
 
@@ -133,9 +133,6 @@ d3.json("data/souvenirs.json").then(function(myDataRaw) {
       .classed("domain", true)
       .html(name)
   }
-
-
-  console.log(countCountries);
 
   //object type
   const productType = ['bracelets', 'caps', 'flags', 'masks', 'mugs', 'patches', 'pins', 'socks', 'stickers', 't-shirts', 'others']
@@ -213,7 +210,6 @@ function annotationCreate() {
       offsetPos = fullWidth - xPos;
 
       if (offsetPos < window.innerWidth/5) {
-        console.log(offsetPos);
         annotationContainer.append("div")
           .classed("annotationText right  hideAnnotation", true)
           .html(annotation.text)

@@ -57,7 +57,8 @@ for (var collection in collectionData) {
         .attr('href', 'collection.html?collection=' + collId)
 
     } else {
-
+      card = visCards.append('a')
+        .attr('style', 'display: none')
     }
 
     card.append("h3")
@@ -95,8 +96,6 @@ document.querySelectorAll('.scrollBarStyle').forEach(item => {
       subtitle[0].classList.remove("displayText");
       subtitle[0].classList.add("hideText");
     });
-
-    console.log(event.srcElement);
 
     //set the hovered section to max dimension
     item.classList.remove("col-2");

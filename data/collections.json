@@ -426,7 +426,7 @@ collectionData = {
         "gif": "./assets/visual/syringe.gif",
         "coverImage": "./assets/visual/syringe_cover.png",
         "section":"702 products containing the representation of a syringe.",
-        "text":"The syringe is widely used in the <b>vaccine campaign</b> as a synonym of <b>hope</b>, while associated with the <b>prohibition symbol</b> supports <b>anti-vax messages</b> when."
+        "text":"The syringe is widely used in the <b>vaccine campaign</b> as a synonym of <b>hope</b>, while associated with the <b>prohibition symbol</b> supports <b>anti-vax messages</b>."
     },
 
     "vaccine vial":
