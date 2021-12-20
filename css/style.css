@@ -1,6 +1,6 @@
 /*______________________________________________________desktop only*/
 
-/* @media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   main{
     display:none;
   }
@@ -22,7 +22,7 @@
   #desktop-only{
     display:none;
   }
-} */
+}
 
 #desktop-only{
   color:red;
