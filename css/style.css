@@ -1,3 +1,39 @@
+/*______________________________________________________desktop only*/
+
+@media only screen and (max-width: 1024px) {
+  main{
+    display:none;
+  }
+  #navBar{
+    display:none;
+  }
+  #collections{
+    display:none;
+  }
+  #goBack{
+    display:none;
+  }
+  #container{
+    display:none;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  #desktop-only{
+    display:none;
+  }
+}
+
+#desktop-only{
+  color:red;
+  position:fixed;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+
+
 /*______________________________________________________typography*/
 
 @font-face {
