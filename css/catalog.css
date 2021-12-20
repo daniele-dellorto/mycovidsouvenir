@@ -124,12 +124,15 @@ a.collCard{
 /*______________________________________________________leftovers*/
 
 #leftovers{
-  padding:0;
+  width:fit-content;
+  display:flex;
   height:3vh;
   background-color:red;
+  border-top:3px solid red;
   color:white;
   text-decoration:none;
-  overflow: hidden;
+  overflow: hidden; 
+  align-items: center;
 }
 
 #leftovers:hover{
@@ -138,34 +141,47 @@ a.collCard{
   border-top:3px solid red;
 }
 
-.marquee {
+#leftovers p {
+  white-space: nowrap;
   font-family: 'saint_regusSBdCn', 'sans-serif';
   font-weight: bold;
-  top: 50%;
-  transform:translateY(-50%);
   font-size:1rem;
-  margin: 0 auto;
-  white-space: nowrap;
-  overflow: hidden;
-  position: absolute;
-}
-
-.marquee span {
-  display: inline-block;
-  padding-left: 100%;
-  animation: marquee 60s linear infinite;
+  animation: leftovers1 60s linear infinite;
   animation-delay: -60s;
 }
 
-.marquee2 span {
-  animation-delay: -30s;
+#leftovers p:nth-child(2){
+  animation:leftovers2 60s linear infinite;
+  animation-delay:-30s
 }
 
-@keyframes marquee {
-  0% {
-    transform: translate(0, 0);
+@keyframes leftovers1{
+  0%
+  {
+    transform:translateX(100%);
   }
-  100% {
-    transform: translate(-100%, 0);
+  
+  100%
+  {
+    transform:translateX(-100%);
   }
 }
+
+@keyframes leftovers2{
+  0%
+  {
+    transform:translateX(0);
+  }
+  
+  100%
+  {
+    transform:translateX(-200%);
+  }
+}
+
+
+
+
+
+
+
