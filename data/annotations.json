@@ -175,9 +175,5 @@ annotations =
       {
         "id": "1840",
         "text": "This is the only <b>anti-vax</b> product displaying a heart.",
-      },
-      {
-        "id": "1592",
-        "text": "This product contains the US flag, a claim about freedom and a <b>reference to the bible</b>.",
-      },
+      }
     ]
