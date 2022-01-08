@@ -131,7 +131,7 @@ a.collCard{
   border-top:3px solid red;
   color:white;
   text-decoration:none;
-  overflow: hidden; 
+  overflow: hidden;
   align-items: center;
 }
 
@@ -160,7 +160,7 @@ a.collCard{
   {
     transform:translateX(100%);
   }
-  
+
   100%
   {
     transform:translateX(-100%);
@@ -172,16 +172,38 @@ a.collCard{
   {
     transform:translateX(0);
   }
-  
+
   100%
   {
     transform:translateX(-200%);
   }
 }
 
+/* _____________________________________________________Responsive for wide screens */
 
+@media (min-width: 1400px) {
 
+  h2{
+    font-size: 2.5rem;
+  }
 
+  h3{
+    font-size: 1.2rem;
+  }
 
+  p{
+    font-size: 1rem;
+  }
 
+  .homeTitle{
+    height: 4rem;
+  }
 
+  .homeTitle p{
+    font-size: 1.2rem;
+  }
+
+  #leftovers p{
+    font-size: 1.2rem;
+  }
+}

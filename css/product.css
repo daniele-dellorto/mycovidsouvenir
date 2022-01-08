@@ -16,12 +16,11 @@
 
 #prodContainer .col-7 {
   background-color: red;
-  ;
+  padding: 1rem 1rem;
 }
 
 #prodContainer .col-5 {
   background-color: white;
-  ;
 }
 
 /*______________________________________________________tags*/
@@ -58,7 +57,6 @@
 
 .product-name {
   margin-bottom: 1.2rem;
-  margin-top: 1rem;
 }
 
 @media only screen and (max-width: 1366px) {
@@ -267,4 +265,40 @@
 
 #goBack:hover .st2 {
   fill:#ff0000;
+}
+
+/* _____________________________________________________Responsive for wide screens */
+
+@media (min-width: 1400px) {
+  .product-name{
+    font-size: 2.2rem;
+  }
+
+  .product-category{
+    font-size: 1.5rem;
+  }
+
+  .tag-title{
+    font-size: 1.2rem;
+  }
+
+  .tag, .domain{
+    font-size: 1.2rem;
+  }
+
+  .annotationText {
+    font-size: 1.2rem;
+  }
+
+  #goBack{
+    width: 50px;
+  }
+
+  #prodContainer .col-7{
+    padding: 2rem 2rem;
+  }
+
+  .amazon-link{
+    font-size: 1rem;
+  }
 }

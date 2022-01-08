@@ -25,7 +25,7 @@
 }
 
 .collectionTitle{
-  margin:3rem 0 2rem 0;
+  margin: 5vh 0 2rem 0;
 }
 
 #coverContainer h3 {
@@ -187,8 +187,8 @@ a.collCard{
 
 #goBack {
   position: fixed;
-  top: 6rem;
-  left: 5rem;
+  top: 12vh;
+  left: 5vw;
   transform: translate(-50%, 0);
   height: 40px;
   width: 40px;
@@ -196,6 +196,7 @@ a.collCard{
   align-items: center;
   justify-content: center;
   border-radius: 100%;
+  flex-wrap: nowrap;
 }
 
 .st0{fill:#FF0000;stroke:#FFFFFF;stroke-width:3.6;stroke-miterlimit:10;}
@@ -288,6 +289,7 @@ a.collCard{
   z-index: 1;
   transition: .3s;
   transition-delay: .1s;
+  font-size: 1rem;
 }
 
 .center{
@@ -314,4 +316,33 @@ a.collCard{
 
 .displayAnnotation.center{
   transform: translate(-50%, -100%) scale(1);
+}
+
+/* _____________________________________________________Responsive for wide screens */
+
+@media (min-width: 1400px) {
+  h1{
+    font-size: 3.5rem;
+  }
+
+  #coverContainer h3{
+    font-size: 1.8rem;
+  }
+
+  #coverContainer p{
+    font-size: 1.2rem;
+  }
+
+  .categoryName h2{
+    font-size: 2.5rem;
+  }
+
+  .annotationText {
+    font-size: 1.2rem;
+  }
+
+  #goBack{
+    width: 50px;
+    height: 50px;
+  }
 }
